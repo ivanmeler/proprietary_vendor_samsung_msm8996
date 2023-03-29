@@ -6,6 +6,10 @@ PRODUCT_SOONG_NAMESPACES += \
     vendor/samsung/msm8996-common
 
 PRODUCT_COPY_FILES += \
+    vendor/samsung/msm8996-common/proprietary/vendor/firmware/bcm4359C0_V0138.0278_murata.hcd:$(TARGET_COPY_OUT_VENDOR)firmware/bcm4359C0_V0138.0278_murata.hcd \
+    vendor/samsung/msm8996-common/proprietary/vendor/firmware/bcm4359C0_V0138.0279_semco.hcd:$(TARGET_COPY_OUT_VENDOR)firmware/bcm4359C0_V0138.0279_semco.hcd \
+    vendor/samsung/msm8996-common/proprietary/vendor/firmware/bcm4359C0_V0166.0407_murata.hcd:$(TARGET_COPY_OUT_VENDOR)firmware/bcm4359C0_V0166.0407_murata.hcd \
+    vendor/samsung/msm8996-common/proprietary/vendor/firmware/bcm4359C0_V0166.0408_semco.hcd:$(TARGET_COPY_OUT_VENDOR)firmware/bcm4359C0_V0166.0408_semco.hcd \
     vendor/samsung/msm8996-common/proprietary/vendor/bin/cnss-daemon:$(TARGET_COPY_OUT_VENDOR)/bin/cnss-daemon \
     vendor/samsung/msm8996-common/proprietary/bin/lpm:$(TARGET_COPY_OUT_SYSTEM)/bin/lpm \
     vendor/samsung/msm8996-common/proprietary/vendor/firmware/C12QL_Isp0_s5k2l1sx.bin:$(TARGET_COPY_OUT_VENDOR)/firmware/C12QL_Isp0_s5k2l1sx.bin \
@@ -18,8 +22,6 @@ PRODUCT_COPY_FILES += \
     vendor/samsung/msm8996-common/proprietary/vendor/firmware/Master0.bin:$(TARGET_COPY_OUT_VENDOR)/firmware/Master0.bin \
     vendor/samsung/msm8996-common/proprietary/vendor/firmware/Master1.bin:$(TARGET_COPY_OUT_VENDOR)/firmware/Master1.bin \
     vendor/samsung/msm8996-common/proprietary/vendor/firmware/bdwlan30.bin:$(TARGET_COPY_OUT_VENDOR)/firmware/bdwlan30.bin \
-    vendor/samsung/msm8996-common/proprietary/vendor/firmware/btfw32.tlv:$(TARGET_COPY_OUT_VENDOR)/firmware/btfw32.tlv \
-    vendor/samsung/msm8996-common/proprietary/vendor/firmware/btnv32.bin:$(TARGET_COPY_OUT_VENDOR)/firmware/btnv32.bin \
     vendor/samsung/msm8996-common/proprietary/vendor/firmware/cal_data_LSCmaster.bin:$(TARGET_COPY_OUT_VENDOR)/firmware/cal_data_LSCmaster.bin \
     vendor/samsung/msm8996-common/proprietary/vendor/firmware/cpp_firmware_v1_10_0.fw:$(TARGET_COPY_OUT_VENDOR)/firmware/cpp_firmware_v1_10_0.fw \
     vendor/samsung/msm8996-common/proprietary/vendor/firmware/nvm_tlv.bin:$(TARGET_COPY_OUT_VENDOR)/firmware/nvm_tlv.bin \
@@ -85,7 +87,6 @@ PRODUCT_COPY_FILES += \
     vendor/samsung/msm8996-common/proprietary/lib/vendor.qti.hardware.iop@2.0.so:$(TARGET_COPY_OUT_SYSTEM)/lib/vendor.qti.hardware.iop@2.0.so \
     vendor/samsung/msm8996-common/proprietary/lib/vendor.qti.hardware.qdutils_disp@1.0.so:$(TARGET_COPY_OUT_SYSTEM)/lib/vendor.qti.hardware.qdutils_disp@1.0.so \
     vendor/samsung/msm8996-common/proprietary/lib/vendor.qti.hardware.tui_comm@1.0.so:$(TARGET_COPY_OUT_SYSTEM)/lib/vendor.qti.hardware.tui_comm@1.0.so \
-    vendor/samsung/msm8996-common/proprietary/lib/vendor.samsung.hardware.bluetooth@1.0.so:$(TARGET_COPY_OUT_SYSTEM)/lib/vendor.samsung.hardware.bluetooth@1.0.so \
     vendor/samsung/msm8996-common/proprietary/lib/vendor.samsung.hardware.gnss@1.0.so:$(TARGET_COPY_OUT_SYSTEM)/lib/vendor.samsung.hardware.gnss@1.0.so \
     vendor/samsung/msm8996-common/proprietary/lib/vendor.samsung.hardware.miscpower@1.0.so:$(TARGET_COPY_OUT_SYSTEM)/lib/vendor.samsung.hardware.miscpower@1.0.so \
     vendor/samsung/msm8996-common/proprietary/lib64/com.qualcomm.qti.ant@1.0.so:$(TARGET_COPY_OUT_SYSTEM)/lib64/com.qualcomm.qti.ant@1.0.so \
@@ -125,7 +126,6 @@ PRODUCT_COPY_FILES += \
     vendor/samsung/msm8996-common/proprietary/lib64/vendor.qti.hardware.iop@2.0.so:$(TARGET_COPY_OUT_SYSTEM)/lib64/vendor.qti.hardware.iop@2.0.so \
     vendor/samsung/msm8996-common/proprietary/lib64/vendor.qti.hardware.qdutils_disp@1.0.so:$(TARGET_COPY_OUT_SYSTEM)/lib64/vendor.qti.hardware.qdutils_disp@1.0.so \
     vendor/samsung/msm8996-common/proprietary/lib64/vendor.qti.hardware.tui_comm@1.0.so:$(TARGET_COPY_OUT_SYSTEM)/lib64/vendor.qti.hardware.tui_comm@1.0.so \
-    vendor/samsung/msm8996-common/proprietary/lib64/vendor.samsung.hardware.bluetooth@1.0.so:$(TARGET_COPY_OUT_SYSTEM)/lib64/vendor.samsung.hardware.bluetooth@1.0.so \
     vendor/samsung/msm8996-common/proprietary/lib64/vendor.samsung.hardware.exthealth@1.0.so:$(TARGET_COPY_OUT_SYSTEM)/lib64/vendor.samsung.hardware.exthealth@1.0.so \
     vendor/samsung/msm8996-common/proprietary/lib64/vendor.samsung.hardware.gnss@1.0.so:$(TARGET_COPY_OUT_SYSTEM)/lib64/vendor.samsung.hardware.gnss@1.0.so \
     vendor/samsung/msm8996-common/proprietary/lib64/vendor.samsung.hardware.miscpower@1.0.so:$(TARGET_COPY_OUT_SYSTEM)/lib64/vendor.samsung.hardware.miscpower@1.0.so \
@@ -157,10 +157,8 @@ PRODUCT_COPY_FILES += \
     vendor/samsung/msm8996-common/proprietary/saiv/face/fr/SAIT_FR11.bin:$(TARGET_COPY_OUT_SYSTEM)/saiv/face/fr/SAIT_FR11.bin \
     vendor/samsung/msm8996-common/proprietary/saiv/face/fr/SAIT_FR22.bin:$(TARGET_COPY_OUT_SYSTEM)/saiv/face/fr/SAIT_FR22.bin \
     vendor/samsung/msm8996-common/proprietary/vendor/bin/adsprpcd:$(TARGET_COPY_OUT_VENDOR)/bin/adsprpcd \
-    vendor/samsung/msm8996-common/proprietary/vendor/bin/btnvtool:$(TARGET_COPY_OUT_VENDOR)/bin/btnvtool \
     vendor/samsung/msm8996-common/proprietary/vendor/bin/energy-awareness:$(TARGET_COPY_OUT_VENDOR)/bin/energy-awareness \
     vendor/samsung/msm8996-common/proprietary/vendor/bin/factory.adsp:$(TARGET_COPY_OUT_VENDOR)/bin/factory.adsp \
-    vendor/samsung/msm8996-common/proprietary/vendor/bin/hw/android.hardware.bluetooth@1.0-service-qti:$(TARGET_COPY_OUT_VENDOR)/bin/hw/android.hardware.bluetooth@1.0-service-qti \
     vendor/samsung/msm8996-common/proprietary/vendor/bin/hw/android.hardware.drm@1.1-service.widevine:$(TARGET_COPY_OUT_VENDOR)/bin/hw/android.hardware.drm@1.1-service.widevine \
     vendor/samsung/msm8996-common/proprietary/vendor/bin/hw/android.hardware.health@2.0-service.samsung:$(TARGET_COPY_OUT_VENDOR)/bin/hw/android.hardware.health@2.0-service.samsung \
     vendor/samsung/msm8996-common/proprietary/vendor/bin/hw/macloader:$(TARGET_COPY_OUT_VENDOR)/bin/hw/macloader \
@@ -195,7 +193,6 @@ PRODUCT_COPY_FILES += \
     vendor/samsung/msm8996-common/proprietary/vendor/etc/flp.conf:$(TARGET_COPY_OUT_VENDOR)/etc/flp.conf \
     vendor/samsung/msm8996-common/proprietary/vendor/etc/gpfspath_oem_config.xml:$(TARGET_COPY_OUT_VENDOR)/etc/gpfspath_oem_config.xml \
     vendor/samsung/msm8996-common/proprietary/vendor/etc/gps.conf:$(TARGET_COPY_OUT_VENDOR)/etc/gps.conf \
-    vendor/samsung/msm8996-common/proprietary/vendor/etc/init/android.hardware.bluetooth@1.0-service-qti.rc:$(TARGET_COPY_OUT_VENDOR)/etc/init/android.hardware.bluetooth@1.0-service-qti.rc \
     vendor/samsung/msm8996-common/proprietary/vendor/etc/init/android.hardware.drm@1.1-service.widevine.rc:$(TARGET_COPY_OUT_VENDOR)/etc/init/android.hardware.drm@1.1-service.widevine.rc \
     vendor/samsung/msm8996-common/proprietary/vendor/etc/init/android.hardware.health@2.0-service.samsung.rc:$(TARGET_COPY_OUT_VENDOR)/etc/init/android.hardware.health@2.0-service.samsung.rc \
     vendor/samsung/msm8996-common/proprietary/vendor/etc/init/vendor.display.color@1.0-service.rc:$(TARGET_COPY_OUT_VENDOR)/etc/init/vendor.display.color@1.0-service.rc \
@@ -321,7 +318,6 @@ PRODUCT_COPY_FILES += \
     vendor/samsung/msm8996-common/proprietary/vendor/lib/egl/libq3dtools_esx.so:$(TARGET_COPY_OUT_VENDOR)/lib/egl/libq3dtools_esx.so \
     vendor/samsung/msm8996-common/proprietary/vendor/lib/ftm_fm_lib.so:$(TARGET_COPY_OUT_VENDOR)/lib/ftm_fm_lib.so \
     vendor/samsung/msm8996-common/proprietary/vendor/lib/hw/activity_recognition.msm8996.so:$(TARGET_COPY_OUT_VENDOR)/lib/hw/activity_recognition.msm8996.so \
-    vendor/samsung/msm8996-common/proprietary/vendor/lib/hw/android.hardware.bluetooth@1.0-impl-qti.so:$(TARGET_COPY_OUT_VENDOR)/lib/hw/android.hardware.bluetooth@1.0-impl-qti.so \
     vendor/samsung/msm8996-common/proprietary/vendor/lib/hw/android.hardware.gnss@1.0-impl-qti.so:$(TARGET_COPY_OUT_VENDOR)/lib/hw/android.hardware.gnss@1.0-impl-qti.so \
     vendor/samsung/msm8996-common/proprietary/vendor/lib/hw/audio.primary.msm8996.so:$(TARGET_COPY_OUT_VENDOR)/lib/hw/audio.primary.msm8996.so \
     vendor/samsung/msm8996-common/proprietary/vendor/lib/hw/camera.msm8996.so:$(TARGET_COPY_OUT_VENDOR)/lib/hw/camera.msm8996.so \
@@ -740,7 +736,6 @@ PRODUCT_COPY_FILES += \
     vendor/samsung/msm8996-common/proprietary/vendor/lib64/egl/libq3dtools_esx.so:$(TARGET_COPY_OUT_VENDOR)/lib64/egl/libq3dtools_esx.so \
     vendor/samsung/msm8996-common/proprietary/vendor/lib64/ftm_fm_lib.so:$(TARGET_COPY_OUT_VENDOR)/lib64/ftm_fm_lib.so \
     vendor/samsung/msm8996-common/proprietary/vendor/lib64/hw/activity_recognition.msm8996.so:$(TARGET_COPY_OUT_VENDOR)/lib64/hw/activity_recognition.msm8996.so \
-    vendor/samsung/msm8996-common/proprietary/vendor/lib64/hw/android.hardware.bluetooth@1.0-impl-qti.so:$(TARGET_COPY_OUT_VENDOR)/lib64/hw/android.hardware.bluetooth@1.0-impl-qti.so \
     vendor/samsung/msm8996-common/proprietary/vendor/lib64/hw/android.hardware.gnss@1.0-impl-qti.so:$(TARGET_COPY_OUT_VENDOR)/lib64/hw/android.hardware.gnss@1.0-impl-qti.so \
     vendor/samsung/msm8996-common/proprietary/vendor/lib64/hw/com.qualcomm.qti.ant@1.0-impl.so:$(TARGET_COPY_OUT_VENDOR)/lib64/hw/com.qualcomm.qti.ant@1.0-impl.so \
     vendor/samsung/msm8996-common/proprietary/vendor/lib64/hw/gatekeeper.mdfpp.so:$(TARGET_COPY_OUT_VENDOR)/lib64/hw/gatekeeper.mdfpp.so \
@@ -775,8 +770,6 @@ PRODUCT_COPY_FILES += \
     vendor/samsung/msm8996-common/proprietary/vendor/lib64/libbauthserver.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libbauthserver.so \
     vendor/samsung/msm8996-common/proprietary/vendor/lib64/libbauthtzcommon.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libbauthtzcommon.so \
     vendor/samsung/msm8996-common/proprietary/vendor/lib64/libbccQTI.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libbccQTI.so \
-    vendor/samsung/msm8996-common/proprietary/vendor/lib64/libbt-hidlclient.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libbt-hidlclient.so \
-    vendor/samsung/msm8996-common/proprietary/vendor/lib64/libbtnv.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libbtnv.so \
     vendor/samsung/msm8996-common/proprietary/vendor/lib64/libc2d30_bltlib.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libc2d30_bltlib.so \
     vendor/samsung/msm8996-common/proprietary/vendor/lib64/libcdsprpc.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libcdsprpc.so \
     vendor/samsung/msm8996-common/proprietary/vendor/lib64/libcpion.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libcpion.so \
