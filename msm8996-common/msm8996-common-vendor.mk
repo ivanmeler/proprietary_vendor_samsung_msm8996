@@ -6,10 +6,10 @@ PRODUCT_SOONG_NAMESPACES += \
     vendor/samsung/msm8996-common
 
 PRODUCT_COPY_FILES += \
-    vendor/samsung/msm8996-common/proprietary/vendor/firmware/bcm4359C0_V0138.0278_murata.hcd:$(TARGET_COPY_OUT_VENDOR)firmware/bcm4359C0_V0138.0278_murata.hcd \
-    vendor/samsung/msm8996-common/proprietary/vendor/firmware/bcm4359C0_V0138.0279_semco.hcd:$(TARGET_COPY_OUT_VENDOR)firmware/bcm4359C0_V0138.0279_semco.hcd \
-    vendor/samsung/msm8996-common/proprietary/vendor/firmware/bcm4359C0_V0166.0407_murata.hcd:$(TARGET_COPY_OUT_VENDOR)firmware/bcm4359C0_V0166.0407_murata.hcd \
-    vendor/samsung/msm8996-common/proprietary/vendor/firmware/bcm4359C0_V0166.0408_semco.hcd:$(TARGET_COPY_OUT_VENDOR)firmware/bcm4359C0_V0166.0408_semco.hcd \
+    vendor/samsung/msm8996-common/proprietary/vendor/firmware/bcm4359C0_V0138.0278_murata.hcd:$(TARGET_COPY_OUT_VENDOR)/firmware/bcm4359C0_V0138.0278_murata.hcd \
+    vendor/samsung/msm8996-common/proprietary/vendor/firmware/bcm4359C0_V0138.0279_semco.hcd:$(TARGET_COPY_OUT_VENDOR)/firmware/bcm4359C0_V0138.0279_semco.hcd \
+    vendor/samsung/msm8996-common/proprietary/vendor/firmware/bcm4359C0_V0166.0407_murata.hcd:$(TARGET_COPY_OUT_VENDOR)/firmware/bcm4359C0_V0166.0407_murata.hcd \
+    vendor/samsung/msm8996-common/proprietary/vendor/firmware/bcm4359C0_V0166.0408_semco.hcd:$(TARGET_COPY_OUT_VENDOR)/firmware/bcm4359C0_V0166.0408_semco.hcd \
     vendor/samsung/msm8996-common/proprietary/vendor/bin/cnss-daemon:$(TARGET_COPY_OUT_VENDOR)/bin/cnss-daemon \
     vendor/samsung/msm8996-common/proprietary/bin/lpm:$(TARGET_COPY_OUT_SYSTEM)/bin/lpm \
     vendor/samsung/msm8996-common/proprietary/vendor/firmware/C12QL_Isp0_s5k2l1sx.bin:$(TARGET_COPY_OUT_VENDOR)/firmware/C12QL_Isp0_s5k2l1sx.bin \
