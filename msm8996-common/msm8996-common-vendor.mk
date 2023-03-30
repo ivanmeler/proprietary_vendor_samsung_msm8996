@@ -6,11 +6,43 @@ PRODUCT_SOONG_NAMESPACES += \
     vendor/samsung/msm8996-common
 
 PRODUCT_COPY_FILES += \
+    vendor/samsung/msm8996-common/proprietary/vendor/etc/wifi/bcmdhd_apsta.bin_b1:$(TARGET_COPY_OUT_VENDOR)/etc/wifi/bcmdhd_apsta.bin_b1 \
+    vendor/samsung/msm8996-common/proprietary/vendor/etc/wifi/bcmdhd_apsta.bin_b90s_b1:$(TARGET_COPY_OUT_VENDOR)/etc/wifi/bcmdhd_apsta.bin_b90s_b1 \
+    vendor/samsung/msm8996-common/proprietary/vendor/etc/wifi/bcmdhd_apsta.bin_c0:$(TARGET_COPY_OUT_VENDOR)/etc/wifi/bcmdhd_apsta.bin_c0 \
+    vendor/samsung/msm8996-common/proprietary/vendor/etc/wifi/bcmdhd_ibss.bin_b1:$(TARGET_COPY_OUT_VENDOR)/etc/wifi/bcmdhd_ibss.bin_b1 \
+    vendor/samsung/msm8996-common/proprietary/vendor/etc/wifi/bcmdhd_ibss.bin_b90s_b1:$(TARGET_COPY_OUT_VENDOR)/etc/wifi/bcmdhd_ibss.bin_b90s_b1 \
+    vendor/samsung/msm8996-common/proprietary/vendor/etc/wifi/bcmdhd_ibss.bin_c0:$(TARGET_COPY_OUT_VENDOR)/etc/wifi/bcmdhd_ibss.bin_c0 \
+    vendor/samsung/msm8996-common/proprietary/vendor/etc/wifi/bcmdhd_mfg.bin_b1:$(TARGET_COPY_OUT_VENDOR)/etc/wifi/bcmdhd_mfg.bin_b1 \
+    vendor/samsung/msm8996-common/proprietary/vendor/etc/wifi/bcmdhd_mfg.bin_b90s_b1:$(TARGET_COPY_OUT_VENDOR)/etc/wifi/bcmdhd_mfg.bin_b90s_b1 \
+    vendor/samsung/msm8996-common/proprietary/vendor/etc/wifi/bcmdhd_mfg.bin_c0:$(TARGET_COPY_OUT_VENDOR)/etc/wifi/bcmdhd_mfg.bin_c0 \
+    vendor/samsung/msm8996-common/proprietary/vendor/etc/wifi/bcmdhd_mfg2.bin_b1:$(TARGET_COPY_OUT_VENDOR)/etc/wifi/bcmdhd_mfg2.bin_b1 \
+    vendor/samsung/msm8996-common/proprietary/vendor/etc/wifi/bcmdhd_mfg2.bin_b90s_b1:$(TARGET_COPY_OUT_VENDOR)/etc/wifi/bcmdhd_mfg2.bin_b90s_b1 \
+    vendor/samsung/msm8996-common/proprietary/vendor/etc/wifi/bcmdhd_mfg2.bin_c0:$(TARGET_COPY_OUT_VENDOR)/etc/wifi/bcmdhd_mfg2.bin_c0 \
+    vendor/samsung/msm8996-common/proprietary/vendor/etc/wifi/bcmdhd_sta.bin_b1:$(TARGET_COPY_OUT_VENDOR)/etc/wifi/bcmdhd_sta.bin_b1 \
+    vendor/samsung/msm8996-common/proprietary/vendor/etc/wifi/bcmdhd_sta.bin_b90s_b1:$(TARGET_COPY_OUT_VENDOR)/etc/wifi/bcmdhd_sta.bin_b90s_b1 \
+    vendor/samsung/msm8996-common/proprietary/vendor/etc/wifi/bcmdhd_sta.bin_c0:$(TARGET_COPY_OUT_VENDOR)/etc/wifi/bcmdhd_sta.bin_c0 \
+    vendor/samsung/msm8996-common/proprietary/vendor/etc/wifi/nvram_mfg.txt:$(TARGET_COPY_OUT_VENDOR)/etc/wifi/nvram_mfg.txt \
+    vendor/samsung/msm8996-common/proprietary/vendor/etc/wifi/nvram_mfg.txt_b1:$(TARGET_COPY_OUT_VENDOR)/etc/wifi/nvram_mfg.txt_b1 \
+    vendor/samsung/msm8996-common/proprietary/vendor/etc/wifi/nvram_mfg.txt_c0:$(TARGET_COPY_OUT_VENDOR)/etc/wifi/nvram_mfg.txt_c0 \
+    vendor/samsung/msm8996-common/proprietary/vendor/etc/wifi/nvram_mfg.txt_murata:$(TARGET_COPY_OUT_VENDOR)/etc/wifi/nvram_mfg.txt_murata \
+    vendor/samsung/msm8996-common/proprietary/vendor/etc/wifi/nvram_mfg.txt_murata_b1:$(TARGET_COPY_OUT_VENDOR)/etc/wifi/nvram_mfg.txt_murata_b1 \
+    vendor/samsung/msm8996-common/proprietary/vendor/etc/wifi/nvram_mfg.txt_murata_c0:$(TARGET_COPY_OUT_VENDOR)/etc/wifi/nvram_mfg.txt_murata_c0 \
+    vendor/samsung/msm8996-common/proprietary/vendor/etc/wifi/nvram_mfg.txt_wisol:$(TARGET_COPY_OUT_VENDOR)/etc/wifi/nvram_mfg.txt_wisol \
+    vendor/samsung/msm8996-common/proprietary/vendor/etc/wifi/nvram_mfg.txt_wisol_b1:$(TARGET_COPY_OUT_VENDOR)/etc/wifi/nvram_mfg.txt_wisol_b1 \
+    vendor/samsung/msm8996-common/proprietary/vendor/etc/wifi/nvram_mfg.txt_wisol_c0:$(TARGET_COPY_OUT_VENDOR)/etc/wifi/nvram_mfg.txt_wisol_c0 \
+    vendor/samsung/msm8996-common/proprietary/vendor/etc/wifi/nvram_net.txt:$(TARGET_COPY_OUT_VENDOR)/etc/wifi/nvram_net.txt \
+    vendor/samsung/msm8996-common/proprietary/vendor/etc/wifi/nvram_net.txt_b1:$(TARGET_COPY_OUT_VENDOR)/etc/wifi/nvram_net.txt_b1 \
+    vendor/samsung/msm8996-common/proprietary/vendor/etc/wifi/nvram_net.txt_c0:$(TARGET_COPY_OUT_VENDOR)/etc/wifi/nvram_net.txt_c0 \
+    vendor/samsung/msm8996-common/proprietary/vendor/etc/wifi/nvram_net.txt_murata:$(TARGET_COPY_OUT_VENDOR)/etc/wifi/nvram_net.txt_murata \
+    vendor/samsung/msm8996-common/proprietary/vendor/etc/wifi/nvram_net.txt_murata_b1:$(TARGET_COPY_OUT_VENDOR)/etc/wifi/nvram_net.txt_murata_b1 \
+    vendor/samsung/msm8996-common/proprietary/vendor/etc/wifi/nvram_net.txt_murata_c0:$(TARGET_COPY_OUT_VENDOR)/etc/wifi/nvram_net.txt_murata_c0 \
+    vendor/samsung/msm8996-common/proprietary/vendor/etc/wifi/nvram_net.txt_wisol:$(TARGET_COPY_OUT_VENDOR)/etc/wifi/nvram_net.txt_wisol \
+    vendor/samsung/msm8996-common/proprietary/vendor/etc/wifi/nvram_net.txt_wisol_b1:$(TARGET_COPY_OUT_VENDOR)/etc/wifi/nvram_net.txt_wisol_b1 \
+    vendor/samsung/msm8996-common/proprietary/vendor/etc/wifi/nvram_net.txt_wisol_c0:$(TARGET_COPY_OUT_VENDOR)/etc/wifi/nvram_net.txt_wisol_c0 \
     vendor/samsung/msm8996-common/proprietary/vendor/firmware/bcm4359C0_V0138.0278_murata.hcd:$(TARGET_COPY_OUT_VENDOR)/firmware/bcm4359C0_V0138.0278_murata.hcd \
     vendor/samsung/msm8996-common/proprietary/vendor/firmware/bcm4359C0_V0138.0279_semco.hcd:$(TARGET_COPY_OUT_VENDOR)/firmware/bcm4359C0_V0138.0279_semco.hcd \
     vendor/samsung/msm8996-common/proprietary/vendor/firmware/bcm4359C0_V0166.0407_murata.hcd:$(TARGET_COPY_OUT_VENDOR)/firmware/bcm4359C0_V0166.0407_murata.hcd \
     vendor/samsung/msm8996-common/proprietary/vendor/firmware/bcm4359C0_V0166.0408_semco.hcd:$(TARGET_COPY_OUT_VENDOR)/firmware/bcm4359C0_V0166.0408_semco.hcd \
-    vendor/samsung/msm8996-common/proprietary/vendor/bin/cnss-daemon:$(TARGET_COPY_OUT_VENDOR)/bin/cnss-daemon \
     vendor/samsung/msm8996-common/proprietary/bin/lpm:$(TARGET_COPY_OUT_SYSTEM)/bin/lpm \
     vendor/samsung/msm8996-common/proprietary/vendor/firmware/C12QL_Isp0_s5k2l1sx.bin:$(TARGET_COPY_OUT_VENDOR)/firmware/C12QL_Isp0_s5k2l1sx.bin \
     vendor/samsung/msm8996-common/proprietary/vendor/firmware/C12QL_Isp1_s5k2l1sx.bin:$(TARGET_COPY_OUT_VENDOR)/firmware/C12QL_Isp1_s5k2l1sx.bin \
@@ -18,28 +50,12 @@ PRODUCT_COPY_FILES += \
     vendor/samsung/msm8996-common/proprietary/vendor/firmware/C12QS_Isp1_imx260.bin:$(TARGET_COPY_OUT_VENDOR)/firmware/C12QS_Isp1_imx260.bin \
     vendor/samsung/msm8996-common/proprietary/vendor/firmware/D12QL_Isp0_s5k2l1sx.bin:$(TARGET_COPY_OUT_VENDOR)/firmware/D12QL_Isp0_s5k2l1sx.bin \
     vendor/samsung/msm8996-common/proprietary/vendor/firmware/D12QS_Isp0_imx260.bin:$(TARGET_COPY_OUT_VENDOR)/firmware/D12QS_Isp0_imx260.bin \
-    vendor/samsung/msm8996-common/proprietary/vendor/firmware/Data.msc:$(TARGET_COPY_OUT_VENDOR)/firmware/Data.msc \
     vendor/samsung/msm8996-common/proprietary/vendor/firmware/Master0.bin:$(TARGET_COPY_OUT_VENDOR)/firmware/Master0.bin \
     vendor/samsung/msm8996-common/proprietary/vendor/firmware/Master1.bin:$(TARGET_COPY_OUT_VENDOR)/firmware/Master1.bin \
-    vendor/samsung/msm8996-common/proprietary/vendor/firmware/bdwlan30.bin:$(TARGET_COPY_OUT_VENDOR)/firmware/bdwlan30.bin \
     vendor/samsung/msm8996-common/proprietary/vendor/firmware/cal_data_LSCmaster.bin:$(TARGET_COPY_OUT_VENDOR)/firmware/cal_data_LSCmaster.bin \
     vendor/samsung/msm8996-common/proprietary/vendor/firmware/cpp_firmware_v1_10_0.fw:$(TARGET_COPY_OUT_VENDOR)/firmware/cpp_firmware_v1_10_0.fw \
-    vendor/samsung/msm8996-common/proprietary/vendor/firmware/nvm_tlv.bin:$(TARGET_COPY_OUT_VENDOR)/firmware/nvm_tlv.bin \
-    vendor/samsung/msm8996-common/proprietary/vendor/firmware/nvm_tlv_1.3.bin:$(TARGET_COPY_OUT_VENDOR)/firmware/nvm_tlv_1.3.bin \
-    vendor/samsung/msm8996-common/proprietary/vendor/firmware/nvm_tlv_2.1.bin:$(TARGET_COPY_OUT_VENDOR)/firmware/nvm_tlv_2.1.bin \
-    vendor/samsung/msm8996-common/proprietary/vendor/firmware/nvm_tlv_3.0.bin:$(TARGET_COPY_OUT_VENDOR)/firmware/nvm_tlv_3.0.bin \
-    vendor/samsung/msm8996-common/proprietary/vendor/firmware/nvm_tlv_3.2.bin:$(TARGET_COPY_OUT_VENDOR)/firmware/nvm_tlv_3.2.bin \
     vendor/samsung/msm8996-common/proprietary/vendor/firmware/ois_fw_dom.bin:$(TARGET_COPY_OUT_VENDOR)/firmware/ois_fw_dom.bin \
     vendor/samsung/msm8996-common/proprietary/vendor/firmware/ois_fw_sec.bin:$(TARGET_COPY_OUT_VENDOR)/firmware/ois_fw_sec.bin \
-    vendor/samsung/msm8996-common/proprietary/vendor/firmware/otp30.bin:$(TARGET_COPY_OUT_VENDOR)/firmware/otp30.bin \
-    vendor/samsung/msm8996-common/proprietary/vendor/firmware/qwlan30.bin:$(TARGET_COPY_OUT_VENDOR)/firmware/qwlan30.bin \
-    vendor/samsung/msm8996-common/proprietary/vendor/firmware/rampatch_tlv.img:$(TARGET_COPY_OUT_VENDOR)/firmware/rampatch_tlv.img \
-    vendor/samsung/msm8996-common/proprietary/vendor/firmware/rampatch_tlv_1.3.tlv:$(TARGET_COPY_OUT_VENDOR)/firmware/rampatch_tlv_1.3.tlv \
-    vendor/samsung/msm8996-common/proprietary/vendor/firmware/rampatch_tlv_2.1.tlv:$(TARGET_COPY_OUT_VENDOR)/firmware/rampatch_tlv_2.1.tlv \
-    vendor/samsung/msm8996-common/proprietary/vendor/firmware/rampatch_tlv_3.0.tlv:$(TARGET_COPY_OUT_VENDOR)/firmware/rampatch_tlv_3.0.tlv \
-    vendor/samsung/msm8996-common/proprietary/vendor/firmware/rampatch_tlv_3.2.tlv:$(TARGET_COPY_OUT_VENDOR)/firmware/rampatch_tlv_3.2.tlv \
-    vendor/samsung/msm8996-common/proprietary/vendor/firmware/utf30.bin:$(TARGET_COPY_OUT_VENDOR)/firmware/utf30.bin \
-    vendor/samsung/msm8996-common/proprietary/vendor/firmware/utfbd30.bin:$(TARGET_COPY_OUT_VENDOR)/firmware/utfbd30.bin \
     vendor/samsung/msm8996-common/proprietary/lib/com.qualcomm.qti.ant@1.0.so:$(TARGET_COPY_OUT_SYSTEM)/lib/com.qualcomm.qti.ant@1.0.so \
     vendor/samsung/msm8996-common/proprietary/lib/libFileMux.so:$(TARGET_COPY_OUT_SYSTEM)/lib/libFileMux.so \
     vendor/samsung/msm8996-common/proprietary/lib/libOmxMux.so:$(TARGET_COPY_OUT_SYSTEM)/lib/libOmxMux.so \
@@ -162,6 +178,7 @@ PRODUCT_COPY_FILES += \
     vendor/samsung/msm8996-common/proprietary/vendor/bin/hw/android.hardware.drm@1.1-service.widevine:$(TARGET_COPY_OUT_VENDOR)/bin/hw/android.hardware.drm@1.1-service.widevine \
     vendor/samsung/msm8996-common/proprietary/vendor/bin/hw/android.hardware.health@2.0-service.samsung:$(TARGET_COPY_OUT_VENDOR)/bin/hw/android.hardware.health@2.0-service.samsung \
     vendor/samsung/msm8996-common/proprietary/vendor/bin/hw/macloader:$(TARGET_COPY_OUT_VENDOR)/bin/hw/macloader \
+    vendor/samsung/msm8996-common/proprietary/vendor/bin/hw/mfgloader:$(TARGET_COPY_OUT_VENDOR)/bin/hw/mfgloader \
     vendor/samsung/msm8996-common/proprietary/vendor/bin/hw/vendor.display.color@1.0-service:$(TARGET_COPY_OUT_VENDOR)/bin/hw/vendor.display.color@1.0-service \
     vendor/samsung/msm8996-common/proprietary/vendor/bin/hw/vendor.qti.gnss@1.0-service:$(TARGET_COPY_OUT_VENDOR)/bin/hw/vendor.qti.gnss@1.0-service \
     vendor/samsung/msm8996-common/proprietary/vendor/bin/hw/vendor.qti.hardware.perf@1.0-service:$(TARGET_COPY_OUT_VENDOR)/bin/hw/vendor.qti.hardware.perf@1.0-service \
@@ -182,7 +199,8 @@ PRODUCT_COPY_FILES += \
     vendor/samsung/msm8996-common/proprietary/vendor/bin/tftp_server:$(TARGET_COPY_OUT_VENDOR)/bin/tftp_server \
     vendor/samsung/msm8996-common/proprietary/vendor/bin/thermal-engine:$(TARGET_COPY_OUT_VENDOR)/bin/thermal-engine \
     vendor/samsung/msm8996-common/proprietary/vendor/bin/time_daemon:$(TARGET_COPY_OUT_VENDOR)/bin/time_daemon \
-    vendor/samsung/msm8996-common/proprietary/vendor/bin/wcnss_filter:$(TARGET_COPY_OUT_VENDOR)/bin/wcnss_filter \
+    vendor/samsung/msm8996-common/proprietary/vendor/lib/libwifi-hal.so:$(TARGET_COPY_OUT_VENDOR)/lib/libwifi-hal.so \
+    vendor/samsung/msm8996-common/proprietary/vendor/lib64/libwifi-hal.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libwifi-hal.so \
     vendor/samsung/msm8996-common/proprietary/vendor/bin/xtra-daemon:$(TARGET_COPY_OUT_VENDOR)/bin/xtra-daemon \
     vendor/samsung/msm8996-common/proprietary/vendor/etc/SoundBoosterParam.txt:$(TARGET_COPY_OUT_VENDOR)/etc/SoundBoosterParam.txt \
     vendor/samsung/msm8996-common/proprietary/vendor/etc/apdr.conf:$(TARGET_COPY_OUT_VENDOR)/etc/apdr.conf \
