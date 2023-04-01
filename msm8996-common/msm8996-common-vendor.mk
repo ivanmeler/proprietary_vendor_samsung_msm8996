@@ -6,56 +6,20 @@ PRODUCT_SOONG_NAMESPACES += \
     vendor/samsung/msm8996-common
 
 PRODUCT_COPY_FILES += \
-    vendor/samsung/msm8996-common/proprietary/vendor/etc/wifi/bcmdhd_apsta.bin_b1:$(TARGET_COPY_OUT_VENDOR)/etc/wifi/bcmdhd_apsta.bin_b1 \
-    vendor/samsung/msm8996-common/proprietary/vendor/etc/wifi/bcmdhd_apsta.bin_b90s_b1:$(TARGET_COPY_OUT_VENDOR)/etc/wifi/bcmdhd_apsta.bin_b90s_b1 \
-    vendor/samsung/msm8996-common/proprietary/vendor/etc/wifi/bcmdhd_apsta.bin_c0:$(TARGET_COPY_OUT_VENDOR)/etc/wifi/bcmdhd_apsta.bin_c0 \
-    vendor/samsung/msm8996-common/proprietary/vendor/etc/wifi/bcmdhd_ibss.bin_b1:$(TARGET_COPY_OUT_VENDOR)/etc/wifi/bcmdhd_ibss.bin_b1 \
-    vendor/samsung/msm8996-common/proprietary/vendor/etc/wifi/bcmdhd_ibss.bin_b90s_b1:$(TARGET_COPY_OUT_VENDOR)/etc/wifi/bcmdhd_ibss.bin_b90s_b1 \
-    vendor/samsung/msm8996-common/proprietary/vendor/etc/wifi/bcmdhd_ibss.bin_c0:$(TARGET_COPY_OUT_VENDOR)/etc/wifi/bcmdhd_ibss.bin_c0 \
-    vendor/samsung/msm8996-common/proprietary/vendor/etc/wifi/bcmdhd_mfg.bin_b1:$(TARGET_COPY_OUT_VENDOR)/etc/wifi/bcmdhd_mfg.bin_b1 \
-    vendor/samsung/msm8996-common/proprietary/vendor/etc/wifi/bcmdhd_mfg.bin_b90s_b1:$(TARGET_COPY_OUT_VENDOR)/etc/wifi/bcmdhd_mfg.bin_b90s_b1 \
-    vendor/samsung/msm8996-common/proprietary/vendor/etc/wifi/bcmdhd_mfg.bin_c0:$(TARGET_COPY_OUT_VENDOR)/etc/wifi/bcmdhd_mfg.bin_c0 \
-    vendor/samsung/msm8996-common/proprietary/vendor/etc/wifi/bcmdhd_mfg2.bin_b1:$(TARGET_COPY_OUT_VENDOR)/etc/wifi/bcmdhd_mfg2.bin_b1 \
-    vendor/samsung/msm8996-common/proprietary/vendor/etc/wifi/bcmdhd_mfg2.bin_b90s_b1:$(TARGET_COPY_OUT_VENDOR)/etc/wifi/bcmdhd_mfg2.bin_b90s_b1 \
-    vendor/samsung/msm8996-common/proprietary/vendor/etc/wifi/bcmdhd_mfg2.bin_c0:$(TARGET_COPY_OUT_VENDOR)/etc/wifi/bcmdhd_mfg2.bin_c0 \
-    vendor/samsung/msm8996-common/proprietary/vendor/etc/wifi/bcmdhd_sta.bin_b1:$(TARGET_COPY_OUT_VENDOR)/etc/wifi/bcmdhd_sta.bin_b1 \
-    vendor/samsung/msm8996-common/proprietary/vendor/etc/wifi/bcmdhd_sta.bin_b90s_b1:$(TARGET_COPY_OUT_VENDOR)/etc/wifi/bcmdhd_sta.bin_b90s_b1 \
-    vendor/samsung/msm8996-common/proprietary/vendor/etc/wifi/bcmdhd_sta.bin_c0:$(TARGET_COPY_OUT_VENDOR)/etc/wifi/bcmdhd_sta.bin_c0 \
-    vendor/samsung/msm8996-common/proprietary/vendor/etc/wifi/nvram_mfg.txt:$(TARGET_COPY_OUT_VENDOR)/etc/wifi/nvram_mfg.txt \
-    vendor/samsung/msm8996-common/proprietary/vendor/etc/wifi/nvram_mfg.txt_b1:$(TARGET_COPY_OUT_VENDOR)/etc/wifi/nvram_mfg.txt_b1 \
-    vendor/samsung/msm8996-common/proprietary/vendor/etc/wifi/nvram_mfg.txt_c0:$(TARGET_COPY_OUT_VENDOR)/etc/wifi/nvram_mfg.txt_c0 \
-    vendor/samsung/msm8996-common/proprietary/vendor/etc/wifi/nvram_mfg.txt_murata:$(TARGET_COPY_OUT_VENDOR)/etc/wifi/nvram_mfg.txt_murata \
-    vendor/samsung/msm8996-common/proprietary/vendor/etc/wifi/nvram_mfg.txt_murata_b1:$(TARGET_COPY_OUT_VENDOR)/etc/wifi/nvram_mfg.txt_murata_b1 \
-    vendor/samsung/msm8996-common/proprietary/vendor/etc/wifi/nvram_mfg.txt_murata_c0:$(TARGET_COPY_OUT_VENDOR)/etc/wifi/nvram_mfg.txt_murata_c0 \
-    vendor/samsung/msm8996-common/proprietary/vendor/etc/wifi/nvram_mfg.txt_wisol:$(TARGET_COPY_OUT_VENDOR)/etc/wifi/nvram_mfg.txt_wisol \
-    vendor/samsung/msm8996-common/proprietary/vendor/etc/wifi/nvram_mfg.txt_wisol_b1:$(TARGET_COPY_OUT_VENDOR)/etc/wifi/nvram_mfg.txt_wisol_b1 \
-    vendor/samsung/msm8996-common/proprietary/vendor/etc/wifi/nvram_mfg.txt_wisol_c0:$(TARGET_COPY_OUT_VENDOR)/etc/wifi/nvram_mfg.txt_wisol_c0 \
-    vendor/samsung/msm8996-common/proprietary/vendor/etc/wifi/nvram_net.txt:$(TARGET_COPY_OUT_VENDOR)/etc/wifi/nvram_net.txt \
-    vendor/samsung/msm8996-common/proprietary/vendor/etc/wifi/nvram_net.txt_b1:$(TARGET_COPY_OUT_VENDOR)/etc/wifi/nvram_net.txt_b1 \
-    vendor/samsung/msm8996-common/proprietary/vendor/etc/wifi/nvram_net.txt_c0:$(TARGET_COPY_OUT_VENDOR)/etc/wifi/nvram_net.txt_c0 \
-    vendor/samsung/msm8996-common/proprietary/vendor/etc/wifi/nvram_net.txt_murata:$(TARGET_COPY_OUT_VENDOR)/etc/wifi/nvram_net.txt_murata \
-    vendor/samsung/msm8996-common/proprietary/vendor/etc/wifi/nvram_net.txt_murata_b1:$(TARGET_COPY_OUT_VENDOR)/etc/wifi/nvram_net.txt_murata_b1 \
-    vendor/samsung/msm8996-common/proprietary/vendor/etc/wifi/nvram_net.txt_murata_c0:$(TARGET_COPY_OUT_VENDOR)/etc/wifi/nvram_net.txt_murata_c0 \
-    vendor/samsung/msm8996-common/proprietary/vendor/etc/wifi/nvram_net.txt_wisol:$(TARGET_COPY_OUT_VENDOR)/etc/wifi/nvram_net.txt_wisol \
-    vendor/samsung/msm8996-common/proprietary/vendor/etc/wifi/nvram_net.txt_wisol_b1:$(TARGET_COPY_OUT_VENDOR)/etc/wifi/nvram_net.txt_wisol_b1 \
-    vendor/samsung/msm8996-common/proprietary/vendor/etc/wifi/nvram_net.txt_wisol_c0:$(TARGET_COPY_OUT_VENDOR)/etc/wifi/nvram_net.txt_wisol_c0 \
-    vendor/samsung/msm8996-common/proprietary/vendor/firmware/bcm4359C0_V0138.0278_murata.hcd:$(TARGET_COPY_OUT_VENDOR)/firmware/bcm4359C0_V0138.0278_murata.hcd \
-    vendor/samsung/msm8996-common/proprietary/vendor/firmware/bcm4359C0_V0138.0279_semco.hcd:$(TARGET_COPY_OUT_VENDOR)/firmware/bcm4359C0_V0138.0279_semco.hcd \
-    vendor/samsung/msm8996-common/proprietary/vendor/firmware/bcm4359C0_V0166.0407_murata.hcd:$(TARGET_COPY_OUT_VENDOR)/firmware/bcm4359C0_V0166.0407_murata.hcd \
-    vendor/samsung/msm8996-common/proprietary/vendor/firmware/bcm4359C0_V0166.0408_semco.hcd:$(TARGET_COPY_OUT_VENDOR)/firmware/bcm4359C0_V0166.0408_semco.hcd \
     vendor/samsung/msm8996-common/proprietary/bin/lpm:$(TARGET_COPY_OUT_SYSTEM)/bin/lpm \
-    vendor/samsung/msm8996-common/proprietary/vendor/firmware/C12QL_Isp0_s5k2l1sx.bin:$(TARGET_COPY_OUT_VENDOR)/firmware/C12QL_Isp0_s5k2l1sx.bin \
-    vendor/samsung/msm8996-common/proprietary/vendor/firmware/C12QL_Isp1_s5k2l1sx.bin:$(TARGET_COPY_OUT_VENDOR)/firmware/C12QL_Isp1_s5k2l1sx.bin \
-    vendor/samsung/msm8996-common/proprietary/vendor/firmware/C12QS_Isp0_imx260.bin:$(TARGET_COPY_OUT_VENDOR)/firmware/C12QS_Isp0_imx260.bin \
-    vendor/samsung/msm8996-common/proprietary/vendor/firmware/C12QS_Isp1_imx260.bin:$(TARGET_COPY_OUT_VENDOR)/firmware/C12QS_Isp1_imx260.bin \
-    vendor/samsung/msm8996-common/proprietary/vendor/firmware/D12QL_Isp0_s5k2l1sx.bin:$(TARGET_COPY_OUT_VENDOR)/firmware/D12QL_Isp0_s5k2l1sx.bin \
-    vendor/samsung/msm8996-common/proprietary/vendor/firmware/D12QS_Isp0_imx260.bin:$(TARGET_COPY_OUT_VENDOR)/firmware/D12QS_Isp0_imx260.bin \
-    vendor/samsung/msm8996-common/proprietary/vendor/firmware/Master0.bin:$(TARGET_COPY_OUT_VENDOR)/firmware/Master0.bin \
-    vendor/samsung/msm8996-common/proprietary/vendor/firmware/Master1.bin:$(TARGET_COPY_OUT_VENDOR)/firmware/Master1.bin \
-    vendor/samsung/msm8996-common/proprietary/vendor/firmware/cal_data_LSCmaster.bin:$(TARGET_COPY_OUT_VENDOR)/firmware/cal_data_LSCmaster.bin \
-    vendor/samsung/msm8996-common/proprietary/vendor/firmware/cpp_firmware_v1_10_0.fw:$(TARGET_COPY_OUT_VENDOR)/firmware/cpp_firmware_v1_10_0.fw \
-    vendor/samsung/msm8996-common/proprietary/vendor/firmware/ois_fw_dom.bin:$(TARGET_COPY_OUT_VENDOR)/firmware/ois_fw_dom.bin \
-    vendor/samsung/msm8996-common/proprietary/vendor/firmware/ois_fw_sec.bin:$(TARGET_COPY_OUT_VENDOR)/firmware/ois_fw_sec.bin \
+    vendor/samsung/msm8996-common/proprietary/vendor/etc/firmware/C12QL_Isp0_s5k2l1sx.bin:$(TARGET_COPY_OUT_VENDOR)/etc/firmware/C12QL_Isp0_s5k2l1sx.bin \
+    vendor/samsung/msm8996-common/proprietary/vendor/etc/firmware/C12QL_Isp1_s5k2l1sx.bin:$(TARGET_COPY_OUT_VENDOR)/etc/firmware/C12QL_Isp1_s5k2l1sx.bin \
+    vendor/samsung/msm8996-common/proprietary/vendor/etc/firmware/C12QS_Isp0_imx260.bin:$(TARGET_COPY_OUT_VENDOR)/etc/firmware/C12QS_Isp0_imx260.bin \
+    vendor/samsung/msm8996-common/proprietary/vendor/etc/firmware/C12QS_Isp1_imx260.bin:$(TARGET_COPY_OUT_VENDOR)/etc/firmware/C12QS_Isp1_imx260.bin \
+    vendor/samsung/msm8996-common/proprietary/vendor/etc/firmware/D12QL_Isp0_s5k2l1sx.bin:$(TARGET_COPY_OUT_VENDOR)/etc/firmware/D12QL_Isp0_s5k2l1sx.bin \
+    vendor/samsung/msm8996-common/proprietary/vendor/etc/firmware/D12QS_Isp0_imx260.bin:$(TARGET_COPY_OUT_VENDOR)/etc/firmware/D12QS_Isp0_imx260.bin \
+    vendor/samsung/msm8996-common/proprietary/vendor/etc/firmware/Master0.bin:$(TARGET_COPY_OUT_VENDOR)/etc/firmware/Master0.bin \
+    vendor/samsung/msm8996-common/proprietary/vendor/etc/firmware/Master1.bin:$(TARGET_COPY_OUT_VENDOR)/etc/firmware/Master1.bin \
+    vendor/samsung/msm8996-common/proprietary/vendor/etc/firmware/cal_data_LSCmaster.bin:$(TARGET_COPY_OUT_VENDOR)/etc/firmware/cal_data_LSCmaster.bin \
+    vendor/samsung/msm8996-common/proprietary/vendor/etc/firmware/cpp_firmware_v1_10_0.fw:$(TARGET_COPY_OUT_VENDOR)/etc/firmware/cpp_firmware_v1_10_0.fw \
+    vendor/samsung/msm8996-common/proprietary/vendor/etc/firmware/ois_fw_dom.bin:$(TARGET_COPY_OUT_VENDOR)/etc/firmware/ois_fw_dom.bin \
+    vendor/samsung/msm8996-common/proprietary/vendor/etc/firmware/ois_fw_sec.bin:$(TARGET_COPY_OUT_VENDOR)/etc/firmware/ois_fw_sec.bin \
+    vendor/samsung/msm8996-common/proprietary/vendor/etc/sensors/sensor_def_qcomdev.conf:$(TARGET_COPY_OUT_VENDOR)/etc/sensors/sensor_def_qcomdev.conf \
     vendor/samsung/msm8996-common/proprietary/lib/com.qualcomm.qti.ant@1.0.so:$(TARGET_COPY_OUT_SYSTEM)/lib/com.qualcomm.qti.ant@1.0.so \
     vendor/samsung/msm8996-common/proprietary/lib/libFileMux.so:$(TARGET_COPY_OUT_SYSTEM)/lib/libFileMux.so \
     vendor/samsung/msm8996-common/proprietary/lib/libOmxMux.so:$(TARGET_COPY_OUT_SYSTEM)/lib/libOmxMux.so \
@@ -98,7 +62,6 @@ PRODUCT_COPY_FILES += \
     vendor/samsung/msm8996-common/proprietary/lib/vendor.qti.gnss@1.2.so:$(TARGET_COPY_OUT_SYSTEM)/lib/vendor.qti.gnss@1.2.so \
     vendor/samsung/msm8996-common/proprietary/lib/vendor.qti.gnss@2.0.so:$(TARGET_COPY_OUT_SYSTEM)/lib/vendor.qti.gnss@2.0.so \
     vendor/samsung/msm8996-common/proprietary/lib/vendor.qti.gnss@2.1.so:$(TARGET_COPY_OUT_SYSTEM)/lib/vendor.qti.gnss@2.1.so \
-    vendor/samsung/msm8996-common/proprietary/lib/vendor.qti.hardware.fm@1.0.so:$(TARGET_COPY_OUT_SYSTEM)/lib/vendor.qti.hardware.fm@1.0.so \
     vendor/samsung/msm8996-common/proprietary/lib/vendor.qti.hardware.iop@1.0.so:$(TARGET_COPY_OUT_SYSTEM)/lib/vendor.qti.hardware.iop@1.0.so \
     vendor/samsung/msm8996-common/proprietary/lib/vendor.qti.hardware.iop@2.0.so:$(TARGET_COPY_OUT_SYSTEM)/lib/vendor.qti.hardware.iop@2.0.so \
     vendor/samsung/msm8996-common/proprietary/lib/vendor.qti.hardware.qdutils_disp@1.0.so:$(TARGET_COPY_OUT_SYSTEM)/lib/vendor.qti.hardware.qdutils_disp@1.0.so \
@@ -137,7 +100,6 @@ PRODUCT_COPY_FILES += \
     vendor/samsung/msm8996-common/proprietary/lib64/vendor.qti.gnss@1.2.so:$(TARGET_COPY_OUT_SYSTEM)/lib64/vendor.qti.gnss@1.2.so \
     vendor/samsung/msm8996-common/proprietary/lib64/vendor.qti.gnss@2.0.so:$(TARGET_COPY_OUT_SYSTEM)/lib64/vendor.qti.gnss@2.0.so \
     vendor/samsung/msm8996-common/proprietary/lib64/vendor.qti.gnss@2.1.so:$(TARGET_COPY_OUT_SYSTEM)/lib64/vendor.qti.gnss@2.1.so \
-    vendor/samsung/msm8996-common/proprietary/lib64/vendor.qti.hardware.fm@1.0.so:$(TARGET_COPY_OUT_SYSTEM)/lib64/vendor.qti.hardware.fm@1.0.so \
     vendor/samsung/msm8996-common/proprietary/lib64/vendor.qti.hardware.iop@1.0.so:$(TARGET_COPY_OUT_SYSTEM)/lib64/vendor.qti.hardware.iop@1.0.so \
     vendor/samsung/msm8996-common/proprietary/lib64/vendor.qti.hardware.iop@2.0.so:$(TARGET_COPY_OUT_SYSTEM)/lib64/vendor.qti.hardware.iop@2.0.so \
     vendor/samsung/msm8996-common/proprietary/lib64/vendor.qti.hardware.qdutils_disp@1.0.so:$(TARGET_COPY_OUT_SYSTEM)/lib64/vendor.qti.hardware.qdutils_disp@1.0.so \
@@ -145,19 +107,124 @@ PRODUCT_COPY_FILES += \
     vendor/samsung/msm8996-common/proprietary/lib64/vendor.samsung.hardware.exthealth@1.0.so:$(TARGET_COPY_OUT_SYSTEM)/lib64/vendor.samsung.hardware.exthealth@1.0.so \
     vendor/samsung/msm8996-common/proprietary/lib64/vendor.samsung.hardware.gnss@1.0.so:$(TARGET_COPY_OUT_SYSTEM)/lib64/vendor.samsung.hardware.gnss@1.0.so \
     vendor/samsung/msm8996-common/proprietary/lib64/vendor.samsung.hardware.miscpower@1.0.so:$(TARGET_COPY_OUT_SYSTEM)/lib64/vendor.samsung.hardware.miscpower@1.0.so \
+    vendor/samsung/msm8996-common/proprietary/media/battery_000.spi:$(TARGET_COPY_OUT_SYSTEM)/media/battery_000.spi \
+    vendor/samsung/msm8996-common/proprietary/media/battery_001.spi:$(TARGET_COPY_OUT_SYSTEM)/media/battery_001.spi \
+    vendor/samsung/msm8996-common/proprietary/media/battery_002.spi:$(TARGET_COPY_OUT_SYSTEM)/media/battery_002.spi \
+    vendor/samsung/msm8996-common/proprietary/media/battery_003.spi:$(TARGET_COPY_OUT_SYSTEM)/media/battery_003.spi \
+    vendor/samsung/msm8996-common/proprietary/media/battery_004.spi:$(TARGET_COPY_OUT_SYSTEM)/media/battery_004.spi \
+    vendor/samsung/msm8996-common/proprietary/media/battery_005.spi:$(TARGET_COPY_OUT_SYSTEM)/media/battery_005.spi \
+    vendor/samsung/msm8996-common/proprietary/media/battery_006.spi:$(TARGET_COPY_OUT_SYSTEM)/media/battery_006.spi \
+    vendor/samsung/msm8996-common/proprietary/media/battery_007.spi:$(TARGET_COPY_OUT_SYSTEM)/media/battery_007.spi \
+    vendor/samsung/msm8996-common/proprietary/media/battery_008.spi:$(TARGET_COPY_OUT_SYSTEM)/media/battery_008.spi \
+    vendor/samsung/msm8996-common/proprietary/media/battery_009.spi:$(TARGET_COPY_OUT_SYSTEM)/media/battery_009.spi \
+    vendor/samsung/msm8996-common/proprietary/media/battery_010.spi:$(TARGET_COPY_OUT_SYSTEM)/media/battery_010.spi \
+    vendor/samsung/msm8996-common/proprietary/media/battery_011.spi:$(TARGET_COPY_OUT_SYSTEM)/media/battery_011.spi \
+    vendor/samsung/msm8996-common/proprietary/media/battery_012.spi:$(TARGET_COPY_OUT_SYSTEM)/media/battery_012.spi \
+    vendor/samsung/msm8996-common/proprietary/media/battery_013.spi:$(TARGET_COPY_OUT_SYSTEM)/media/battery_013.spi \
+    vendor/samsung/msm8996-common/proprietary/media/battery_014.spi:$(TARGET_COPY_OUT_SYSTEM)/media/battery_014.spi \
+    vendor/samsung/msm8996-common/proprietary/media/battery_015.spi:$(TARGET_COPY_OUT_SYSTEM)/media/battery_015.spi \
+    vendor/samsung/msm8996-common/proprietary/media/battery_016.spi:$(TARGET_COPY_OUT_SYSTEM)/media/battery_016.spi \
+    vendor/samsung/msm8996-common/proprietary/media/battery_017.spi:$(TARGET_COPY_OUT_SYSTEM)/media/battery_017.spi \
+    vendor/samsung/msm8996-common/proprietary/media/battery_018.spi:$(TARGET_COPY_OUT_SYSTEM)/media/battery_018.spi \
+    vendor/samsung/msm8996-common/proprietary/media/battery_019.spi:$(TARGET_COPY_OUT_SYSTEM)/media/battery_019.spi \
+    vendor/samsung/msm8996-common/proprietary/media/battery_020.spi:$(TARGET_COPY_OUT_SYSTEM)/media/battery_020.spi \
+    vendor/samsung/msm8996-common/proprietary/media/battery_021.spi:$(TARGET_COPY_OUT_SYSTEM)/media/battery_021.spi \
+    vendor/samsung/msm8996-common/proprietary/media/battery_022.spi:$(TARGET_COPY_OUT_SYSTEM)/media/battery_022.spi \
+    vendor/samsung/msm8996-common/proprietary/media/battery_023.spi:$(TARGET_COPY_OUT_SYSTEM)/media/battery_023.spi \
+    vendor/samsung/msm8996-common/proprietary/media/battery_024.spi:$(TARGET_COPY_OUT_SYSTEM)/media/battery_024.spi \
+    vendor/samsung/msm8996-common/proprietary/media/battery_025.spi:$(TARGET_COPY_OUT_SYSTEM)/media/battery_025.spi \
+    vendor/samsung/msm8996-common/proprietary/media/battery_026.spi:$(TARGET_COPY_OUT_SYSTEM)/media/battery_026.spi \
+    vendor/samsung/msm8996-common/proprietary/media/battery_027.spi:$(TARGET_COPY_OUT_SYSTEM)/media/battery_027.spi \
+    vendor/samsung/msm8996-common/proprietary/media/battery_028.spi:$(TARGET_COPY_OUT_SYSTEM)/media/battery_028.spi \
+    vendor/samsung/msm8996-common/proprietary/media/battery_029.spi:$(TARGET_COPY_OUT_SYSTEM)/media/battery_029.spi \
+    vendor/samsung/msm8996-common/proprietary/media/battery_030.spi:$(TARGET_COPY_OUT_SYSTEM)/media/battery_030.spi \
+    vendor/samsung/msm8996-common/proprietary/media/battery_031.spi:$(TARGET_COPY_OUT_SYSTEM)/media/battery_031.spi \
+    vendor/samsung/msm8996-common/proprietary/media/battery_032.spi:$(TARGET_COPY_OUT_SYSTEM)/media/battery_032.spi \
+    vendor/samsung/msm8996-common/proprietary/media/battery_033.spi:$(TARGET_COPY_OUT_SYSTEM)/media/battery_033.spi \
+    vendor/samsung/msm8996-common/proprietary/media/battery_034.spi:$(TARGET_COPY_OUT_SYSTEM)/media/battery_034.spi \
+    vendor/samsung/msm8996-common/proprietary/media/battery_035.spi:$(TARGET_COPY_OUT_SYSTEM)/media/battery_035.spi \
+    vendor/samsung/msm8996-common/proprietary/media/battery_036.spi:$(TARGET_COPY_OUT_SYSTEM)/media/battery_036.spi \
+    vendor/samsung/msm8996-common/proprietary/media/battery_037.spi:$(TARGET_COPY_OUT_SYSTEM)/media/battery_037.spi \
+    vendor/samsung/msm8996-common/proprietary/media/battery_038.spi:$(TARGET_COPY_OUT_SYSTEM)/media/battery_038.spi \
+    vendor/samsung/msm8996-common/proprietary/media/battery_039.spi:$(TARGET_COPY_OUT_SYSTEM)/media/battery_039.spi \
+    vendor/samsung/msm8996-common/proprietary/media/battery_040.spi:$(TARGET_COPY_OUT_SYSTEM)/media/battery_040.spi \
+    vendor/samsung/msm8996-common/proprietary/media/battery_041.spi:$(TARGET_COPY_OUT_SYSTEM)/media/battery_041.spi \
+    vendor/samsung/msm8996-common/proprietary/media/battery_042.spi:$(TARGET_COPY_OUT_SYSTEM)/media/battery_042.spi \
+    vendor/samsung/msm8996-common/proprietary/media/battery_043.spi:$(TARGET_COPY_OUT_SYSTEM)/media/battery_043.spi \
+    vendor/samsung/msm8996-common/proprietary/media/battery_044.spi:$(TARGET_COPY_OUT_SYSTEM)/media/battery_044.spi \
+    vendor/samsung/msm8996-common/proprietary/media/battery_045.spi:$(TARGET_COPY_OUT_SYSTEM)/media/battery_045.spi \
+    vendor/samsung/msm8996-common/proprietary/media/battery_046.spi:$(TARGET_COPY_OUT_SYSTEM)/media/battery_046.spi \
+    vendor/samsung/msm8996-common/proprietary/media/battery_047.spi:$(TARGET_COPY_OUT_SYSTEM)/media/battery_047.spi \
+    vendor/samsung/msm8996-common/proprietary/media/battery_048.spi:$(TARGET_COPY_OUT_SYSTEM)/media/battery_048.spi \
+    vendor/samsung/msm8996-common/proprietary/media/battery_049.spi:$(TARGET_COPY_OUT_SYSTEM)/media/battery_049.spi \
+    vendor/samsung/msm8996-common/proprietary/media/battery_050.spi:$(TARGET_COPY_OUT_SYSTEM)/media/battery_050.spi \
+    vendor/samsung/msm8996-common/proprietary/media/battery_051.spi:$(TARGET_COPY_OUT_SYSTEM)/media/battery_051.spi \
+    vendor/samsung/msm8996-common/proprietary/media/battery_052.spi:$(TARGET_COPY_OUT_SYSTEM)/media/battery_052.spi \
+    vendor/samsung/msm8996-common/proprietary/media/battery_053.spi:$(TARGET_COPY_OUT_SYSTEM)/media/battery_053.spi \
+    vendor/samsung/msm8996-common/proprietary/media/battery_054.spi:$(TARGET_COPY_OUT_SYSTEM)/media/battery_054.spi \
+    vendor/samsung/msm8996-common/proprietary/media/battery_055.spi:$(TARGET_COPY_OUT_SYSTEM)/media/battery_055.spi \
+    vendor/samsung/msm8996-common/proprietary/media/battery_056.spi:$(TARGET_COPY_OUT_SYSTEM)/media/battery_056.spi \
+    vendor/samsung/msm8996-common/proprietary/media/battery_057.spi:$(TARGET_COPY_OUT_SYSTEM)/media/battery_057.spi \
+    vendor/samsung/msm8996-common/proprietary/media/battery_058.spi:$(TARGET_COPY_OUT_SYSTEM)/media/battery_058.spi \
+    vendor/samsung/msm8996-common/proprietary/media/battery_059.spi:$(TARGET_COPY_OUT_SYSTEM)/media/battery_059.spi \
+    vendor/samsung/msm8996-common/proprietary/media/battery_060.spi:$(TARGET_COPY_OUT_SYSTEM)/media/battery_060.spi \
+    vendor/samsung/msm8996-common/proprietary/media/battery_061.spi:$(TARGET_COPY_OUT_SYSTEM)/media/battery_061.spi \
+    vendor/samsung/msm8996-common/proprietary/media/battery_062.spi:$(TARGET_COPY_OUT_SYSTEM)/media/battery_062.spi \
+    vendor/samsung/msm8996-common/proprietary/media/battery_063.spi:$(TARGET_COPY_OUT_SYSTEM)/media/battery_063.spi \
+    vendor/samsung/msm8996-common/proprietary/media/battery_064.spi:$(TARGET_COPY_OUT_SYSTEM)/media/battery_064.spi \
+    vendor/samsung/msm8996-common/proprietary/media/battery_065.spi:$(TARGET_COPY_OUT_SYSTEM)/media/battery_065.spi \
+    vendor/samsung/msm8996-common/proprietary/media/battery_066.spi:$(TARGET_COPY_OUT_SYSTEM)/media/battery_066.spi \
+    vendor/samsung/msm8996-common/proprietary/media/battery_067.spi:$(TARGET_COPY_OUT_SYSTEM)/media/battery_067.spi \
+    vendor/samsung/msm8996-common/proprietary/media/battery_068.spi:$(TARGET_COPY_OUT_SYSTEM)/media/battery_068.spi \
+    vendor/samsung/msm8996-common/proprietary/media/battery_069.spi:$(TARGET_COPY_OUT_SYSTEM)/media/battery_069.spi \
+    vendor/samsung/msm8996-common/proprietary/media/battery_070.spi:$(TARGET_COPY_OUT_SYSTEM)/media/battery_070.spi \
+    vendor/samsung/msm8996-common/proprietary/media/battery_071.spi:$(TARGET_COPY_OUT_SYSTEM)/media/battery_071.spi \
+    vendor/samsung/msm8996-common/proprietary/media/battery_072.spi:$(TARGET_COPY_OUT_SYSTEM)/media/battery_072.spi \
+    vendor/samsung/msm8996-common/proprietary/media/battery_073.spi:$(TARGET_COPY_OUT_SYSTEM)/media/battery_073.spi \
+    vendor/samsung/msm8996-common/proprietary/media/battery_074.spi:$(TARGET_COPY_OUT_SYSTEM)/media/battery_074.spi \
+    vendor/samsung/msm8996-common/proprietary/media/battery_075.spi:$(TARGET_COPY_OUT_SYSTEM)/media/battery_075.spi \
+    vendor/samsung/msm8996-common/proprietary/media/battery_076.spi:$(TARGET_COPY_OUT_SYSTEM)/media/battery_076.spi \
+    vendor/samsung/msm8996-common/proprietary/media/battery_077.spi:$(TARGET_COPY_OUT_SYSTEM)/media/battery_077.spi \
+    vendor/samsung/msm8996-common/proprietary/media/battery_078.spi:$(TARGET_COPY_OUT_SYSTEM)/media/battery_078.spi \
+    vendor/samsung/msm8996-common/proprietary/media/battery_079.spi:$(TARGET_COPY_OUT_SYSTEM)/media/battery_079.spi \
+    vendor/samsung/msm8996-common/proprietary/media/battery_080.spi:$(TARGET_COPY_OUT_SYSTEM)/media/battery_080.spi \
+    vendor/samsung/msm8996-common/proprietary/media/battery_081.spi:$(TARGET_COPY_OUT_SYSTEM)/media/battery_081.spi \
+    vendor/samsung/msm8996-common/proprietary/media/battery_082.spi:$(TARGET_COPY_OUT_SYSTEM)/media/battery_082.spi \
+    vendor/samsung/msm8996-common/proprietary/media/battery_083.spi:$(TARGET_COPY_OUT_SYSTEM)/media/battery_083.spi \
+    vendor/samsung/msm8996-common/proprietary/media/battery_084.spi:$(TARGET_COPY_OUT_SYSTEM)/media/battery_084.spi \
+    vendor/samsung/msm8996-common/proprietary/media/battery_085.spi:$(TARGET_COPY_OUT_SYSTEM)/media/battery_085.spi \
+    vendor/samsung/msm8996-common/proprietary/media/battery_086.spi:$(TARGET_COPY_OUT_SYSTEM)/media/battery_086.spi \
+    vendor/samsung/msm8996-common/proprietary/media/battery_087.spi:$(TARGET_COPY_OUT_SYSTEM)/media/battery_087.spi \
+    vendor/samsung/msm8996-common/proprietary/media/battery_088.spi:$(TARGET_COPY_OUT_SYSTEM)/media/battery_088.spi \
+    vendor/samsung/msm8996-common/proprietary/media/battery_089.spi:$(TARGET_COPY_OUT_SYSTEM)/media/battery_089.spi \
+    vendor/samsung/msm8996-common/proprietary/media/battery_090.spi:$(TARGET_COPY_OUT_SYSTEM)/media/battery_090.spi \
+    vendor/samsung/msm8996-common/proprietary/media/battery_091.spi:$(TARGET_COPY_OUT_SYSTEM)/media/battery_091.spi \
+    vendor/samsung/msm8996-common/proprietary/media/battery_092.spi:$(TARGET_COPY_OUT_SYSTEM)/media/battery_092.spi \
+    vendor/samsung/msm8996-common/proprietary/media/battery_093.spi:$(TARGET_COPY_OUT_SYSTEM)/media/battery_093.spi \
+    vendor/samsung/msm8996-common/proprietary/media/battery_094.spi:$(TARGET_COPY_OUT_SYSTEM)/media/battery_094.spi \
+    vendor/samsung/msm8996-common/proprietary/media/battery_095.spi:$(TARGET_COPY_OUT_SYSTEM)/media/battery_095.spi \
+    vendor/samsung/msm8996-common/proprietary/media/battery_096.spi:$(TARGET_COPY_OUT_SYSTEM)/media/battery_096.spi \
+    vendor/samsung/msm8996-common/proprietary/media/battery_097.spi:$(TARGET_COPY_OUT_SYSTEM)/media/battery_097.spi \
+    vendor/samsung/msm8996-common/proprietary/media/battery_098.spi:$(TARGET_COPY_OUT_SYSTEM)/media/battery_098.spi \
+    vendor/samsung/msm8996-common/proprietary/media/battery_099.spi:$(TARGET_COPY_OUT_SYSTEM)/media/battery_099.spi \
+    vendor/samsung/msm8996-common/proprietary/media/battery_100.spi:$(TARGET_COPY_OUT_SYSTEM)/media/battery_100.spi \
     vendor/samsung/msm8996-common/proprietary/media/battery_error.spi:$(TARGET_COPY_OUT_SYSTEM)/media/battery_error.spi \
+    vendor/samsung/msm8996-common/proprietary/media/battery_fast_charging_global.spi:$(TARGET_COPY_OUT_SYSTEM)/media/battery_fast_charging_global.spi \
     vendor/samsung/msm8996-common/proprietary/media/battery_low.spi:$(TARGET_COPY_OUT_SYSTEM)/media/battery_low.spi \
     vendor/samsung/msm8996-common/proprietary/media/battery_temperature_error.spi:$(TARGET_COPY_OUT_SYSTEM)/media/battery_temperature_error.spi \
     vendor/samsung/msm8996-common/proprietary/media/battery_temperature_limit.spi:$(TARGET_COPY_OUT_SYSTEM)/media/battery_temperature_limit.spi \
     vendor/samsung/msm8996-common/proprietary/media/battery_water_usb.spi:$(TARGET_COPY_OUT_SYSTEM)/media/battery_water_usb.spi \
-    vendor/samsung/msm8996-common/proprietary/media/charging_New_Fast.spi:$(TARGET_COPY_OUT_SYSTEM)/media/charging_New_Fast.spi \
-    vendor/samsung/msm8996-common/proprietary/media/charging_New_Normal.spi:$(TARGET_COPY_OUT_SYSTEM)/media/charging_New_Normal.spi \
-    vendor/samsung/msm8996-common/proprietary/media/dock_error_usb.spi:$(TARGET_COPY_OUT_SYSTEM)/media/dock_error_usb.spi \
+    vendor/samsung/msm8996-common/proprietary/media/charging_A1.spi:$(TARGET_COPY_OUT_SYSTEM)/media/charging_A1.spi \
+    vendor/samsung/msm8996-common/proprietary/media/charging_A2.spi:$(TARGET_COPY_OUT_SYSTEM)/media/charging_A2.spi \
+    vendor/samsung/msm8996-common/proprietary/media/charging_B1.spi:$(TARGET_COPY_OUT_SYSTEM)/media/charging_B1.spi \
+    vendor/samsung/msm8996-common/proprietary/media/charging_B2.spi:$(TARGET_COPY_OUT_SYSTEM)/media/charging_B2.spi \
+    vendor/samsung/msm8996-common/proprietary/media/charging_C1.spi:$(TARGET_COPY_OUT_SYSTEM)/media/charging_C1.spi \
+    vendor/samsung/msm8996-common/proprietary/media/charging_C2.spi:$(TARGET_COPY_OUT_SYSTEM)/media/charging_C2.spi \
+    vendor/samsung/msm8996-common/proprietary/media/charging_C3.spi:$(TARGET_COPY_OUT_SYSTEM)/media/charging_C3.spi \
+    vendor/samsung/msm8996-common/proprietary/media/charging_C4.spi:$(TARGET_COPY_OUT_SYSTEM)/media/charging_C4.spi \
+    vendor/samsung/msm8996-common/proprietary/media/dock_error_yellow.spi:$(TARGET_COPY_OUT_SYSTEM)/media/dock_error_yellow.spi \
     vendor/samsung/msm8996-common/proprietary/media/incomplete_connect.spi:$(TARGET_COPY_OUT_SYSTEM)/media/incomplete_connect.spi \
-    vendor/samsung/msm8996-common/proprietary/media/lcd_density.txt:$(TARGET_COPY_OUT_SYSTEM)/media/lcd_density.txt \
     vendor/samsung/msm8996-common/proprietary/media/percentage.spi:$(TARGET_COPY_OUT_SYSTEM)/media/percentage.spi \
-    vendor/samsung/msm8996-common/proprietary/media/safety_timer_usb.spi:$(TARGET_COPY_OUT_SYSTEM)/media/safety_timer_usb.spi \
-    vendor/samsung/msm8996-common/proprietary/media/slow_charging_usb.spi:$(TARGET_COPY_OUT_SYSTEM)/media/slow_charging_usb.spi \
     vendor/samsung/msm8996-common/proprietary/media/temperature_limit_usb.spi:$(TARGET_COPY_OUT_SYSTEM)/media/temperature_limit_usb.spi \
     vendor/samsung/msm8996-common/proprietary/media/water_protection_usb.spi:$(TARGET_COPY_OUT_SYSTEM)/media/water_protection_usb.spi \
     vendor/samsung/msm8996-common/proprietary/product/lib64/libaptXHD_encoder.so:$(TARGET_COPY_OUT_PRODUCT)/lib64/libaptXHD_encoder.so \
@@ -170,8 +237,6 @@ PRODUCT_COPY_FILES += \
     vendor/samsung/msm8996-common/proprietary/saiv/face/attr/gae/PmExpModel.bin:$(TARGET_COPY_OUT_SYSTEM)/saiv/face/attr/gae/PmExpModel.bin \
     vendor/samsung/msm8996-common/proprietary/saiv/face/attr/gae/PmGenModel.bin:$(TARGET_COPY_OUT_SYSTEM)/saiv/face/attr/gae/PmGenModel.bin \
     vendor/samsung/msm8996-common/proprietary/saiv/face/attr/gae/PmGenderFeatSelIdx.bin:$(TARGET_COPY_OUT_SYSTEM)/saiv/face/attr/gae/PmGenderFeatSelIdx.bin \
-    vendor/samsung/msm8996-common/proprietary/saiv/face/fr/SAIT_FR11.bin:$(TARGET_COPY_OUT_SYSTEM)/saiv/face/fr/SAIT_FR11.bin \
-    vendor/samsung/msm8996-common/proprietary/saiv/face/fr/SAIT_FR22.bin:$(TARGET_COPY_OUT_SYSTEM)/saiv/face/fr/SAIT_FR22.bin \
     vendor/samsung/msm8996-common/proprietary/vendor/bin/adsprpcd:$(TARGET_COPY_OUT_VENDOR)/bin/adsprpcd \
     vendor/samsung/msm8996-common/proprietary/vendor/bin/energy-awareness:$(TARGET_COPY_OUT_VENDOR)/bin/energy-awareness \
     vendor/samsung/msm8996-common/proprietary/vendor/bin/factory.adsp:$(TARGET_COPY_OUT_VENDOR)/bin/factory.adsp \
@@ -220,7 +285,39 @@ PRODUCT_COPY_FILES += \
     vendor/samsung/msm8996-common/proprietary/vendor/etc/sap.conf:$(TARGET_COPY_OUT_VENDOR)/etc/sap.conf \
     vendor/samsung/msm8996-common/proprietary/vendor/etc/sec_config:$(TARGET_COPY_OUT_VENDOR)/etc/sec_config \
     vendor/samsung/msm8996-common/proprietary/vendor/etc/sensors/hals.conf:$(TARGET_COPY_OUT_VENDOR)/etc/sensors/hals.conf \
-    vendor/samsung/msm8996-common/proprietary/vendor/etc/sensors/sensor_def_qcomdev.conf:$(TARGET_COPY_OUT_VENDOR)/etc/sensors/sensor_def_qcomdev.conf \
+    vendor/samsung/msm8996-common/proprietary/vendor/etc/wifi/bcmdhd_apsta.bin_b1:$(TARGET_COPY_OUT_VENDOR)/etc/wifi/bcmdhd_apsta.bin_b1 \
+    vendor/samsung/msm8996-common/proprietary/vendor/etc/wifi/bcmdhd_apsta.bin_b90s_b1:$(TARGET_COPY_OUT_VENDOR)/etc/wifi/bcmdhd_apsta.bin_b90s_b1 \
+    vendor/samsung/msm8996-common/proprietary/vendor/etc/wifi/bcmdhd_apsta.bin_c0:$(TARGET_COPY_OUT_VENDOR)/etc/wifi/bcmdhd_apsta.bin_c0 \
+    vendor/samsung/msm8996-common/proprietary/vendor/etc/wifi/bcmdhd_ibss.bin_b1:$(TARGET_COPY_OUT_VENDOR)/etc/wifi/bcmdhd_ibss.bin_b1 \
+    vendor/samsung/msm8996-common/proprietary/vendor/etc/wifi/bcmdhd_ibss.bin_b90s_b1:$(TARGET_COPY_OUT_VENDOR)/etc/wifi/bcmdhd_ibss.bin_b90s_b1 \
+    vendor/samsung/msm8996-common/proprietary/vendor/etc/wifi/bcmdhd_ibss.bin_c0:$(TARGET_COPY_OUT_VENDOR)/etc/wifi/bcmdhd_ibss.bin_c0 \
+    vendor/samsung/msm8996-common/proprietary/vendor/etc/wifi/bcmdhd_mfg.bin_b1:$(TARGET_COPY_OUT_VENDOR)/etc/wifi/bcmdhd_mfg.bin_b1 \
+    vendor/samsung/msm8996-common/proprietary/vendor/etc/wifi/bcmdhd_mfg.bin_b90s_b1:$(TARGET_COPY_OUT_VENDOR)/etc/wifi/bcmdhd_mfg.bin_b90s_b1 \
+    vendor/samsung/msm8996-common/proprietary/vendor/etc/wifi/bcmdhd_mfg.bin_c0:$(TARGET_COPY_OUT_VENDOR)/etc/wifi/bcmdhd_mfg.bin_c0 \
+    vendor/samsung/msm8996-common/proprietary/vendor/etc/wifi/bcmdhd_mfg2.bin_b1:$(TARGET_COPY_OUT_VENDOR)/etc/wifi/bcmdhd_mfg2.bin_b1 \
+    vendor/samsung/msm8996-common/proprietary/vendor/etc/wifi/bcmdhd_mfg2.bin_b90s_b1:$(TARGET_COPY_OUT_VENDOR)/etc/wifi/bcmdhd_mfg2.bin_b90s_b1 \
+    vendor/samsung/msm8996-common/proprietary/vendor/etc/wifi/bcmdhd_mfg2.bin_c0:$(TARGET_COPY_OUT_VENDOR)/etc/wifi/bcmdhd_mfg2.bin_c0 \
+    vendor/samsung/msm8996-common/proprietary/vendor/etc/wifi/bcmdhd_sta.bin_b1:$(TARGET_COPY_OUT_VENDOR)/etc/wifi/bcmdhd_sta.bin_b1 \
+    vendor/samsung/msm8996-common/proprietary/vendor/etc/wifi/bcmdhd_sta.bin_b90s_b1:$(TARGET_COPY_OUT_VENDOR)/etc/wifi/bcmdhd_sta.bin_b90s_b1 \
+    vendor/samsung/msm8996-common/proprietary/vendor/etc/wifi/bcmdhd_sta.bin_c0:$(TARGET_COPY_OUT_VENDOR)/etc/wifi/bcmdhd_sta.bin_c0 \
+    vendor/samsung/msm8996-common/proprietary/vendor/etc/wifi/nvram_mfg.txt:$(TARGET_COPY_OUT_VENDOR)/etc/wifi/nvram_mfg.txt \
+    vendor/samsung/msm8996-common/proprietary/vendor/etc/wifi/nvram_mfg.txt_b1:$(TARGET_COPY_OUT_VENDOR)/etc/wifi/nvram_mfg.txt_b1 \
+    vendor/samsung/msm8996-common/proprietary/vendor/etc/wifi/nvram_mfg.txt_c0:$(TARGET_COPY_OUT_VENDOR)/etc/wifi/nvram_mfg.txt_c0 \
+    vendor/samsung/msm8996-common/proprietary/vendor/etc/wifi/nvram_mfg.txt_murata:$(TARGET_COPY_OUT_VENDOR)/etc/wifi/nvram_mfg.txt_murata \
+    vendor/samsung/msm8996-common/proprietary/vendor/etc/wifi/nvram_mfg.txt_murata_b1:$(TARGET_COPY_OUT_VENDOR)/etc/wifi/nvram_mfg.txt_murata_b1 \
+    vendor/samsung/msm8996-common/proprietary/vendor/etc/wifi/nvram_mfg.txt_murata_c0:$(TARGET_COPY_OUT_VENDOR)/etc/wifi/nvram_mfg.txt_murata_c0 \
+    vendor/samsung/msm8996-common/proprietary/vendor/etc/wifi/nvram_mfg.txt_wisol:$(TARGET_COPY_OUT_VENDOR)/etc/wifi/nvram_mfg.txt_wisol \
+    vendor/samsung/msm8996-common/proprietary/vendor/etc/wifi/nvram_mfg.txt_wisol_b1:$(TARGET_COPY_OUT_VENDOR)/etc/wifi/nvram_mfg.txt_wisol_b1 \
+    vendor/samsung/msm8996-common/proprietary/vendor/etc/wifi/nvram_mfg.txt_wisol_c0:$(TARGET_COPY_OUT_VENDOR)/etc/wifi/nvram_mfg.txt_wisol_c0 \
+    vendor/samsung/msm8996-common/proprietary/vendor/etc/wifi/nvram_net.txt:$(TARGET_COPY_OUT_VENDOR)/etc/wifi/nvram_net.txt \
+    vendor/samsung/msm8996-common/proprietary/vendor/etc/wifi/nvram_net.txt_b1:$(TARGET_COPY_OUT_VENDOR)/etc/wifi/nvram_net.txt_b1 \
+    vendor/samsung/msm8996-common/proprietary/vendor/etc/wifi/nvram_net.txt_c0:$(TARGET_COPY_OUT_VENDOR)/etc/wifi/nvram_net.txt_c0 \
+    vendor/samsung/msm8996-common/proprietary/vendor/etc/wifi/nvram_net.txt_murata:$(TARGET_COPY_OUT_VENDOR)/etc/wifi/nvram_net.txt_murata \
+    vendor/samsung/msm8996-common/proprietary/vendor/etc/wifi/nvram_net.txt_murata_b1:$(TARGET_COPY_OUT_VENDOR)/etc/wifi/nvram_net.txt_murata_b1 \
+    vendor/samsung/msm8996-common/proprietary/vendor/etc/wifi/nvram_net.txt_murata_c0:$(TARGET_COPY_OUT_VENDOR)/etc/wifi/nvram_net.txt_murata_c0 \
+    vendor/samsung/msm8996-common/proprietary/vendor/etc/wifi/nvram_net.txt_wisol:$(TARGET_COPY_OUT_VENDOR)/etc/wifi/nvram_net.txt_wisol \
+    vendor/samsung/msm8996-common/proprietary/vendor/etc/wifi/nvram_net.txt_wisol_b1:$(TARGET_COPY_OUT_VENDOR)/etc/wifi/nvram_net.txt_wisol_b1 \
+    vendor/samsung/msm8996-common/proprietary/vendor/etc/wifi/nvram_net.txt_wisol_c0:$(TARGET_COPY_OUT_VENDOR)/etc/wifi/nvram_net.txt_wisol_c0 \
     vendor/samsung/msm8996-common/proprietary/vendor/etc/xtra_root_cert.pem:$(TARGET_COPY_OUT_VENDOR)/etc/xtra_root_cert.pem \
     vendor/samsung/msm8996-common/proprietary/vendor/firmware/a530_gpmu.fw2:$(TARGET_COPY_OUT_VENDOR)/firmware/a530_gpmu.fw2 \
     vendor/samsung/msm8996-common/proprietary/vendor/firmware/a530_pfp.fw:$(TARGET_COPY_OUT_VENDOR)/firmware/a530_pfp.fw \
@@ -231,98 +328,373 @@ PRODUCT_COPY_FILES += \
     vendor/samsung/msm8996-common/proprietary/vendor/firmware/a530v3_gpmu.fw2:$(TARGET_COPY_OUT_VENDOR)/firmware/a530v3_gpmu.fw2 \
     vendor/samsung/msm8996-common/proprietary/vendor/firmware/a530v3_seq.fw2:$(TARGET_COPY_OUT_VENDOR)/firmware/a530v3_seq.fw2 \
     vendor/samsung/msm8996-common/proprietary/vendor/firmware/a540_gpmu.fw2:$(TARGET_COPY_OUT_VENDOR)/firmware/a540_gpmu.fw2 \
+    vendor/samsung/msm8996-common/proprietary/vendor/firmware/bcm4359C0_V0138.0278_murata.hcd:$(TARGET_COPY_OUT_VENDOR)/firmware/bcm4359C0_V0138.0278_murata.hcd \
+    vendor/samsung/msm8996-common/proprietary/vendor/firmware/bcm4359C0_V0138.0279_semco.hcd:$(TARGET_COPY_OUT_VENDOR)/firmware/bcm4359C0_V0138.0279_semco.hcd \
+    vendor/samsung/msm8996-common/proprietary/vendor/firmware/bcm4359C0_V0166.0407_murata.hcd:$(TARGET_COPY_OUT_VENDOR)/firmware/bcm4359C0_V0166.0407_murata.hcd \
+    vendor/samsung/msm8996-common/proprietary/vendor/firmware/bcm4359C0_V0166.0408_semco.hcd:$(TARGET_COPY_OUT_VENDOR)/firmware/bcm4359C0_V0166.0408_semco.hcd \
     vendor/samsung/msm8996-common/proprietary/vendor/firmware/leia_pfp_470.fw:$(TARGET_COPY_OUT_VENDOR)/firmware/leia_pfp_470.fw \
     vendor/samsung/msm8996-common/proprietary/vendor/firmware/leia_pm4_470.fw:$(TARGET_COPY_OUT_VENDOR)/firmware/leia_pm4_470.fw \
-    vendor/samsung/msm8996-common/proprietary/vendor/lib/W13QS_libTsAccm.so:$(TARGET_COPY_OUT_VENDOR)/lib/W13QS_libTsAccm.so \
-    vendor/samsung/msm8996-common/proprietary/vendor/lib/W13QS_libTsAe.so:$(TARGET_COPY_OUT_VENDOR)/lib/W13QS_libTsAe.so \
-    vendor/samsung/msm8996-common/proprietary/vendor/lib/W13QS_libTsAf.so:$(TARGET_COPY_OUT_VENDOR)/lib/W13QS_libTsAf.so \
-    vendor/samsung/msm8996-common/proprietary/vendor/lib/W13QS_libTsAwb.so:$(TARGET_COPY_OUT_VENDOR)/lib/W13QS_libTsAwb.so \
-    vendor/samsung/msm8996-common/proprietary/vendor/lib/W13QS_libchromatix_imx258_1080p_preview.so:$(TARGET_COPY_OUT_VENDOR)/lib/W13QS_libchromatix_imx258_1080p_preview.so \
-    vendor/samsung/msm8996-common/proprietary/vendor/lib/W13QS_libchromatix_imx258_1080p_video.so:$(TARGET_COPY_OUT_VENDOR)/lib/W13QS_libchromatix_imx258_1080p_video.so \
-    vendor/samsung/msm8996-common/proprietary/vendor/lib/W13QS_libchromatix_imx258_4k_preview.so:$(TARGET_COPY_OUT_VENDOR)/lib/W13QS_libchromatix_imx258_4k_preview.so \
-    vendor/samsung/msm8996-common/proprietary/vendor/lib/W13QS_libchromatix_imx258_4k_video.so:$(TARGET_COPY_OUT_VENDOR)/lib/W13QS_libchromatix_imx258_4k_video.so \
-    vendor/samsung/msm8996-common/proprietary/vendor/lib/W13QS_libchromatix_imx258_common.so:$(TARGET_COPY_OUT_VENDOR)/lib/W13QS_libchromatix_imx258_common.so \
-    vendor/samsung/msm8996-common/proprietary/vendor/lib/W13QS_libchromatix_imx258_common_merged.so:$(TARGET_COPY_OUT_VENDOR)/lib/W13QS_libchromatix_imx258_common_merged.so \
-    vendor/samsung/msm8996-common/proprietary/vendor/lib/W13QS_libchromatix_imx258_common_video.so:$(TARGET_COPY_OUT_VENDOR)/lib/W13QS_libchromatix_imx258_common_video.so \
-    vendor/samsung/msm8996-common/proprietary/vendor/lib/W13QS_libchromatix_imx258_cpp_liveshot_hdrauto.so:$(TARGET_COPY_OUT_VENDOR)/lib/W13QS_libchromatix_imx258_cpp_liveshot_hdrauto.so \
-    vendor/samsung/msm8996-common/proprietary/vendor/lib/W13QS_libchromatix_imx258_cpp_liveshot_hdroff.so:$(TARGET_COPY_OUT_VENDOR)/lib/W13QS_libchromatix_imx258_cpp_liveshot_hdroff.so \
-    vendor/samsung/msm8996-common/proprietary/vendor/lib/W13QS_libchromatix_imx258_cpp_liveshot_hdron.so:$(TARGET_COPY_OUT_VENDOR)/lib/W13QS_libchromatix_imx258_cpp_liveshot_hdron.so \
-    vendor/samsung/msm8996-common/proprietary/vendor/lib/W13QS_libchromatix_imx258_cpp_merged_hdrauto.so:$(TARGET_COPY_OUT_VENDOR)/lib/W13QS_libchromatix_imx258_cpp_merged_hdrauto.so \
-    vendor/samsung/msm8996-common/proprietary/vendor/lib/W13QS_libchromatix_imx258_cpp_merged_hdroff.so:$(TARGET_COPY_OUT_VENDOR)/lib/W13QS_libchromatix_imx258_cpp_merged_hdroff.so \
-    vendor/samsung/msm8996-common/proprietary/vendor/lib/W13QS_libchromatix_imx258_cpp_merged_hdron.so:$(TARGET_COPY_OUT_VENDOR)/lib/W13QS_libchromatix_imx258_cpp_merged_hdron.so \
-    vendor/samsung/msm8996-common/proprietary/vendor/lib/W13QS_libchromatix_imx258_cpp_panorama.so:$(TARGET_COPY_OUT_VENDOR)/lib/W13QS_libchromatix_imx258_cpp_panorama.so \
-    vendor/samsung/msm8996-common/proprietary/vendor/lib/W13QS_libchromatix_imx258_cpp_preview.so:$(TARGET_COPY_OUT_VENDOR)/lib/W13QS_libchromatix_imx258_cpp_preview.so \
-    vendor/samsung/msm8996-common/proprietary/vendor/lib/W13QS_libchromatix_imx258_cpp_preview_dual.so:$(TARGET_COPY_OUT_VENDOR)/lib/W13QS_libchromatix_imx258_cpp_preview_dual.so \
-    vendor/samsung/msm8996-common/proprietary/vendor/lib/W13QS_libchromatix_imx258_cpp_preview_promode.so:$(TARGET_COPY_OUT_VENDOR)/lib/W13QS_libchromatix_imx258_cpp_preview_promode.so \
-    vendor/samsung/msm8996-common/proprietary/vendor/lib/W13QS_libchromatix_imx258_cpp_promode_auto.so:$(TARGET_COPY_OUT_VENDOR)/lib/W13QS_libchromatix_imx258_cpp_promode_auto.so \
-    vendor/samsung/msm8996-common/proprietary/vendor/lib/W13QS_libchromatix_imx258_cpp_promode_long.so:$(TARGET_COPY_OUT_VENDOR)/lib/W13QS_libchromatix_imx258_cpp_promode_long.so \
-    vendor/samsung/msm8996-common/proprietary/vendor/lib/W13QS_libchromatix_imx258_cpp_promode_manual.so:$(TARGET_COPY_OUT_VENDOR)/lib/W13QS_libchromatix_imx258_cpp_promode_manual.so \
-    vendor/samsung/msm8996-common/proprietary/vendor/lib/W13QS_libchromatix_imx258_cpp_snapshot_dual.so:$(TARGET_COPY_OUT_VENDOR)/lib/W13QS_libchromatix_imx258_cpp_snapshot_dual.so \
-    vendor/samsung/msm8996-common/proprietary/vendor/lib/W13QS_libchromatix_imx258_cpp_snapshot_hdrauto.so:$(TARGET_COPY_OUT_VENDOR)/lib/W13QS_libchromatix_imx258_cpp_snapshot_hdrauto.so \
-    vendor/samsung/msm8996-common/proprietary/vendor/lib/W13QS_libchromatix_imx258_cpp_snapshot_hdroff.so:$(TARGET_COPY_OUT_VENDOR)/lib/W13QS_libchromatix_imx258_cpp_snapshot_hdroff.so \
-    vendor/samsung/msm8996-common/proprietary/vendor/lib/W13QS_libchromatix_imx258_cpp_snapshot_hdron.so:$(TARGET_COPY_OUT_VENDOR)/lib/W13QS_libchromatix_imx258_cpp_snapshot_hdron.so \
-    vendor/samsung/msm8996-common/proprietary/vendor/lib/W13QS_libchromatix_imx258_cpp_snapshot_lls_hdrauto.so:$(TARGET_COPY_OUT_VENDOR)/lib/W13QS_libchromatix_imx258_cpp_snapshot_lls_hdrauto.so \
-    vendor/samsung/msm8996-common/proprietary/vendor/lib/W13QS_libchromatix_imx258_cpp_snapshot_lls_hdroff.so:$(TARGET_COPY_OUT_VENDOR)/lib/W13QS_libchromatix_imx258_cpp_snapshot_lls_hdroff.so \
-    vendor/samsung/msm8996-common/proprietary/vendor/lib/W13QS_libchromatix_imx258_cpp_snapshot_lls_hdron.so:$(TARGET_COPY_OUT_VENDOR)/lib/W13QS_libchromatix_imx258_cpp_snapshot_lls_hdron.so \
-    vendor/samsung/msm8996-common/proprietary/vendor/lib/W13QS_libchromatix_imx258_cpp_video_fhd60_hdrauto.so:$(TARGET_COPY_OUT_VENDOR)/lib/W13QS_libchromatix_imx258_cpp_video_fhd60_hdrauto.so \
-    vendor/samsung/msm8996-common/proprietary/vendor/lib/W13QS_libchromatix_imx258_cpp_video_fhd60_hdroff.so:$(TARGET_COPY_OUT_VENDOR)/lib/W13QS_libchromatix_imx258_cpp_video_fhd60_hdroff.so \
-    vendor/samsung/msm8996-common/proprietary/vendor/lib/W13QS_libchromatix_imx258_cpp_video_fhd60_hdron.so:$(TARGET_COPY_OUT_VENDOR)/lib/W13QS_libchromatix_imx258_cpp_video_fhd60_hdron.so \
-    vendor/samsung/msm8996-common/proprietary/vendor/lib/W13QS_libchromatix_imx258_cpp_video_hdrauto.so:$(TARGET_COPY_OUT_VENDOR)/lib/W13QS_libchromatix_imx258_cpp_video_hdrauto.so \
-    vendor/samsung/msm8996-common/proprietary/vendor/lib/W13QS_libchromatix_imx258_cpp_video_hdroff.so:$(TARGET_COPY_OUT_VENDOR)/lib/W13QS_libchromatix_imx258_cpp_video_hdroff.so \
-    vendor/samsung/msm8996-common/proprietary/vendor/lib/W13QS_libchromatix_imx258_cpp_video_hdron.so:$(TARGET_COPY_OUT_VENDOR)/lib/W13QS_libchromatix_imx258_cpp_video_hdron.so \
-    vendor/samsung/msm8996-common/proprietary/vendor/lib/W13QS_libchromatix_imx258_cpp_video_hfr120.so:$(TARGET_COPY_OUT_VENDOR)/lib/W13QS_libchromatix_imx258_cpp_video_hfr120.so \
-    vendor/samsung/msm8996-common/proprietary/vendor/lib/W13QS_libchromatix_imx258_cpp_video_hfr240.so:$(TARGET_COPY_OUT_VENDOR)/lib/W13QS_libchromatix_imx258_cpp_video_hfr240.so \
-    vendor/samsung/msm8996-common/proprietary/vendor/lib/W13QS_libchromatix_imx258_cpp_video_uhd30_hdrauto.so:$(TARGET_COPY_OUT_VENDOR)/lib/W13QS_libchromatix_imx258_cpp_video_uhd30_hdrauto.so \
-    vendor/samsung/msm8996-common/proprietary/vendor/lib/W13QS_libchromatix_imx258_cpp_video_uhd30_hdroff.so:$(TARGET_COPY_OUT_VENDOR)/lib/W13QS_libchromatix_imx258_cpp_video_uhd30_hdroff.so \
-    vendor/samsung/msm8996-common/proprietary/vendor/lib/W13QS_libchromatix_imx258_cpp_video_uhd30_hdron.so:$(TARGET_COPY_OUT_VENDOR)/lib/W13QS_libchromatix_imx258_cpp_video_uhd30_hdron.so \
-    vendor/samsung/msm8996-common/proprietary/vendor/lib/W13QS_libchromatix_imx258_cpp_video_vga_hdrauto.so:$(TARGET_COPY_OUT_VENDOR)/lib/W13QS_libchromatix_imx258_cpp_video_vga_hdrauto.so \
-    vendor/samsung/msm8996-common/proprietary/vendor/lib/W13QS_libchromatix_imx258_cpp_video_vga_hdroff.so:$(TARGET_COPY_OUT_VENDOR)/lib/W13QS_libchromatix_imx258_cpp_video_vga_hdroff.so \
-    vendor/samsung/msm8996-common/proprietary/vendor/lib/W13QS_libchromatix_imx258_cpp_video_vga_hdron.so:$(TARGET_COPY_OUT_VENDOR)/lib/W13QS_libchromatix_imx258_cpp_video_vga_hdron.so \
-    vendor/samsung/msm8996-common/proprietary/vendor/lib/W13QS_libchromatix_imx258_cpp_video_vtcall.so:$(TARGET_COPY_OUT_VENDOR)/lib/W13QS_libchromatix_imx258_cpp_video_vtcall.so \
-    vendor/samsung/msm8996-common/proprietary/vendor/lib/W13QS_libchromatix_imx258_default_preview.so:$(TARGET_COPY_OUT_VENDOR)/lib/W13QS_libchromatix_imx258_default_preview.so \
-    vendor/samsung/msm8996-common/proprietary/vendor/lib/W13QS_libchromatix_imx258_default_video.so:$(TARGET_COPY_OUT_VENDOR)/lib/W13QS_libchromatix_imx258_default_video.so \
-    vendor/samsung/msm8996-common/proprietary/vendor/lib/W13QS_libchromatix_imx258_hdr_snapshot.so:$(TARGET_COPY_OUT_VENDOR)/lib/W13QS_libchromatix_imx258_hdr_snapshot.so \
-    vendor/samsung/msm8996-common/proprietary/vendor/lib/W13QS_libchromatix_imx258_hdr_video.so:$(TARGET_COPY_OUT_VENDOR)/lib/W13QS_libchromatix_imx258_hdr_video.so \
-    vendor/samsung/msm8996-common/proprietary/vendor/lib/W13QS_libchromatix_imx258_hfr_120.so:$(TARGET_COPY_OUT_VENDOR)/lib/W13QS_libchromatix_imx258_hfr_120.so \
-    vendor/samsung/msm8996-common/proprietary/vendor/lib/W13QS_libchromatix_imx258_hfr_240.so:$(TARGET_COPY_OUT_VENDOR)/lib/W13QS_libchromatix_imx258_hfr_240.so \
-    vendor/samsung/msm8996-common/proprietary/vendor/lib/W13QS_libchromatix_imx258_hfr_60.so:$(TARGET_COPY_OUT_VENDOR)/lib/W13QS_libchromatix_imx258_hfr_60.so \
-    vendor/samsung/msm8996-common/proprietary/vendor/lib/W13QS_libchromatix_imx258_hfr_90.so:$(TARGET_COPY_OUT_VENDOR)/lib/W13QS_libchromatix_imx258_hfr_90.so \
-    vendor/samsung/msm8996-common/proprietary/vendor/lib/W13QS_libchromatix_imx258_merged_hdrauto.so:$(TARGET_COPY_OUT_VENDOR)/lib/W13QS_libchromatix_imx258_merged_hdrauto.so \
-    vendor/samsung/msm8996-common/proprietary/vendor/lib/W13QS_libchromatix_imx258_merged_hdroff.so:$(TARGET_COPY_OUT_VENDOR)/lib/W13QS_libchromatix_imx258_merged_hdroff.so \
-    vendor/samsung/msm8996-common/proprietary/vendor/lib/W13QS_libchromatix_imx258_merged_hdron.so:$(TARGET_COPY_OUT_VENDOR)/lib/W13QS_libchromatix_imx258_merged_hdron.so \
-    vendor/samsung/msm8996-common/proprietary/vendor/lib/W13QS_libchromatix_imx258_panorama.so:$(TARGET_COPY_OUT_VENDOR)/lib/W13QS_libchromatix_imx258_panorama.so \
-    vendor/samsung/msm8996-common/proprietary/vendor/lib/W13QS_libchromatix_imx258_postproc.so:$(TARGET_COPY_OUT_VENDOR)/lib/W13QS_libchromatix_imx258_postproc.so \
-    vendor/samsung/msm8996-common/proprietary/vendor/lib/W13QS_libchromatix_imx258_preview.so:$(TARGET_COPY_OUT_VENDOR)/lib/W13QS_libchromatix_imx258_preview.so \
-    vendor/samsung/msm8996-common/proprietary/vendor/lib/W13QS_libchromatix_imx258_preview_dual.so:$(TARGET_COPY_OUT_VENDOR)/lib/W13QS_libchromatix_imx258_preview_dual.so \
-    vendor/samsung/msm8996-common/proprietary/vendor/lib/W13QS_libchromatix_imx258_preview_promode.so:$(TARGET_COPY_OUT_VENDOR)/lib/W13QS_libchromatix_imx258_preview_promode.so \
-    vendor/samsung/msm8996-common/proprietary/vendor/lib/W13QS_libchromatix_imx258_promode_auto.so:$(TARGET_COPY_OUT_VENDOR)/lib/W13QS_libchromatix_imx258_promode_auto.so \
-    vendor/samsung/msm8996-common/proprietary/vendor/lib/W13QS_libchromatix_imx258_promode_long.so:$(TARGET_COPY_OUT_VENDOR)/lib/W13QS_libchromatix_imx258_promode_long.so \
-    vendor/samsung/msm8996-common/proprietary/vendor/lib/W13QS_libchromatix_imx258_promode_manual.so:$(TARGET_COPY_OUT_VENDOR)/lib/W13QS_libchromatix_imx258_promode_manual.so \
-    vendor/samsung/msm8996-common/proprietary/vendor/lib/W13QS_libchromatix_imx258_snapshot_dual.so:$(TARGET_COPY_OUT_VENDOR)/lib/W13QS_libchromatix_imx258_snapshot_dual.so \
-    vendor/samsung/msm8996-common/proprietary/vendor/lib/W13QS_libchromatix_imx258_snapshot_hdrauto.so:$(TARGET_COPY_OUT_VENDOR)/lib/W13QS_libchromatix_imx258_snapshot_hdrauto.so \
-    vendor/samsung/msm8996-common/proprietary/vendor/lib/W13QS_libchromatix_imx258_snapshot_hdroff.so:$(TARGET_COPY_OUT_VENDOR)/lib/W13QS_libchromatix_imx258_snapshot_hdroff.so \
-    vendor/samsung/msm8996-common/proprietary/vendor/lib/W13QS_libchromatix_imx258_snapshot_hdron.so:$(TARGET_COPY_OUT_VENDOR)/lib/W13QS_libchromatix_imx258_snapshot_hdron.so \
-    vendor/samsung/msm8996-common/proprietary/vendor/lib/W13QS_libchromatix_imx258_snapshot_lls_hdrauto.so:$(TARGET_COPY_OUT_VENDOR)/lib/W13QS_libchromatix_imx258_snapshot_lls_hdrauto.so \
-    vendor/samsung/msm8996-common/proprietary/vendor/lib/W13QS_libchromatix_imx258_snapshot_lls_hdroff.so:$(TARGET_COPY_OUT_VENDOR)/lib/W13QS_libchromatix_imx258_snapshot_lls_hdroff.so \
-    vendor/samsung/msm8996-common/proprietary/vendor/lib/W13QS_libchromatix_imx258_snapshot_lls_hdron.so:$(TARGET_COPY_OUT_VENDOR)/lib/W13QS_libchromatix_imx258_snapshot_lls_hdron.so \
-    vendor/samsung/msm8996-common/proprietary/vendor/lib/W13QS_libchromatix_imx258_video_16M.so:$(TARGET_COPY_OUT_VENDOR)/lib/W13QS_libchromatix_imx258_video_16M.so \
-    vendor/samsung/msm8996-common/proprietary/vendor/lib/W13QS_libchromatix_imx258_video_fhd60_hdrauto.so:$(TARGET_COPY_OUT_VENDOR)/lib/W13QS_libchromatix_imx258_video_fhd60_hdrauto.so \
-    vendor/samsung/msm8996-common/proprietary/vendor/lib/W13QS_libchromatix_imx258_video_fhd60_hdroff.so:$(TARGET_COPY_OUT_VENDOR)/lib/W13QS_libchromatix_imx258_video_fhd60_hdroff.so \
-    vendor/samsung/msm8996-common/proprietary/vendor/lib/W13QS_libchromatix_imx258_video_fhd60_hdron.so:$(TARGET_COPY_OUT_VENDOR)/lib/W13QS_libchromatix_imx258_video_fhd60_hdron.so \
-    vendor/samsung/msm8996-common/proprietary/vendor/lib/W13QS_libchromatix_imx258_video_hdrauto.so:$(TARGET_COPY_OUT_VENDOR)/lib/W13QS_libchromatix_imx258_video_hdrauto.so \
-    vendor/samsung/msm8996-common/proprietary/vendor/lib/W13QS_libchromatix_imx258_video_hdroff.so:$(TARGET_COPY_OUT_VENDOR)/lib/W13QS_libchromatix_imx258_video_hdroff.so \
-    vendor/samsung/msm8996-common/proprietary/vendor/lib/W13QS_libchromatix_imx258_video_hdron.so:$(TARGET_COPY_OUT_VENDOR)/lib/W13QS_libchromatix_imx258_video_hdron.so \
-    vendor/samsung/msm8996-common/proprietary/vendor/lib/W13QS_libchromatix_imx258_video_hfr120.so:$(TARGET_COPY_OUT_VENDOR)/lib/W13QS_libchromatix_imx258_video_hfr120.so \
-    vendor/samsung/msm8996-common/proprietary/vendor/lib/W13QS_libchromatix_imx258_video_hfr240.so:$(TARGET_COPY_OUT_VENDOR)/lib/W13QS_libchromatix_imx258_video_hfr240.so \
-    vendor/samsung/msm8996-common/proprietary/vendor/lib/W13QS_libchromatix_imx258_video_uhd30_hdrauto.so:$(TARGET_COPY_OUT_VENDOR)/lib/W13QS_libchromatix_imx258_video_uhd30_hdrauto.so \
-    vendor/samsung/msm8996-common/proprietary/vendor/lib/W13QS_libchromatix_imx258_video_uhd30_hdroff.so:$(TARGET_COPY_OUT_VENDOR)/lib/W13QS_libchromatix_imx258_video_uhd30_hdroff.so \
-    vendor/samsung/msm8996-common/proprietary/vendor/lib/W13QS_libchromatix_imx258_video_uhd30_hdron.so:$(TARGET_COPY_OUT_VENDOR)/lib/W13QS_libchromatix_imx258_video_uhd30_hdron.so \
-    vendor/samsung/msm8996-common/proprietary/vendor/lib/W13QS_libchromatix_imx258_video_vga_hdrauto.so:$(TARGET_COPY_OUT_VENDOR)/lib/W13QS_libchromatix_imx258_video_vga_hdrauto.so \
-    vendor/samsung/msm8996-common/proprietary/vendor/lib/W13QS_libchromatix_imx258_video_vga_hdroff.so:$(TARGET_COPY_OUT_VENDOR)/lib/W13QS_libchromatix_imx258_video_vga_hdroff.so \
-    vendor/samsung/msm8996-common/proprietary/vendor/lib/W13QS_libchromatix_imx258_video_vga_hdron.so:$(TARGET_COPY_OUT_VENDOR)/lib/W13QS_libchromatix_imx258_video_vga_hdron.so \
-    vendor/samsung/msm8996-common/proprietary/vendor/lib/W13QS_libchromatix_imx258_video_vtcall.so:$(TARGET_COPY_OUT_VENDOR)/lib/W13QS_libchromatix_imx258_video_vtcall.so \
-    vendor/samsung/msm8996-common/proprietary/vendor/lib/W13QS_libchromatix_imx258_zsl_preview.so:$(TARGET_COPY_OUT_VENDOR)/lib/W13QS_libchromatix_imx258_zsl_preview.so \
-    vendor/samsung/msm8996-common/proprietary/vendor/lib/W13QS_libchromatix_imx258_zsl_video.so:$(TARGET_COPY_OUT_VENDOR)/lib/W13QS_libchromatix_imx258_zsl_video.so \
+    vendor/samsung/msm8996-common/proprietary/vendor/firmware/libpn551_fw.so:$(TARGET_COPY_OUT_VENDOR)/firmware/libpn551_fw.so \
+    vendor/samsung/msm8996-common/proprietary/vendor/lib/C12QL_libTsAccm.so:$(TARGET_COPY_OUT_VENDOR)/lib/C12QL_libTsAccm.so \
+    vendor/samsung/msm8996-common/proprietary/vendor/lib/C12QL_libTsAe.so:$(TARGET_COPY_OUT_VENDOR)/lib/C12QL_libTsAe.so \
+    vendor/samsung/msm8996-common/proprietary/vendor/lib/C12QL_libTsAf.so:$(TARGET_COPY_OUT_VENDOR)/lib/C12QL_libTsAf.so \
+    vendor/samsung/msm8996-common/proprietary/vendor/lib/C12QL_libTsAwb.so:$(TARGET_COPY_OUT_VENDOR)/lib/C12QL_libTsAwb.so \
+    vendor/samsung/msm8996-common/proprietary/vendor/lib/C12QL_libchromatix_s5k2l1sx_1080p_preview_lc898212xd.so:$(TARGET_COPY_OUT_VENDOR)/lib/C12QL_libchromatix_s5k2l1sx_1080p_preview_lc898212xd.so \
+    vendor/samsung/msm8996-common/proprietary/vendor/lib/C12QL_libchromatix_s5k2l1sx_1080p_video_lc898212xd.so:$(TARGET_COPY_OUT_VENDOR)/lib/C12QL_libchromatix_s5k2l1sx_1080p_video_lc898212xd.so \
+    vendor/samsung/msm8996-common/proprietary/vendor/lib/C12QL_libchromatix_s5k2l1sx_4k_preview_lc898212xd.so:$(TARGET_COPY_OUT_VENDOR)/lib/C12QL_libchromatix_s5k2l1sx_4k_preview_lc898212xd.so \
+    vendor/samsung/msm8996-common/proprietary/vendor/lib/C12QL_libchromatix_s5k2l1sx_4k_video_lc898212xd.so:$(TARGET_COPY_OUT_VENDOR)/lib/C12QL_libchromatix_s5k2l1sx_4k_video_lc898212xd.so \
+    vendor/samsung/msm8996-common/proprietary/vendor/lib/C12QL_libchromatix_s5k2l1sx_common.so:$(TARGET_COPY_OUT_VENDOR)/lib/C12QL_libchromatix_s5k2l1sx_common.so \
+    vendor/samsung/msm8996-common/proprietary/vendor/lib/C12QL_libchromatix_s5k2l1sx_common_merged.so:$(TARGET_COPY_OUT_VENDOR)/lib/C12QL_libchromatix_s5k2l1sx_common_merged.so \
+    vendor/samsung/msm8996-common/proprietary/vendor/lib/C12QL_libchromatix_s5k2l1sx_common_video.so:$(TARGET_COPY_OUT_VENDOR)/lib/C12QL_libchromatix_s5k2l1sx_common_video.so \
+    vendor/samsung/msm8996-common/proprietary/vendor/lib/C12QL_libchromatix_s5k2l1sx_cpp_liveshot_hdrauto.so:$(TARGET_COPY_OUT_VENDOR)/lib/C12QL_libchromatix_s5k2l1sx_cpp_liveshot_hdrauto.so \
+    vendor/samsung/msm8996-common/proprietary/vendor/lib/C12QL_libchromatix_s5k2l1sx_cpp_liveshot_hdroff.so:$(TARGET_COPY_OUT_VENDOR)/lib/C12QL_libchromatix_s5k2l1sx_cpp_liveshot_hdroff.so \
+    vendor/samsung/msm8996-common/proprietary/vendor/lib/C12QL_libchromatix_s5k2l1sx_cpp_liveshot_hdron.so:$(TARGET_COPY_OUT_VENDOR)/lib/C12QL_libchromatix_s5k2l1sx_cpp_liveshot_hdron.so \
+    vendor/samsung/msm8996-common/proprietary/vendor/lib/C12QL_libchromatix_s5k2l1sx_cpp_merged_hdrauto.so:$(TARGET_COPY_OUT_VENDOR)/lib/C12QL_libchromatix_s5k2l1sx_cpp_merged_hdrauto.so \
+    vendor/samsung/msm8996-common/proprietary/vendor/lib/C12QL_libchromatix_s5k2l1sx_cpp_merged_hdroff.so:$(TARGET_COPY_OUT_VENDOR)/lib/C12QL_libchromatix_s5k2l1sx_cpp_merged_hdroff.so \
+    vendor/samsung/msm8996-common/proprietary/vendor/lib/C12QL_libchromatix_s5k2l1sx_cpp_merged_hdron.so:$(TARGET_COPY_OUT_VENDOR)/lib/C12QL_libchromatix_s5k2l1sx_cpp_merged_hdron.so \
+    vendor/samsung/msm8996-common/proprietary/vendor/lib/C12QL_libchromatix_s5k2l1sx_cpp_panorama.so:$(TARGET_COPY_OUT_VENDOR)/lib/C12QL_libchromatix_s5k2l1sx_cpp_panorama.so \
+    vendor/samsung/msm8996-common/proprietary/vendor/lib/C12QL_libchromatix_s5k2l1sx_cpp_preview.so:$(TARGET_COPY_OUT_VENDOR)/lib/C12QL_libchromatix_s5k2l1sx_cpp_preview.so \
+    vendor/samsung/msm8996-common/proprietary/vendor/lib/C12QL_libchromatix_s5k2l1sx_cpp_preview_dual.so:$(TARGET_COPY_OUT_VENDOR)/lib/C12QL_libchromatix_s5k2l1sx_cpp_preview_dual.so \
+    vendor/samsung/msm8996-common/proprietary/vendor/lib/C12QL_libchromatix_s5k2l1sx_cpp_preview_promode.so:$(TARGET_COPY_OUT_VENDOR)/lib/C12QL_libchromatix_s5k2l1sx_cpp_preview_promode.so \
+    vendor/samsung/msm8996-common/proprietary/vendor/lib/C12QL_libchromatix_s5k2l1sx_cpp_promode_auto.so:$(TARGET_COPY_OUT_VENDOR)/lib/C12QL_libchromatix_s5k2l1sx_cpp_promode_auto.so \
+    vendor/samsung/msm8996-common/proprietary/vendor/lib/C12QL_libchromatix_s5k2l1sx_cpp_promode_long.so:$(TARGET_COPY_OUT_VENDOR)/lib/C12QL_libchromatix_s5k2l1sx_cpp_promode_long.so \
+    vendor/samsung/msm8996-common/proprietary/vendor/lib/C12QL_libchromatix_s5k2l1sx_cpp_promode_manual.so:$(TARGET_COPY_OUT_VENDOR)/lib/C12QL_libchromatix_s5k2l1sx_cpp_promode_manual.so \
+    vendor/samsung/msm8996-common/proprietary/vendor/lib/C12QL_libchromatix_s5k2l1sx_cpp_snapshot_dual.so:$(TARGET_COPY_OUT_VENDOR)/lib/C12QL_libchromatix_s5k2l1sx_cpp_snapshot_dual.so \
+    vendor/samsung/msm8996-common/proprietary/vendor/lib/C12QL_libchromatix_s5k2l1sx_cpp_snapshot_hdrauto.so:$(TARGET_COPY_OUT_VENDOR)/lib/C12QL_libchromatix_s5k2l1sx_cpp_snapshot_hdrauto.so \
+    vendor/samsung/msm8996-common/proprietary/vendor/lib/C12QL_libchromatix_s5k2l1sx_cpp_snapshot_hdroff.so:$(TARGET_COPY_OUT_VENDOR)/lib/C12QL_libchromatix_s5k2l1sx_cpp_snapshot_hdroff.so \
+    vendor/samsung/msm8996-common/proprietary/vendor/lib/C12QL_libchromatix_s5k2l1sx_cpp_snapshot_hdron.so:$(TARGET_COPY_OUT_VENDOR)/lib/C12QL_libchromatix_s5k2l1sx_cpp_snapshot_hdron.so \
+    vendor/samsung/msm8996-common/proprietary/vendor/lib/C12QL_libchromatix_s5k2l1sx_cpp_snapshot_lls_hdrauto.so:$(TARGET_COPY_OUT_VENDOR)/lib/C12QL_libchromatix_s5k2l1sx_cpp_snapshot_lls_hdrauto.so \
+    vendor/samsung/msm8996-common/proprietary/vendor/lib/C12QL_libchromatix_s5k2l1sx_cpp_snapshot_lls_hdroff.so:$(TARGET_COPY_OUT_VENDOR)/lib/C12QL_libchromatix_s5k2l1sx_cpp_snapshot_lls_hdroff.so \
+    vendor/samsung/msm8996-common/proprietary/vendor/lib/C12QL_libchromatix_s5k2l1sx_cpp_snapshot_lls_hdron.so:$(TARGET_COPY_OUT_VENDOR)/lib/C12QL_libchromatix_s5k2l1sx_cpp_snapshot_lls_hdron.so \
+    vendor/samsung/msm8996-common/proprietary/vendor/lib/C12QL_libchromatix_s5k2l1sx_cpp_video_fhd60_hdrauto.so:$(TARGET_COPY_OUT_VENDOR)/lib/C12QL_libchromatix_s5k2l1sx_cpp_video_fhd60_hdrauto.so \
+    vendor/samsung/msm8996-common/proprietary/vendor/lib/C12QL_libchromatix_s5k2l1sx_cpp_video_fhd60_hdroff.so:$(TARGET_COPY_OUT_VENDOR)/lib/C12QL_libchromatix_s5k2l1sx_cpp_video_fhd60_hdroff.so \
+    vendor/samsung/msm8996-common/proprietary/vendor/lib/C12QL_libchromatix_s5k2l1sx_cpp_video_fhd60_hdron.so:$(TARGET_COPY_OUT_VENDOR)/lib/C12QL_libchromatix_s5k2l1sx_cpp_video_fhd60_hdron.so \
+    vendor/samsung/msm8996-common/proprietary/vendor/lib/C12QL_libchromatix_s5k2l1sx_cpp_video_hdrauto.so:$(TARGET_COPY_OUT_VENDOR)/lib/C12QL_libchromatix_s5k2l1sx_cpp_video_hdrauto.so \
+    vendor/samsung/msm8996-common/proprietary/vendor/lib/C12QL_libchromatix_s5k2l1sx_cpp_video_hdroff.so:$(TARGET_COPY_OUT_VENDOR)/lib/C12QL_libchromatix_s5k2l1sx_cpp_video_hdroff.so \
+    vendor/samsung/msm8996-common/proprietary/vendor/lib/C12QL_libchromatix_s5k2l1sx_cpp_video_hdron.so:$(TARGET_COPY_OUT_VENDOR)/lib/C12QL_libchromatix_s5k2l1sx_cpp_video_hdron.so \
+    vendor/samsung/msm8996-common/proprietary/vendor/lib/C12QL_libchromatix_s5k2l1sx_cpp_video_hfr120.so:$(TARGET_COPY_OUT_VENDOR)/lib/C12QL_libchromatix_s5k2l1sx_cpp_video_hfr120.so \
+    vendor/samsung/msm8996-common/proprietary/vendor/lib/C12QL_libchromatix_s5k2l1sx_cpp_video_hfr240.so:$(TARGET_COPY_OUT_VENDOR)/lib/C12QL_libchromatix_s5k2l1sx_cpp_video_hfr240.so \
+    vendor/samsung/msm8996-common/proprietary/vendor/lib/C12QL_libchromatix_s5k2l1sx_cpp_video_uhd30_hdrauto.so:$(TARGET_COPY_OUT_VENDOR)/lib/C12QL_libchromatix_s5k2l1sx_cpp_video_uhd30_hdrauto.so \
+    vendor/samsung/msm8996-common/proprietary/vendor/lib/C12QL_libchromatix_s5k2l1sx_cpp_video_uhd30_hdroff.so:$(TARGET_COPY_OUT_VENDOR)/lib/C12QL_libchromatix_s5k2l1sx_cpp_video_uhd30_hdroff.so \
+    vendor/samsung/msm8996-common/proprietary/vendor/lib/C12QL_libchromatix_s5k2l1sx_cpp_video_uhd30_hdron.so:$(TARGET_COPY_OUT_VENDOR)/lib/C12QL_libchromatix_s5k2l1sx_cpp_video_uhd30_hdron.so \
+    vendor/samsung/msm8996-common/proprietary/vendor/lib/C12QL_libchromatix_s5k2l1sx_cpp_video_vga_hdrauto.so:$(TARGET_COPY_OUT_VENDOR)/lib/C12QL_libchromatix_s5k2l1sx_cpp_video_vga_hdrauto.so \
+    vendor/samsung/msm8996-common/proprietary/vendor/lib/C12QL_libchromatix_s5k2l1sx_cpp_video_vga_hdroff.so:$(TARGET_COPY_OUT_VENDOR)/lib/C12QL_libchromatix_s5k2l1sx_cpp_video_vga_hdroff.so \
+    vendor/samsung/msm8996-common/proprietary/vendor/lib/C12QL_libchromatix_s5k2l1sx_cpp_video_vga_hdron.so:$(TARGET_COPY_OUT_VENDOR)/lib/C12QL_libchromatix_s5k2l1sx_cpp_video_vga_hdron.so \
+    vendor/samsung/msm8996-common/proprietary/vendor/lib/C12QL_libchromatix_s5k2l1sx_cpp_video_vtcall.so:$(TARGET_COPY_OUT_VENDOR)/lib/C12QL_libchromatix_s5k2l1sx_cpp_video_vtcall.so \
+    vendor/samsung/msm8996-common/proprietary/vendor/lib/C12QL_libchromatix_s5k2l1sx_default_preview_lc898212xd.so:$(TARGET_COPY_OUT_VENDOR)/lib/C12QL_libchromatix_s5k2l1sx_default_preview_lc898212xd.so \
+    vendor/samsung/msm8996-common/proprietary/vendor/lib/C12QL_libchromatix_s5k2l1sx_default_video_lc898212xd.so:$(TARGET_COPY_OUT_VENDOR)/lib/C12QL_libchromatix_s5k2l1sx_default_video_lc898212xd.so \
+    vendor/samsung/msm8996-common/proprietary/vendor/lib/C12QL_libchromatix_s5k2l1sx_hdr_snapshot_lc898212xd.so:$(TARGET_COPY_OUT_VENDOR)/lib/C12QL_libchromatix_s5k2l1sx_hdr_snapshot_lc898212xd.so \
+    vendor/samsung/msm8996-common/proprietary/vendor/lib/C12QL_libchromatix_s5k2l1sx_hdr_video_lc898212xd.so:$(TARGET_COPY_OUT_VENDOR)/lib/C12QL_libchromatix_s5k2l1sx_hdr_video_lc898212xd.so \
+    vendor/samsung/msm8996-common/proprietary/vendor/lib/C12QL_libchromatix_s5k2l1sx_hfr_120_lc898212xd.so:$(TARGET_COPY_OUT_VENDOR)/lib/C12QL_libchromatix_s5k2l1sx_hfr_120_lc898212xd.so \
+    vendor/samsung/msm8996-common/proprietary/vendor/lib/C12QL_libchromatix_s5k2l1sx_hfr_240_lc898212xd.so:$(TARGET_COPY_OUT_VENDOR)/lib/C12QL_libchromatix_s5k2l1sx_hfr_240_lc898212xd.so \
+    vendor/samsung/msm8996-common/proprietary/vendor/lib/C12QL_libchromatix_s5k2l1sx_hfr_60_lc898212xd.so:$(TARGET_COPY_OUT_VENDOR)/lib/C12QL_libchromatix_s5k2l1sx_hfr_60_lc898212xd.so \
+    vendor/samsung/msm8996-common/proprietary/vendor/lib/C12QL_libchromatix_s5k2l1sx_hfr_90_lc898212xd.so:$(TARGET_COPY_OUT_VENDOR)/lib/C12QL_libchromatix_s5k2l1sx_hfr_90_lc898212xd.so \
+    vendor/samsung/msm8996-common/proprietary/vendor/lib/C12QL_libchromatix_s5k2l1sx_merged_hdrauto.so:$(TARGET_COPY_OUT_VENDOR)/lib/C12QL_libchromatix_s5k2l1sx_merged_hdrauto.so \
+    vendor/samsung/msm8996-common/proprietary/vendor/lib/C12QL_libchromatix_s5k2l1sx_merged_hdroff.so:$(TARGET_COPY_OUT_VENDOR)/lib/C12QL_libchromatix_s5k2l1sx_merged_hdroff.so \
+    vendor/samsung/msm8996-common/proprietary/vendor/lib/C12QL_libchromatix_s5k2l1sx_merged_hdron.so:$(TARGET_COPY_OUT_VENDOR)/lib/C12QL_libchromatix_s5k2l1sx_merged_hdron.so \
+    vendor/samsung/msm8996-common/proprietary/vendor/lib/C12QL_libchromatix_s5k2l1sx_panorama.so:$(TARGET_COPY_OUT_VENDOR)/lib/C12QL_libchromatix_s5k2l1sx_panorama.so \
+    vendor/samsung/msm8996-common/proprietary/vendor/lib/C12QL_libchromatix_s5k2l1sx_postproc.so:$(TARGET_COPY_OUT_VENDOR)/lib/C12QL_libchromatix_s5k2l1sx_postproc.so \
+    vendor/samsung/msm8996-common/proprietary/vendor/lib/C12QL_libchromatix_s5k2l1sx_preview.so:$(TARGET_COPY_OUT_VENDOR)/lib/C12QL_libchromatix_s5k2l1sx_preview.so \
+    vendor/samsung/msm8996-common/proprietary/vendor/lib/C12QL_libchromatix_s5k2l1sx_preview_dual.so:$(TARGET_COPY_OUT_VENDOR)/lib/C12QL_libchromatix_s5k2l1sx_preview_dual.so \
+    vendor/samsung/msm8996-common/proprietary/vendor/lib/C12QL_libchromatix_s5k2l1sx_preview_promode.so:$(TARGET_COPY_OUT_VENDOR)/lib/C12QL_libchromatix_s5k2l1sx_preview_promode.so \
+    vendor/samsung/msm8996-common/proprietary/vendor/lib/C12QL_libchromatix_s5k2l1sx_promode_auto.so:$(TARGET_COPY_OUT_VENDOR)/lib/C12QL_libchromatix_s5k2l1sx_promode_auto.so \
+    vendor/samsung/msm8996-common/proprietary/vendor/lib/C12QL_libchromatix_s5k2l1sx_promode_long.so:$(TARGET_COPY_OUT_VENDOR)/lib/C12QL_libchromatix_s5k2l1sx_promode_long.so \
+    vendor/samsung/msm8996-common/proprietary/vendor/lib/C12QL_libchromatix_s5k2l1sx_promode_manual.so:$(TARGET_COPY_OUT_VENDOR)/lib/C12QL_libchromatix_s5k2l1sx_promode_manual.so \
+    vendor/samsung/msm8996-common/proprietary/vendor/lib/C12QL_libchromatix_s5k2l1sx_snapshot_dual.so:$(TARGET_COPY_OUT_VENDOR)/lib/C12QL_libchromatix_s5k2l1sx_snapshot_dual.so \
+    vendor/samsung/msm8996-common/proprietary/vendor/lib/C12QL_libchromatix_s5k2l1sx_snapshot_hdrauto.so:$(TARGET_COPY_OUT_VENDOR)/lib/C12QL_libchromatix_s5k2l1sx_snapshot_hdrauto.so \
+    vendor/samsung/msm8996-common/proprietary/vendor/lib/C12QL_libchromatix_s5k2l1sx_snapshot_hdroff.so:$(TARGET_COPY_OUT_VENDOR)/lib/C12QL_libchromatix_s5k2l1sx_snapshot_hdroff.so \
+    vendor/samsung/msm8996-common/proprietary/vendor/lib/C12QL_libchromatix_s5k2l1sx_snapshot_hdron.so:$(TARGET_COPY_OUT_VENDOR)/lib/C12QL_libchromatix_s5k2l1sx_snapshot_hdron.so \
+    vendor/samsung/msm8996-common/proprietary/vendor/lib/C12QL_libchromatix_s5k2l1sx_snapshot_lls_hdrauto.so:$(TARGET_COPY_OUT_VENDOR)/lib/C12QL_libchromatix_s5k2l1sx_snapshot_lls_hdrauto.so \
+    vendor/samsung/msm8996-common/proprietary/vendor/lib/C12QL_libchromatix_s5k2l1sx_snapshot_lls_hdroff.so:$(TARGET_COPY_OUT_VENDOR)/lib/C12QL_libchromatix_s5k2l1sx_snapshot_lls_hdroff.so \
+    vendor/samsung/msm8996-common/proprietary/vendor/lib/C12QL_libchromatix_s5k2l1sx_snapshot_lls_hdron.so:$(TARGET_COPY_OUT_VENDOR)/lib/C12QL_libchromatix_s5k2l1sx_snapshot_lls_hdron.so \
+    vendor/samsung/msm8996-common/proprietary/vendor/lib/C12QL_libchromatix_s5k2l1sx_video_16M_lc898212xd.so:$(TARGET_COPY_OUT_VENDOR)/lib/C12QL_libchromatix_s5k2l1sx_video_16M_lc898212xd.so \
+    vendor/samsung/msm8996-common/proprietary/vendor/lib/C12QL_libchromatix_s5k2l1sx_video_fhd60_hdrauto.so:$(TARGET_COPY_OUT_VENDOR)/lib/C12QL_libchromatix_s5k2l1sx_video_fhd60_hdrauto.so \
+    vendor/samsung/msm8996-common/proprietary/vendor/lib/C12QL_libchromatix_s5k2l1sx_video_fhd60_hdroff.so:$(TARGET_COPY_OUT_VENDOR)/lib/C12QL_libchromatix_s5k2l1sx_video_fhd60_hdroff.so \
+    vendor/samsung/msm8996-common/proprietary/vendor/lib/C12QL_libchromatix_s5k2l1sx_video_fhd60_hdron.so:$(TARGET_COPY_OUT_VENDOR)/lib/C12QL_libchromatix_s5k2l1sx_video_fhd60_hdron.so \
+    vendor/samsung/msm8996-common/proprietary/vendor/lib/C12QL_libchromatix_s5k2l1sx_video_hdrauto.so:$(TARGET_COPY_OUT_VENDOR)/lib/C12QL_libchromatix_s5k2l1sx_video_hdrauto.so \
+    vendor/samsung/msm8996-common/proprietary/vendor/lib/C12QL_libchromatix_s5k2l1sx_video_hdroff.so:$(TARGET_COPY_OUT_VENDOR)/lib/C12QL_libchromatix_s5k2l1sx_video_hdroff.so \
+    vendor/samsung/msm8996-common/proprietary/vendor/lib/C12QL_libchromatix_s5k2l1sx_video_hdron.so:$(TARGET_COPY_OUT_VENDOR)/lib/C12QL_libchromatix_s5k2l1sx_video_hdron.so \
+    vendor/samsung/msm8996-common/proprietary/vendor/lib/C12QL_libchromatix_s5k2l1sx_video_hfr120.so:$(TARGET_COPY_OUT_VENDOR)/lib/C12QL_libchromatix_s5k2l1sx_video_hfr120.so \
+    vendor/samsung/msm8996-common/proprietary/vendor/lib/C12QL_libchromatix_s5k2l1sx_video_hfr240.so:$(TARGET_COPY_OUT_VENDOR)/lib/C12QL_libchromatix_s5k2l1sx_video_hfr240.so \
+    vendor/samsung/msm8996-common/proprietary/vendor/lib/C12QL_libchromatix_s5k2l1sx_video_uhd30_hdrauto.so:$(TARGET_COPY_OUT_VENDOR)/lib/C12QL_libchromatix_s5k2l1sx_video_uhd30_hdrauto.so \
+    vendor/samsung/msm8996-common/proprietary/vendor/lib/C12QL_libchromatix_s5k2l1sx_video_uhd30_hdroff.so:$(TARGET_COPY_OUT_VENDOR)/lib/C12QL_libchromatix_s5k2l1sx_video_uhd30_hdroff.so \
+    vendor/samsung/msm8996-common/proprietary/vendor/lib/C12QL_libchromatix_s5k2l1sx_video_uhd30_hdron.so:$(TARGET_COPY_OUT_VENDOR)/lib/C12QL_libchromatix_s5k2l1sx_video_uhd30_hdron.so \
+    vendor/samsung/msm8996-common/proprietary/vendor/lib/C12QL_libchromatix_s5k2l1sx_video_vga_hdrauto.so:$(TARGET_COPY_OUT_VENDOR)/lib/C12QL_libchromatix_s5k2l1sx_video_vga_hdrauto.so \
+    vendor/samsung/msm8996-common/proprietary/vendor/lib/C12QL_libchromatix_s5k2l1sx_video_vga_hdroff.so:$(TARGET_COPY_OUT_VENDOR)/lib/C12QL_libchromatix_s5k2l1sx_video_vga_hdroff.so \
+    vendor/samsung/msm8996-common/proprietary/vendor/lib/C12QL_libchromatix_s5k2l1sx_video_vga_hdron.so:$(TARGET_COPY_OUT_VENDOR)/lib/C12QL_libchromatix_s5k2l1sx_video_vga_hdron.so \
+    vendor/samsung/msm8996-common/proprietary/vendor/lib/C12QL_libchromatix_s5k2l1sx_video_vtcall.so:$(TARGET_COPY_OUT_VENDOR)/lib/C12QL_libchromatix_s5k2l1sx_video_vtcall.so \
+    vendor/samsung/msm8996-common/proprietary/vendor/lib/C12QL_libchromatix_s5k2l1sx_zsl_preview_lc898212xd.so:$(TARGET_COPY_OUT_VENDOR)/lib/C12QL_libchromatix_s5k2l1sx_zsl_preview_lc898212xd.so \
+    vendor/samsung/msm8996-common/proprietary/vendor/lib/C12QL_libchromatix_s5k2l1sx_zsl_video_lc898212xd.so:$(TARGET_COPY_OUT_VENDOR)/lib/C12QL_libchromatix_s5k2l1sx_zsl_video_lc898212xd.so \
+    vendor/samsung/msm8996-common/proprietary/vendor/lib/C12QS_libTsAccm.so:$(TARGET_COPY_OUT_VENDOR)/lib/C12QS_libTsAccm.so \
+    vendor/samsung/msm8996-common/proprietary/vendor/lib/C12QS_libTsAe.so:$(TARGET_COPY_OUT_VENDOR)/lib/C12QS_libTsAe.so \
+    vendor/samsung/msm8996-common/proprietary/vendor/lib/C12QS_libTsAf.so:$(TARGET_COPY_OUT_VENDOR)/lib/C12QS_libTsAf.so \
+    vendor/samsung/msm8996-common/proprietary/vendor/lib/C12QS_libTsAwb.so:$(TARGET_COPY_OUT_VENDOR)/lib/C12QS_libTsAwb.so \
+    vendor/samsung/msm8996-common/proprietary/vendor/lib/C12QS_libchromatix_imx260_1080p_preview_lc898212xd.so:$(TARGET_COPY_OUT_VENDOR)/lib/C12QS_libchromatix_imx260_1080p_preview_lc898212xd.so \
+    vendor/samsung/msm8996-common/proprietary/vendor/lib/C12QS_libchromatix_imx260_1080p_video_lc898212xd.so:$(TARGET_COPY_OUT_VENDOR)/lib/C12QS_libchromatix_imx260_1080p_video_lc898212xd.so \
+    vendor/samsung/msm8996-common/proprietary/vendor/lib/C12QS_libchromatix_imx260_4k_preview_lc898212xd.so:$(TARGET_COPY_OUT_VENDOR)/lib/C12QS_libchromatix_imx260_4k_preview_lc898212xd.so \
+    vendor/samsung/msm8996-common/proprietary/vendor/lib/C12QS_libchromatix_imx260_4k_video_lc898212xd.so:$(TARGET_COPY_OUT_VENDOR)/lib/C12QS_libchromatix_imx260_4k_video_lc898212xd.so \
+    vendor/samsung/msm8996-common/proprietary/vendor/lib/C12QS_libchromatix_imx260_common.so:$(TARGET_COPY_OUT_VENDOR)/lib/C12QS_libchromatix_imx260_common.so \
+    vendor/samsung/msm8996-common/proprietary/vendor/lib/C12QS_libchromatix_imx260_common_merged.so:$(TARGET_COPY_OUT_VENDOR)/lib/C12QS_libchromatix_imx260_common_merged.so \
+    vendor/samsung/msm8996-common/proprietary/vendor/lib/C12QS_libchromatix_imx260_common_video.so:$(TARGET_COPY_OUT_VENDOR)/lib/C12QS_libchromatix_imx260_common_video.so \
+    vendor/samsung/msm8996-common/proprietary/vendor/lib/C12QS_libchromatix_imx260_cpp_liveshot_hdrauto.so:$(TARGET_COPY_OUT_VENDOR)/lib/C12QS_libchromatix_imx260_cpp_liveshot_hdrauto.so \
+    vendor/samsung/msm8996-common/proprietary/vendor/lib/C12QS_libchromatix_imx260_cpp_liveshot_hdroff.so:$(TARGET_COPY_OUT_VENDOR)/lib/C12QS_libchromatix_imx260_cpp_liveshot_hdroff.so \
+    vendor/samsung/msm8996-common/proprietary/vendor/lib/C12QS_libchromatix_imx260_cpp_liveshot_hdron.so:$(TARGET_COPY_OUT_VENDOR)/lib/C12QS_libchromatix_imx260_cpp_liveshot_hdron.so \
+    vendor/samsung/msm8996-common/proprietary/vendor/lib/C12QS_libchromatix_imx260_cpp_merged_hdrauto.so:$(TARGET_COPY_OUT_VENDOR)/lib/C12QS_libchromatix_imx260_cpp_merged_hdrauto.so \
+    vendor/samsung/msm8996-common/proprietary/vendor/lib/C12QS_libchromatix_imx260_cpp_merged_hdroff.so:$(TARGET_COPY_OUT_VENDOR)/lib/C12QS_libchromatix_imx260_cpp_merged_hdroff.so \
+    vendor/samsung/msm8996-common/proprietary/vendor/lib/C12QS_libchromatix_imx260_cpp_merged_hdron.so:$(TARGET_COPY_OUT_VENDOR)/lib/C12QS_libchromatix_imx260_cpp_merged_hdron.so \
+    vendor/samsung/msm8996-common/proprietary/vendor/lib/C12QS_libchromatix_imx260_cpp_panorama.so:$(TARGET_COPY_OUT_VENDOR)/lib/C12QS_libchromatix_imx260_cpp_panorama.so \
+    vendor/samsung/msm8996-common/proprietary/vendor/lib/C12QS_libchromatix_imx260_cpp_preview.so:$(TARGET_COPY_OUT_VENDOR)/lib/C12QS_libchromatix_imx260_cpp_preview.so \
+    vendor/samsung/msm8996-common/proprietary/vendor/lib/C12QS_libchromatix_imx260_cpp_preview_dual.so:$(TARGET_COPY_OUT_VENDOR)/lib/C12QS_libchromatix_imx260_cpp_preview_dual.so \
+    vendor/samsung/msm8996-common/proprietary/vendor/lib/C12QS_libchromatix_imx260_cpp_preview_promode.so:$(TARGET_COPY_OUT_VENDOR)/lib/C12QS_libchromatix_imx260_cpp_preview_promode.so \
+    vendor/samsung/msm8996-common/proprietary/vendor/lib/C12QS_libchromatix_imx260_cpp_promode_auto.so:$(TARGET_COPY_OUT_VENDOR)/lib/C12QS_libchromatix_imx260_cpp_promode_auto.so \
+    vendor/samsung/msm8996-common/proprietary/vendor/lib/C12QS_libchromatix_imx260_cpp_promode_long.so:$(TARGET_COPY_OUT_VENDOR)/lib/C12QS_libchromatix_imx260_cpp_promode_long.so \
+    vendor/samsung/msm8996-common/proprietary/vendor/lib/C12QS_libchromatix_imx260_cpp_promode_manual.so:$(TARGET_COPY_OUT_VENDOR)/lib/C12QS_libchromatix_imx260_cpp_promode_manual.so \
+    vendor/samsung/msm8996-common/proprietary/vendor/lib/C12QS_libchromatix_imx260_cpp_snapshot_dual.so:$(TARGET_COPY_OUT_VENDOR)/lib/C12QS_libchromatix_imx260_cpp_snapshot_dual.so \
+    vendor/samsung/msm8996-common/proprietary/vendor/lib/C12QS_libchromatix_imx260_cpp_snapshot_hdrauto.so:$(TARGET_COPY_OUT_VENDOR)/lib/C12QS_libchromatix_imx260_cpp_snapshot_hdrauto.so \
+    vendor/samsung/msm8996-common/proprietary/vendor/lib/C12QS_libchromatix_imx260_cpp_snapshot_hdroff.so:$(TARGET_COPY_OUT_VENDOR)/lib/C12QS_libchromatix_imx260_cpp_snapshot_hdroff.so \
+    vendor/samsung/msm8996-common/proprietary/vendor/lib/C12QS_libchromatix_imx260_cpp_snapshot_hdron.so:$(TARGET_COPY_OUT_VENDOR)/lib/C12QS_libchromatix_imx260_cpp_snapshot_hdron.so \
+    vendor/samsung/msm8996-common/proprietary/vendor/lib/C12QS_libchromatix_imx260_cpp_snapshot_lls_hdrauto.so:$(TARGET_COPY_OUT_VENDOR)/lib/C12QS_libchromatix_imx260_cpp_snapshot_lls_hdrauto.so \
+    vendor/samsung/msm8996-common/proprietary/vendor/lib/C12QS_libchromatix_imx260_cpp_snapshot_lls_hdroff.so:$(TARGET_COPY_OUT_VENDOR)/lib/C12QS_libchromatix_imx260_cpp_snapshot_lls_hdroff.so \
+    vendor/samsung/msm8996-common/proprietary/vendor/lib/C12QS_libchromatix_imx260_cpp_snapshot_lls_hdron.so:$(TARGET_COPY_OUT_VENDOR)/lib/C12QS_libchromatix_imx260_cpp_snapshot_lls_hdron.so \
+    vendor/samsung/msm8996-common/proprietary/vendor/lib/C12QS_libchromatix_imx260_cpp_video_fhd60_hdrauto.so:$(TARGET_COPY_OUT_VENDOR)/lib/C12QS_libchromatix_imx260_cpp_video_fhd60_hdrauto.so \
+    vendor/samsung/msm8996-common/proprietary/vendor/lib/C12QS_libchromatix_imx260_cpp_video_fhd60_hdroff.so:$(TARGET_COPY_OUT_VENDOR)/lib/C12QS_libchromatix_imx260_cpp_video_fhd60_hdroff.so \
+    vendor/samsung/msm8996-common/proprietary/vendor/lib/C12QS_libchromatix_imx260_cpp_video_fhd60_hdron.so:$(TARGET_COPY_OUT_VENDOR)/lib/C12QS_libchromatix_imx260_cpp_video_fhd60_hdron.so \
+    vendor/samsung/msm8996-common/proprietary/vendor/lib/C12QS_libchromatix_imx260_cpp_video_hdrauto.so:$(TARGET_COPY_OUT_VENDOR)/lib/C12QS_libchromatix_imx260_cpp_video_hdrauto.so \
+    vendor/samsung/msm8996-common/proprietary/vendor/lib/C12QS_libchromatix_imx260_cpp_video_hdroff.so:$(TARGET_COPY_OUT_VENDOR)/lib/C12QS_libchromatix_imx260_cpp_video_hdroff.so \
+    vendor/samsung/msm8996-common/proprietary/vendor/lib/C12QS_libchromatix_imx260_cpp_video_hdron.so:$(TARGET_COPY_OUT_VENDOR)/lib/C12QS_libchromatix_imx260_cpp_video_hdron.so \
+    vendor/samsung/msm8996-common/proprietary/vendor/lib/C12QS_libchromatix_imx260_cpp_video_hfr120.so:$(TARGET_COPY_OUT_VENDOR)/lib/C12QS_libchromatix_imx260_cpp_video_hfr120.so \
+    vendor/samsung/msm8996-common/proprietary/vendor/lib/C12QS_libchromatix_imx260_cpp_video_hfr240.so:$(TARGET_COPY_OUT_VENDOR)/lib/C12QS_libchromatix_imx260_cpp_video_hfr240.so \
+    vendor/samsung/msm8996-common/proprietary/vendor/lib/C12QS_libchromatix_imx260_cpp_video_uhd30_hdrauto.so:$(TARGET_COPY_OUT_VENDOR)/lib/C12QS_libchromatix_imx260_cpp_video_uhd30_hdrauto.so \
+    vendor/samsung/msm8996-common/proprietary/vendor/lib/C12QS_libchromatix_imx260_cpp_video_uhd30_hdroff.so:$(TARGET_COPY_OUT_VENDOR)/lib/C12QS_libchromatix_imx260_cpp_video_uhd30_hdroff.so \
+    vendor/samsung/msm8996-common/proprietary/vendor/lib/C12QS_libchromatix_imx260_cpp_video_uhd30_hdron.so:$(TARGET_COPY_OUT_VENDOR)/lib/C12QS_libchromatix_imx260_cpp_video_uhd30_hdron.so \
+    vendor/samsung/msm8996-common/proprietary/vendor/lib/C12QS_libchromatix_imx260_cpp_video_vga_hdrauto.so:$(TARGET_COPY_OUT_VENDOR)/lib/C12QS_libchromatix_imx260_cpp_video_vga_hdrauto.so \
+    vendor/samsung/msm8996-common/proprietary/vendor/lib/C12QS_libchromatix_imx260_cpp_video_vga_hdroff.so:$(TARGET_COPY_OUT_VENDOR)/lib/C12QS_libchromatix_imx260_cpp_video_vga_hdroff.so \
+    vendor/samsung/msm8996-common/proprietary/vendor/lib/C12QS_libchromatix_imx260_cpp_video_vga_hdron.so:$(TARGET_COPY_OUT_VENDOR)/lib/C12QS_libchromatix_imx260_cpp_video_vga_hdron.so \
+    vendor/samsung/msm8996-common/proprietary/vendor/lib/C12QS_libchromatix_imx260_cpp_video_vtcall.so:$(TARGET_COPY_OUT_VENDOR)/lib/C12QS_libchromatix_imx260_cpp_video_vtcall.so \
+    vendor/samsung/msm8996-common/proprietary/vendor/lib/C12QS_libchromatix_imx260_default_preview_lc898212xd.so:$(TARGET_COPY_OUT_VENDOR)/lib/C12QS_libchromatix_imx260_default_preview_lc898212xd.so \
+    vendor/samsung/msm8996-common/proprietary/vendor/lib/C12QS_libchromatix_imx260_default_video_lc898212xd.so:$(TARGET_COPY_OUT_VENDOR)/lib/C12QS_libchromatix_imx260_default_video_lc898212xd.so \
+    vendor/samsung/msm8996-common/proprietary/vendor/lib/C12QS_libchromatix_imx260_hdr_snapshot_lc898212xd.so:$(TARGET_COPY_OUT_VENDOR)/lib/C12QS_libchromatix_imx260_hdr_snapshot_lc898212xd.so \
+    vendor/samsung/msm8996-common/proprietary/vendor/lib/C12QS_libchromatix_imx260_hdr_video_lc898212xd.so:$(TARGET_COPY_OUT_VENDOR)/lib/C12QS_libchromatix_imx260_hdr_video_lc898212xd.so \
+    vendor/samsung/msm8996-common/proprietary/vendor/lib/C12QS_libchromatix_imx260_hfr_120_lc898212xd.so:$(TARGET_COPY_OUT_VENDOR)/lib/C12QS_libchromatix_imx260_hfr_120_lc898212xd.so \
+    vendor/samsung/msm8996-common/proprietary/vendor/lib/C12QS_libchromatix_imx260_hfr_240_lc898212xd.so:$(TARGET_COPY_OUT_VENDOR)/lib/C12QS_libchromatix_imx260_hfr_240_lc898212xd.so \
+    vendor/samsung/msm8996-common/proprietary/vendor/lib/C12QS_libchromatix_imx260_hfr_60_lc898212xd.so:$(TARGET_COPY_OUT_VENDOR)/lib/C12QS_libchromatix_imx260_hfr_60_lc898212xd.so \
+    vendor/samsung/msm8996-common/proprietary/vendor/lib/C12QS_libchromatix_imx260_hfr_90_lc898212xd.so:$(TARGET_COPY_OUT_VENDOR)/lib/C12QS_libchromatix_imx260_hfr_90_lc898212xd.so \
+    vendor/samsung/msm8996-common/proprietary/vendor/lib/C12QS_libchromatix_imx260_merged_hdrauto.so:$(TARGET_COPY_OUT_VENDOR)/lib/C12QS_libchromatix_imx260_merged_hdrauto.so \
+    vendor/samsung/msm8996-common/proprietary/vendor/lib/C12QS_libchromatix_imx260_merged_hdroff.so:$(TARGET_COPY_OUT_VENDOR)/lib/C12QS_libchromatix_imx260_merged_hdroff.so \
+    vendor/samsung/msm8996-common/proprietary/vendor/lib/C12QS_libchromatix_imx260_merged_hdron.so:$(TARGET_COPY_OUT_VENDOR)/lib/C12QS_libchromatix_imx260_merged_hdron.so \
+    vendor/samsung/msm8996-common/proprietary/vendor/lib/C12QS_libchromatix_imx260_panorama.so:$(TARGET_COPY_OUT_VENDOR)/lib/C12QS_libchromatix_imx260_panorama.so \
+    vendor/samsung/msm8996-common/proprietary/vendor/lib/C12QS_libchromatix_imx260_postproc.so:$(TARGET_COPY_OUT_VENDOR)/lib/C12QS_libchromatix_imx260_postproc.so \
+    vendor/samsung/msm8996-common/proprietary/vendor/lib/C12QS_libchromatix_imx260_preview.so:$(TARGET_COPY_OUT_VENDOR)/lib/C12QS_libchromatix_imx260_preview.so \
+    vendor/samsung/msm8996-common/proprietary/vendor/lib/C12QS_libchromatix_imx260_preview_dual.so:$(TARGET_COPY_OUT_VENDOR)/lib/C12QS_libchromatix_imx260_preview_dual.so \
+    vendor/samsung/msm8996-common/proprietary/vendor/lib/C12QS_libchromatix_imx260_preview_promode.so:$(TARGET_COPY_OUT_VENDOR)/lib/C12QS_libchromatix_imx260_preview_promode.so \
+    vendor/samsung/msm8996-common/proprietary/vendor/lib/C12QS_libchromatix_imx260_promode_auto.so:$(TARGET_COPY_OUT_VENDOR)/lib/C12QS_libchromatix_imx260_promode_auto.so \
+    vendor/samsung/msm8996-common/proprietary/vendor/lib/C12QS_libchromatix_imx260_promode_long.so:$(TARGET_COPY_OUT_VENDOR)/lib/C12QS_libchromatix_imx260_promode_long.so \
+    vendor/samsung/msm8996-common/proprietary/vendor/lib/C12QS_libchromatix_imx260_promode_manual.so:$(TARGET_COPY_OUT_VENDOR)/lib/C12QS_libchromatix_imx260_promode_manual.so \
+    vendor/samsung/msm8996-common/proprietary/vendor/lib/C12QS_libchromatix_imx260_snapshot_dual.so:$(TARGET_COPY_OUT_VENDOR)/lib/C12QS_libchromatix_imx260_snapshot_dual.so \
+    vendor/samsung/msm8996-common/proprietary/vendor/lib/C12QS_libchromatix_imx260_snapshot_hdrauto.so:$(TARGET_COPY_OUT_VENDOR)/lib/C12QS_libchromatix_imx260_snapshot_hdrauto.so \
+    vendor/samsung/msm8996-common/proprietary/vendor/lib/C12QS_libchromatix_imx260_snapshot_hdroff.so:$(TARGET_COPY_OUT_VENDOR)/lib/C12QS_libchromatix_imx260_snapshot_hdroff.so \
+    vendor/samsung/msm8996-common/proprietary/vendor/lib/C12QS_libchromatix_imx260_snapshot_hdron.so:$(TARGET_COPY_OUT_VENDOR)/lib/C12QS_libchromatix_imx260_snapshot_hdron.so \
+    vendor/samsung/msm8996-common/proprietary/vendor/lib/C12QS_libchromatix_imx260_snapshot_lls_hdrauto.so:$(TARGET_COPY_OUT_VENDOR)/lib/C12QS_libchromatix_imx260_snapshot_lls_hdrauto.so \
+    vendor/samsung/msm8996-common/proprietary/vendor/lib/C12QS_libchromatix_imx260_snapshot_lls_hdroff.so:$(TARGET_COPY_OUT_VENDOR)/lib/C12QS_libchromatix_imx260_snapshot_lls_hdroff.so \
+    vendor/samsung/msm8996-common/proprietary/vendor/lib/C12QS_libchromatix_imx260_snapshot_lls_hdron.so:$(TARGET_COPY_OUT_VENDOR)/lib/C12QS_libchromatix_imx260_snapshot_lls_hdron.so \
+    vendor/samsung/msm8996-common/proprietary/vendor/lib/C12QS_libchromatix_imx260_video_16M_lc898212xd.so:$(TARGET_COPY_OUT_VENDOR)/lib/C12QS_libchromatix_imx260_video_16M_lc898212xd.so \
+    vendor/samsung/msm8996-common/proprietary/vendor/lib/C12QS_libchromatix_imx260_video_fhd60_hdrauto.so:$(TARGET_COPY_OUT_VENDOR)/lib/C12QS_libchromatix_imx260_video_fhd60_hdrauto.so \
+    vendor/samsung/msm8996-common/proprietary/vendor/lib/C12QS_libchromatix_imx260_video_fhd60_hdroff.so:$(TARGET_COPY_OUT_VENDOR)/lib/C12QS_libchromatix_imx260_video_fhd60_hdroff.so \
+    vendor/samsung/msm8996-common/proprietary/vendor/lib/C12QS_libchromatix_imx260_video_fhd60_hdron.so:$(TARGET_COPY_OUT_VENDOR)/lib/C12QS_libchromatix_imx260_video_fhd60_hdron.so \
+    vendor/samsung/msm8996-common/proprietary/vendor/lib/C12QS_libchromatix_imx260_video_hdrauto.so:$(TARGET_COPY_OUT_VENDOR)/lib/C12QS_libchromatix_imx260_video_hdrauto.so \
+    vendor/samsung/msm8996-common/proprietary/vendor/lib/C12QS_libchromatix_imx260_video_hdroff.so:$(TARGET_COPY_OUT_VENDOR)/lib/C12QS_libchromatix_imx260_video_hdroff.so \
+    vendor/samsung/msm8996-common/proprietary/vendor/lib/C12QS_libchromatix_imx260_video_hdron.so:$(TARGET_COPY_OUT_VENDOR)/lib/C12QS_libchromatix_imx260_video_hdron.so \
+    vendor/samsung/msm8996-common/proprietary/vendor/lib/C12QS_libchromatix_imx260_video_hfr120.so:$(TARGET_COPY_OUT_VENDOR)/lib/C12QS_libchromatix_imx260_video_hfr120.so \
+    vendor/samsung/msm8996-common/proprietary/vendor/lib/C12QS_libchromatix_imx260_video_hfr240.so:$(TARGET_COPY_OUT_VENDOR)/lib/C12QS_libchromatix_imx260_video_hfr240.so \
+    vendor/samsung/msm8996-common/proprietary/vendor/lib/C12QS_libchromatix_imx260_video_uhd30_hdrauto.so:$(TARGET_COPY_OUT_VENDOR)/lib/C12QS_libchromatix_imx260_video_uhd30_hdrauto.so \
+    vendor/samsung/msm8996-common/proprietary/vendor/lib/C12QS_libchromatix_imx260_video_uhd30_hdroff.so:$(TARGET_COPY_OUT_VENDOR)/lib/C12QS_libchromatix_imx260_video_uhd30_hdroff.so \
+    vendor/samsung/msm8996-common/proprietary/vendor/lib/C12QS_libchromatix_imx260_video_uhd30_hdron.so:$(TARGET_COPY_OUT_VENDOR)/lib/C12QS_libchromatix_imx260_video_uhd30_hdron.so \
+    vendor/samsung/msm8996-common/proprietary/vendor/lib/C12QS_libchromatix_imx260_video_vga_hdrauto.so:$(TARGET_COPY_OUT_VENDOR)/lib/C12QS_libchromatix_imx260_video_vga_hdrauto.so \
+    vendor/samsung/msm8996-common/proprietary/vendor/lib/C12QS_libchromatix_imx260_video_vga_hdroff.so:$(TARGET_COPY_OUT_VENDOR)/lib/C12QS_libchromatix_imx260_video_vga_hdroff.so \
+    vendor/samsung/msm8996-common/proprietary/vendor/lib/C12QS_libchromatix_imx260_video_vga_hdron.so:$(TARGET_COPY_OUT_VENDOR)/lib/C12QS_libchromatix_imx260_video_vga_hdron.so \
+    vendor/samsung/msm8996-common/proprietary/vendor/lib/C12QS_libchromatix_imx260_video_vtcall.so:$(TARGET_COPY_OUT_VENDOR)/lib/C12QS_libchromatix_imx260_video_vtcall.so \
+    vendor/samsung/msm8996-common/proprietary/vendor/lib/C12QS_libchromatix_imx260_zsl_preview_lc898212xd.so:$(TARGET_COPY_OUT_VENDOR)/lib/C12QS_libchromatix_imx260_zsl_preview_lc898212xd.so \
+    vendor/samsung/msm8996-common/proprietary/vendor/lib/C12QS_libchromatix_imx260_zsl_video_lc898212xd.so:$(TARGET_COPY_OUT_VENDOR)/lib/C12QS_libchromatix_imx260_zsl_video_lc898212xd.so \
+    vendor/samsung/msm8996-common/proprietary/vendor/lib/D12QL_libTsAccm.so:$(TARGET_COPY_OUT_VENDOR)/lib/D12QL_libTsAccm.so \
+    vendor/samsung/msm8996-common/proprietary/vendor/lib/D12QL_libTsAe.so:$(TARGET_COPY_OUT_VENDOR)/lib/D12QL_libTsAe.so \
+    vendor/samsung/msm8996-common/proprietary/vendor/lib/D12QL_libTsAf.so:$(TARGET_COPY_OUT_VENDOR)/lib/D12QL_libTsAf.so \
+    vendor/samsung/msm8996-common/proprietary/vendor/lib/D12QL_libTsAwb.so:$(TARGET_COPY_OUT_VENDOR)/lib/D12QL_libTsAwb.so \
+    vendor/samsung/msm8996-common/proprietary/vendor/lib/D12QL_libchromatix_s5k2l1sx_1080p_preview_lc898212xd.so:$(TARGET_COPY_OUT_VENDOR)/lib/D12QL_libchromatix_s5k2l1sx_1080p_preview_lc898212xd.so \
+    vendor/samsung/msm8996-common/proprietary/vendor/lib/D12QL_libchromatix_s5k2l1sx_1080p_video_lc898212xd.so:$(TARGET_COPY_OUT_VENDOR)/lib/D12QL_libchromatix_s5k2l1sx_1080p_video_lc898212xd.so \
+    vendor/samsung/msm8996-common/proprietary/vendor/lib/D12QL_libchromatix_s5k2l1sx_4k_preview_lc898212xd.so:$(TARGET_COPY_OUT_VENDOR)/lib/D12QL_libchromatix_s5k2l1sx_4k_preview_lc898212xd.so \
+    vendor/samsung/msm8996-common/proprietary/vendor/lib/D12QL_libchromatix_s5k2l1sx_4k_video_lc898212xd.so:$(TARGET_COPY_OUT_VENDOR)/lib/D12QL_libchromatix_s5k2l1sx_4k_video_lc898212xd.so \
+    vendor/samsung/msm8996-common/proprietary/vendor/lib/D12QL_libchromatix_s5k2l1sx_common.so:$(TARGET_COPY_OUT_VENDOR)/lib/D12QL_libchromatix_s5k2l1sx_common.so \
+    vendor/samsung/msm8996-common/proprietary/vendor/lib/D12QL_libchromatix_s5k2l1sx_common_merged.so:$(TARGET_COPY_OUT_VENDOR)/lib/D12QL_libchromatix_s5k2l1sx_common_merged.so \
+    vendor/samsung/msm8996-common/proprietary/vendor/lib/D12QL_libchromatix_s5k2l1sx_common_video.so:$(TARGET_COPY_OUT_VENDOR)/lib/D12QL_libchromatix_s5k2l1sx_common_video.so \
+    vendor/samsung/msm8996-common/proprietary/vendor/lib/D12QL_libchromatix_s5k2l1sx_cpp_liveshot_hdrauto.so:$(TARGET_COPY_OUT_VENDOR)/lib/D12QL_libchromatix_s5k2l1sx_cpp_liveshot_hdrauto.so \
+    vendor/samsung/msm8996-common/proprietary/vendor/lib/D12QL_libchromatix_s5k2l1sx_cpp_liveshot_hdroff.so:$(TARGET_COPY_OUT_VENDOR)/lib/D12QL_libchromatix_s5k2l1sx_cpp_liveshot_hdroff.so \
+    vendor/samsung/msm8996-common/proprietary/vendor/lib/D12QL_libchromatix_s5k2l1sx_cpp_liveshot_hdron.so:$(TARGET_COPY_OUT_VENDOR)/lib/D12QL_libchromatix_s5k2l1sx_cpp_liveshot_hdron.so \
+    vendor/samsung/msm8996-common/proprietary/vendor/lib/D12QL_libchromatix_s5k2l1sx_cpp_merged_hdrauto.so:$(TARGET_COPY_OUT_VENDOR)/lib/D12QL_libchromatix_s5k2l1sx_cpp_merged_hdrauto.so \
+    vendor/samsung/msm8996-common/proprietary/vendor/lib/D12QL_libchromatix_s5k2l1sx_cpp_merged_hdroff.so:$(TARGET_COPY_OUT_VENDOR)/lib/D12QL_libchromatix_s5k2l1sx_cpp_merged_hdroff.so \
+    vendor/samsung/msm8996-common/proprietary/vendor/lib/D12QL_libchromatix_s5k2l1sx_cpp_merged_hdron.so:$(TARGET_COPY_OUT_VENDOR)/lib/D12QL_libchromatix_s5k2l1sx_cpp_merged_hdron.so \
+    vendor/samsung/msm8996-common/proprietary/vendor/lib/D12QL_libchromatix_s5k2l1sx_cpp_panorama.so:$(TARGET_COPY_OUT_VENDOR)/lib/D12QL_libchromatix_s5k2l1sx_cpp_panorama.so \
+    vendor/samsung/msm8996-common/proprietary/vendor/lib/D12QL_libchromatix_s5k2l1sx_cpp_preview.so:$(TARGET_COPY_OUT_VENDOR)/lib/D12QL_libchromatix_s5k2l1sx_cpp_preview.so \
+    vendor/samsung/msm8996-common/proprietary/vendor/lib/D12QL_libchromatix_s5k2l1sx_cpp_preview_dual.so:$(TARGET_COPY_OUT_VENDOR)/lib/D12QL_libchromatix_s5k2l1sx_cpp_preview_dual.so \
+    vendor/samsung/msm8996-common/proprietary/vendor/lib/D12QL_libchromatix_s5k2l1sx_cpp_preview_promode.so:$(TARGET_COPY_OUT_VENDOR)/lib/D12QL_libchromatix_s5k2l1sx_cpp_preview_promode.so \
+    vendor/samsung/msm8996-common/proprietary/vendor/lib/D12QL_libchromatix_s5k2l1sx_cpp_promode_auto.so:$(TARGET_COPY_OUT_VENDOR)/lib/D12QL_libchromatix_s5k2l1sx_cpp_promode_auto.so \
+    vendor/samsung/msm8996-common/proprietary/vendor/lib/D12QL_libchromatix_s5k2l1sx_cpp_promode_long.so:$(TARGET_COPY_OUT_VENDOR)/lib/D12QL_libchromatix_s5k2l1sx_cpp_promode_long.so \
+    vendor/samsung/msm8996-common/proprietary/vendor/lib/D12QL_libchromatix_s5k2l1sx_cpp_promode_manual.so:$(TARGET_COPY_OUT_VENDOR)/lib/D12QL_libchromatix_s5k2l1sx_cpp_promode_manual.so \
+    vendor/samsung/msm8996-common/proprietary/vendor/lib/D12QL_libchromatix_s5k2l1sx_cpp_snapshot_dual.so:$(TARGET_COPY_OUT_VENDOR)/lib/D12QL_libchromatix_s5k2l1sx_cpp_snapshot_dual.so \
+    vendor/samsung/msm8996-common/proprietary/vendor/lib/D12QL_libchromatix_s5k2l1sx_cpp_snapshot_hdrauto.so:$(TARGET_COPY_OUT_VENDOR)/lib/D12QL_libchromatix_s5k2l1sx_cpp_snapshot_hdrauto.so \
+    vendor/samsung/msm8996-common/proprietary/vendor/lib/D12QL_libchromatix_s5k2l1sx_cpp_snapshot_hdroff.so:$(TARGET_COPY_OUT_VENDOR)/lib/D12QL_libchromatix_s5k2l1sx_cpp_snapshot_hdroff.so \
+    vendor/samsung/msm8996-common/proprietary/vendor/lib/D12QL_libchromatix_s5k2l1sx_cpp_snapshot_hdron.so:$(TARGET_COPY_OUT_VENDOR)/lib/D12QL_libchromatix_s5k2l1sx_cpp_snapshot_hdron.so \
+    vendor/samsung/msm8996-common/proprietary/vendor/lib/D12QL_libchromatix_s5k2l1sx_cpp_snapshot_lls_hdrauto.so:$(TARGET_COPY_OUT_VENDOR)/lib/D12QL_libchromatix_s5k2l1sx_cpp_snapshot_lls_hdrauto.so \
+    vendor/samsung/msm8996-common/proprietary/vendor/lib/D12QL_libchromatix_s5k2l1sx_cpp_snapshot_lls_hdroff.so:$(TARGET_COPY_OUT_VENDOR)/lib/D12QL_libchromatix_s5k2l1sx_cpp_snapshot_lls_hdroff.so \
+    vendor/samsung/msm8996-common/proprietary/vendor/lib/D12QL_libchromatix_s5k2l1sx_cpp_snapshot_lls_hdron.so:$(TARGET_COPY_OUT_VENDOR)/lib/D12QL_libchromatix_s5k2l1sx_cpp_snapshot_lls_hdron.so \
+    vendor/samsung/msm8996-common/proprietary/vendor/lib/D12QL_libchromatix_s5k2l1sx_cpp_video_fhd60_hdrauto.so:$(TARGET_COPY_OUT_VENDOR)/lib/D12QL_libchromatix_s5k2l1sx_cpp_video_fhd60_hdrauto.so \
+    vendor/samsung/msm8996-common/proprietary/vendor/lib/D12QL_libchromatix_s5k2l1sx_cpp_video_fhd60_hdroff.so:$(TARGET_COPY_OUT_VENDOR)/lib/D12QL_libchromatix_s5k2l1sx_cpp_video_fhd60_hdroff.so \
+    vendor/samsung/msm8996-common/proprietary/vendor/lib/D12QL_libchromatix_s5k2l1sx_cpp_video_fhd60_hdron.so:$(TARGET_COPY_OUT_VENDOR)/lib/D12QL_libchromatix_s5k2l1sx_cpp_video_fhd60_hdron.so \
+    vendor/samsung/msm8996-common/proprietary/vendor/lib/D12QL_libchromatix_s5k2l1sx_cpp_video_hdrauto.so:$(TARGET_COPY_OUT_VENDOR)/lib/D12QL_libchromatix_s5k2l1sx_cpp_video_hdrauto.so \
+    vendor/samsung/msm8996-common/proprietary/vendor/lib/D12QL_libchromatix_s5k2l1sx_cpp_video_hdroff.so:$(TARGET_COPY_OUT_VENDOR)/lib/D12QL_libchromatix_s5k2l1sx_cpp_video_hdroff.so \
+    vendor/samsung/msm8996-common/proprietary/vendor/lib/D12QL_libchromatix_s5k2l1sx_cpp_video_hdron.so:$(TARGET_COPY_OUT_VENDOR)/lib/D12QL_libchromatix_s5k2l1sx_cpp_video_hdron.so \
+    vendor/samsung/msm8996-common/proprietary/vendor/lib/D12QL_libchromatix_s5k2l1sx_cpp_video_hfr120.so:$(TARGET_COPY_OUT_VENDOR)/lib/D12QL_libchromatix_s5k2l1sx_cpp_video_hfr120.so \
+    vendor/samsung/msm8996-common/proprietary/vendor/lib/D12QL_libchromatix_s5k2l1sx_cpp_video_hfr240.so:$(TARGET_COPY_OUT_VENDOR)/lib/D12QL_libchromatix_s5k2l1sx_cpp_video_hfr240.so \
+    vendor/samsung/msm8996-common/proprietary/vendor/lib/D12QL_libchromatix_s5k2l1sx_cpp_video_uhd30_hdrauto.so:$(TARGET_COPY_OUT_VENDOR)/lib/D12QL_libchromatix_s5k2l1sx_cpp_video_uhd30_hdrauto.so \
+    vendor/samsung/msm8996-common/proprietary/vendor/lib/D12QL_libchromatix_s5k2l1sx_cpp_video_uhd30_hdroff.so:$(TARGET_COPY_OUT_VENDOR)/lib/D12QL_libchromatix_s5k2l1sx_cpp_video_uhd30_hdroff.so \
+    vendor/samsung/msm8996-common/proprietary/vendor/lib/D12QL_libchromatix_s5k2l1sx_cpp_video_uhd30_hdron.so:$(TARGET_COPY_OUT_VENDOR)/lib/D12QL_libchromatix_s5k2l1sx_cpp_video_uhd30_hdron.so \
+    vendor/samsung/msm8996-common/proprietary/vendor/lib/D12QL_libchromatix_s5k2l1sx_cpp_video_vga_hdrauto.so:$(TARGET_COPY_OUT_VENDOR)/lib/D12QL_libchromatix_s5k2l1sx_cpp_video_vga_hdrauto.so \
+    vendor/samsung/msm8996-common/proprietary/vendor/lib/D12QL_libchromatix_s5k2l1sx_cpp_video_vga_hdroff.so:$(TARGET_COPY_OUT_VENDOR)/lib/D12QL_libchromatix_s5k2l1sx_cpp_video_vga_hdroff.so \
+    vendor/samsung/msm8996-common/proprietary/vendor/lib/D12QL_libchromatix_s5k2l1sx_cpp_video_vga_hdron.so:$(TARGET_COPY_OUT_VENDOR)/lib/D12QL_libchromatix_s5k2l1sx_cpp_video_vga_hdron.so \
+    vendor/samsung/msm8996-common/proprietary/vendor/lib/D12QL_libchromatix_s5k2l1sx_cpp_video_vtcall.so:$(TARGET_COPY_OUT_VENDOR)/lib/D12QL_libchromatix_s5k2l1sx_cpp_video_vtcall.so \
+    vendor/samsung/msm8996-common/proprietary/vendor/lib/D12QL_libchromatix_s5k2l1sx_default_preview_lc898212xd.so:$(TARGET_COPY_OUT_VENDOR)/lib/D12QL_libchromatix_s5k2l1sx_default_preview_lc898212xd.so \
+    vendor/samsung/msm8996-common/proprietary/vendor/lib/D12QL_libchromatix_s5k2l1sx_default_video_lc898212xd.so:$(TARGET_COPY_OUT_VENDOR)/lib/D12QL_libchromatix_s5k2l1sx_default_video_lc898212xd.so \
+    vendor/samsung/msm8996-common/proprietary/vendor/lib/D12QL_libchromatix_s5k2l1sx_hdr_snapshot_lc898212xd.so:$(TARGET_COPY_OUT_VENDOR)/lib/D12QL_libchromatix_s5k2l1sx_hdr_snapshot_lc898212xd.so \
+    vendor/samsung/msm8996-common/proprietary/vendor/lib/D12QL_libchromatix_s5k2l1sx_hdr_video_lc898212xd.so:$(TARGET_COPY_OUT_VENDOR)/lib/D12QL_libchromatix_s5k2l1sx_hdr_video_lc898212xd.so \
+    vendor/samsung/msm8996-common/proprietary/vendor/lib/D12QL_libchromatix_s5k2l1sx_hfr_120_lc898212xd.so:$(TARGET_COPY_OUT_VENDOR)/lib/D12QL_libchromatix_s5k2l1sx_hfr_120_lc898212xd.so \
+    vendor/samsung/msm8996-common/proprietary/vendor/lib/D12QL_libchromatix_s5k2l1sx_hfr_240_lc898212xd.so:$(TARGET_COPY_OUT_VENDOR)/lib/D12QL_libchromatix_s5k2l1sx_hfr_240_lc898212xd.so \
+    vendor/samsung/msm8996-common/proprietary/vendor/lib/D12QL_libchromatix_s5k2l1sx_hfr_60_lc898212xd.so:$(TARGET_COPY_OUT_VENDOR)/lib/D12QL_libchromatix_s5k2l1sx_hfr_60_lc898212xd.so \
+    vendor/samsung/msm8996-common/proprietary/vendor/lib/D12QL_libchromatix_s5k2l1sx_hfr_90_lc898212xd.so:$(TARGET_COPY_OUT_VENDOR)/lib/D12QL_libchromatix_s5k2l1sx_hfr_90_lc898212xd.so \
+    vendor/samsung/msm8996-common/proprietary/vendor/lib/D12QL_libchromatix_s5k2l1sx_merged_hdrauto.so:$(TARGET_COPY_OUT_VENDOR)/lib/D12QL_libchromatix_s5k2l1sx_merged_hdrauto.so \
+    vendor/samsung/msm8996-common/proprietary/vendor/lib/D12QL_libchromatix_s5k2l1sx_merged_hdroff.so:$(TARGET_COPY_OUT_VENDOR)/lib/D12QL_libchromatix_s5k2l1sx_merged_hdroff.so \
+    vendor/samsung/msm8996-common/proprietary/vendor/lib/D12QL_libchromatix_s5k2l1sx_merged_hdron.so:$(TARGET_COPY_OUT_VENDOR)/lib/D12QL_libchromatix_s5k2l1sx_merged_hdron.so \
+    vendor/samsung/msm8996-common/proprietary/vendor/lib/D12QL_libchromatix_s5k2l1sx_panorama.so:$(TARGET_COPY_OUT_VENDOR)/lib/D12QL_libchromatix_s5k2l1sx_panorama.so \
+    vendor/samsung/msm8996-common/proprietary/vendor/lib/D12QL_libchromatix_s5k2l1sx_postproc.so:$(TARGET_COPY_OUT_VENDOR)/lib/D12QL_libchromatix_s5k2l1sx_postproc.so \
+    vendor/samsung/msm8996-common/proprietary/vendor/lib/D12QL_libchromatix_s5k2l1sx_preview.so:$(TARGET_COPY_OUT_VENDOR)/lib/D12QL_libchromatix_s5k2l1sx_preview.so \
+    vendor/samsung/msm8996-common/proprietary/vendor/lib/D12QL_libchromatix_s5k2l1sx_preview_dual.so:$(TARGET_COPY_OUT_VENDOR)/lib/D12QL_libchromatix_s5k2l1sx_preview_dual.so \
+    vendor/samsung/msm8996-common/proprietary/vendor/lib/D12QL_libchromatix_s5k2l1sx_preview_promode.so:$(TARGET_COPY_OUT_VENDOR)/lib/D12QL_libchromatix_s5k2l1sx_preview_promode.so \
+    vendor/samsung/msm8996-common/proprietary/vendor/lib/D12QL_libchromatix_s5k2l1sx_promode_auto.so:$(TARGET_COPY_OUT_VENDOR)/lib/D12QL_libchromatix_s5k2l1sx_promode_auto.so \
+    vendor/samsung/msm8996-common/proprietary/vendor/lib/D12QL_libchromatix_s5k2l1sx_promode_long.so:$(TARGET_COPY_OUT_VENDOR)/lib/D12QL_libchromatix_s5k2l1sx_promode_long.so \
+    vendor/samsung/msm8996-common/proprietary/vendor/lib/D12QL_libchromatix_s5k2l1sx_promode_manual.so:$(TARGET_COPY_OUT_VENDOR)/lib/D12QL_libchromatix_s5k2l1sx_promode_manual.so \
+    vendor/samsung/msm8996-common/proprietary/vendor/lib/D12QL_libchromatix_s5k2l1sx_snapshot_dual.so:$(TARGET_COPY_OUT_VENDOR)/lib/D12QL_libchromatix_s5k2l1sx_snapshot_dual.so \
+    vendor/samsung/msm8996-common/proprietary/vendor/lib/D12QL_libchromatix_s5k2l1sx_snapshot_hdrauto.so:$(TARGET_COPY_OUT_VENDOR)/lib/D12QL_libchromatix_s5k2l1sx_snapshot_hdrauto.so \
+    vendor/samsung/msm8996-common/proprietary/vendor/lib/D12QL_libchromatix_s5k2l1sx_snapshot_hdroff.so:$(TARGET_COPY_OUT_VENDOR)/lib/D12QL_libchromatix_s5k2l1sx_snapshot_hdroff.so \
+    vendor/samsung/msm8996-common/proprietary/vendor/lib/D12QL_libchromatix_s5k2l1sx_snapshot_hdron.so:$(TARGET_COPY_OUT_VENDOR)/lib/D12QL_libchromatix_s5k2l1sx_snapshot_hdron.so \
+    vendor/samsung/msm8996-common/proprietary/vendor/lib/D12QL_libchromatix_s5k2l1sx_snapshot_lls_hdrauto.so:$(TARGET_COPY_OUT_VENDOR)/lib/D12QL_libchromatix_s5k2l1sx_snapshot_lls_hdrauto.so \
+    vendor/samsung/msm8996-common/proprietary/vendor/lib/D12QL_libchromatix_s5k2l1sx_snapshot_lls_hdroff.so:$(TARGET_COPY_OUT_VENDOR)/lib/D12QL_libchromatix_s5k2l1sx_snapshot_lls_hdroff.so \
+    vendor/samsung/msm8996-common/proprietary/vendor/lib/D12QL_libchromatix_s5k2l1sx_snapshot_lls_hdron.so:$(TARGET_COPY_OUT_VENDOR)/lib/D12QL_libchromatix_s5k2l1sx_snapshot_lls_hdron.so \
+    vendor/samsung/msm8996-common/proprietary/vendor/lib/D12QL_libchromatix_s5k2l1sx_video_16M_lc898212xd.so:$(TARGET_COPY_OUT_VENDOR)/lib/D12QL_libchromatix_s5k2l1sx_video_16M_lc898212xd.so \
+    vendor/samsung/msm8996-common/proprietary/vendor/lib/D12QL_libchromatix_s5k2l1sx_video_fhd60_hdrauto.so:$(TARGET_COPY_OUT_VENDOR)/lib/D12QL_libchromatix_s5k2l1sx_video_fhd60_hdrauto.so \
+    vendor/samsung/msm8996-common/proprietary/vendor/lib/D12QL_libchromatix_s5k2l1sx_video_fhd60_hdroff.so:$(TARGET_COPY_OUT_VENDOR)/lib/D12QL_libchromatix_s5k2l1sx_video_fhd60_hdroff.so \
+    vendor/samsung/msm8996-common/proprietary/vendor/lib/D12QL_libchromatix_s5k2l1sx_video_fhd60_hdron.so:$(TARGET_COPY_OUT_VENDOR)/lib/D12QL_libchromatix_s5k2l1sx_video_fhd60_hdron.so \
+    vendor/samsung/msm8996-common/proprietary/vendor/lib/D12QL_libchromatix_s5k2l1sx_video_hdrauto.so:$(TARGET_COPY_OUT_VENDOR)/lib/D12QL_libchromatix_s5k2l1sx_video_hdrauto.so \
+    vendor/samsung/msm8996-common/proprietary/vendor/lib/D12QL_libchromatix_s5k2l1sx_video_hdroff.so:$(TARGET_COPY_OUT_VENDOR)/lib/D12QL_libchromatix_s5k2l1sx_video_hdroff.so \
+    vendor/samsung/msm8996-common/proprietary/vendor/lib/D12QL_libchromatix_s5k2l1sx_video_hdron.so:$(TARGET_COPY_OUT_VENDOR)/lib/D12QL_libchromatix_s5k2l1sx_video_hdron.so \
+    vendor/samsung/msm8996-common/proprietary/vendor/lib/D12QL_libchromatix_s5k2l1sx_video_hfr120.so:$(TARGET_COPY_OUT_VENDOR)/lib/D12QL_libchromatix_s5k2l1sx_video_hfr120.so \
+    vendor/samsung/msm8996-common/proprietary/vendor/lib/D12QL_libchromatix_s5k2l1sx_video_hfr240.so:$(TARGET_COPY_OUT_VENDOR)/lib/D12QL_libchromatix_s5k2l1sx_video_hfr240.so \
+    vendor/samsung/msm8996-common/proprietary/vendor/lib/D12QL_libchromatix_s5k2l1sx_video_uhd30_hdrauto.so:$(TARGET_COPY_OUT_VENDOR)/lib/D12QL_libchromatix_s5k2l1sx_video_uhd30_hdrauto.so \
+    vendor/samsung/msm8996-common/proprietary/vendor/lib/D12QL_libchromatix_s5k2l1sx_video_uhd30_hdroff.so:$(TARGET_COPY_OUT_VENDOR)/lib/D12QL_libchromatix_s5k2l1sx_video_uhd30_hdroff.so \
+    vendor/samsung/msm8996-common/proprietary/vendor/lib/D12QL_libchromatix_s5k2l1sx_video_uhd30_hdron.so:$(TARGET_COPY_OUT_VENDOR)/lib/D12QL_libchromatix_s5k2l1sx_video_uhd30_hdron.so \
+    vendor/samsung/msm8996-common/proprietary/vendor/lib/D12QL_libchromatix_s5k2l1sx_video_vga_hdrauto.so:$(TARGET_COPY_OUT_VENDOR)/lib/D12QL_libchromatix_s5k2l1sx_video_vga_hdrauto.so \
+    vendor/samsung/msm8996-common/proprietary/vendor/lib/D12QL_libchromatix_s5k2l1sx_video_vga_hdroff.so:$(TARGET_COPY_OUT_VENDOR)/lib/D12QL_libchromatix_s5k2l1sx_video_vga_hdroff.so \
+    vendor/samsung/msm8996-common/proprietary/vendor/lib/D12QL_libchromatix_s5k2l1sx_video_vga_hdron.so:$(TARGET_COPY_OUT_VENDOR)/lib/D12QL_libchromatix_s5k2l1sx_video_vga_hdron.so \
+    vendor/samsung/msm8996-common/proprietary/vendor/lib/D12QL_libchromatix_s5k2l1sx_video_vtcall.so:$(TARGET_COPY_OUT_VENDOR)/lib/D12QL_libchromatix_s5k2l1sx_video_vtcall.so \
+    vendor/samsung/msm8996-common/proprietary/vendor/lib/D12QL_libchromatix_s5k2l1sx_zsl_preview_lc898212xd.so:$(TARGET_COPY_OUT_VENDOR)/lib/D12QL_libchromatix_s5k2l1sx_zsl_preview_lc898212xd.so \
+    vendor/samsung/msm8996-common/proprietary/vendor/lib/D12QL_libchromatix_s5k2l1sx_zsl_video_lc898212xd.so:$(TARGET_COPY_OUT_VENDOR)/lib/D12QL_libchromatix_s5k2l1sx_zsl_video_lc898212xd.so \
+    vendor/samsung/msm8996-common/proprietary/vendor/lib/D12QS_libTsAccm.so:$(TARGET_COPY_OUT_VENDOR)/lib/D12QS_libTsAccm.so \
+    vendor/samsung/msm8996-common/proprietary/vendor/lib/D12QS_libTsAe.so:$(TARGET_COPY_OUT_VENDOR)/lib/D12QS_libTsAe.so \
+    vendor/samsung/msm8996-common/proprietary/vendor/lib/D12QS_libTsAf.so:$(TARGET_COPY_OUT_VENDOR)/lib/D12QS_libTsAf.so \
+    vendor/samsung/msm8996-common/proprietary/vendor/lib/D12QS_libTsAwb.so:$(TARGET_COPY_OUT_VENDOR)/lib/D12QS_libTsAwb.so \
+    vendor/samsung/msm8996-common/proprietary/vendor/lib/D12QS_libchromatix_imx260_1080p_preview_lc898212xd.so:$(TARGET_COPY_OUT_VENDOR)/lib/D12QS_libchromatix_imx260_1080p_preview_lc898212xd.so \
+    vendor/samsung/msm8996-common/proprietary/vendor/lib/D12QS_libchromatix_imx260_1080p_video_lc898212xd.so:$(TARGET_COPY_OUT_VENDOR)/lib/D12QS_libchromatix_imx260_1080p_video_lc898212xd.so \
+    vendor/samsung/msm8996-common/proprietary/vendor/lib/D12QS_libchromatix_imx260_4k_preview_lc898212xd.so:$(TARGET_COPY_OUT_VENDOR)/lib/D12QS_libchromatix_imx260_4k_preview_lc898212xd.so \
+    vendor/samsung/msm8996-common/proprietary/vendor/lib/D12QS_libchromatix_imx260_4k_video_lc898212xd.so:$(TARGET_COPY_OUT_VENDOR)/lib/D12QS_libchromatix_imx260_4k_video_lc898212xd.so \
+    vendor/samsung/msm8996-common/proprietary/vendor/lib/D12QS_libchromatix_imx260_common.so:$(TARGET_COPY_OUT_VENDOR)/lib/D12QS_libchromatix_imx260_common.so \
+    vendor/samsung/msm8996-common/proprietary/vendor/lib/D12QS_libchromatix_imx260_common_merged.so:$(TARGET_COPY_OUT_VENDOR)/lib/D12QS_libchromatix_imx260_common_merged.so \
+    vendor/samsung/msm8996-common/proprietary/vendor/lib/D12QS_libchromatix_imx260_common_video.so:$(TARGET_COPY_OUT_VENDOR)/lib/D12QS_libchromatix_imx260_common_video.so \
+    vendor/samsung/msm8996-common/proprietary/vendor/lib/D12QS_libchromatix_imx260_cpp_liveshot_hdrauto.so:$(TARGET_COPY_OUT_VENDOR)/lib/D12QS_libchromatix_imx260_cpp_liveshot_hdrauto.so \
+    vendor/samsung/msm8996-common/proprietary/vendor/lib/D12QS_libchromatix_imx260_cpp_liveshot_hdroff.so:$(TARGET_COPY_OUT_VENDOR)/lib/D12QS_libchromatix_imx260_cpp_liveshot_hdroff.so \
+    vendor/samsung/msm8996-common/proprietary/vendor/lib/D12QS_libchromatix_imx260_cpp_liveshot_hdron.so:$(TARGET_COPY_OUT_VENDOR)/lib/D12QS_libchromatix_imx260_cpp_liveshot_hdron.so \
+    vendor/samsung/msm8996-common/proprietary/vendor/lib/D12QS_libchromatix_imx260_cpp_merged_hdrauto.so:$(TARGET_COPY_OUT_VENDOR)/lib/D12QS_libchromatix_imx260_cpp_merged_hdrauto.so \
+    vendor/samsung/msm8996-common/proprietary/vendor/lib/D12QS_libchromatix_imx260_cpp_merged_hdroff.so:$(TARGET_COPY_OUT_VENDOR)/lib/D12QS_libchromatix_imx260_cpp_merged_hdroff.so \
+    vendor/samsung/msm8996-common/proprietary/vendor/lib/D12QS_libchromatix_imx260_cpp_merged_hdron.so:$(TARGET_COPY_OUT_VENDOR)/lib/D12QS_libchromatix_imx260_cpp_merged_hdron.so \
+    vendor/samsung/msm8996-common/proprietary/vendor/lib/D12QS_libchromatix_imx260_cpp_panorama.so:$(TARGET_COPY_OUT_VENDOR)/lib/D12QS_libchromatix_imx260_cpp_panorama.so \
+    vendor/samsung/msm8996-common/proprietary/vendor/lib/D12QS_libchromatix_imx260_cpp_preview.so:$(TARGET_COPY_OUT_VENDOR)/lib/D12QS_libchromatix_imx260_cpp_preview.so \
+    vendor/samsung/msm8996-common/proprietary/vendor/lib/D12QS_libchromatix_imx260_cpp_preview_dual.so:$(TARGET_COPY_OUT_VENDOR)/lib/D12QS_libchromatix_imx260_cpp_preview_dual.so \
+    vendor/samsung/msm8996-common/proprietary/vendor/lib/D12QS_libchromatix_imx260_cpp_preview_promode.so:$(TARGET_COPY_OUT_VENDOR)/lib/D12QS_libchromatix_imx260_cpp_preview_promode.so \
+    vendor/samsung/msm8996-common/proprietary/vendor/lib/D12QS_libchromatix_imx260_cpp_promode_auto.so:$(TARGET_COPY_OUT_VENDOR)/lib/D12QS_libchromatix_imx260_cpp_promode_auto.so \
+    vendor/samsung/msm8996-common/proprietary/vendor/lib/D12QS_libchromatix_imx260_cpp_promode_long.so:$(TARGET_COPY_OUT_VENDOR)/lib/D12QS_libchromatix_imx260_cpp_promode_long.so \
+    vendor/samsung/msm8996-common/proprietary/vendor/lib/D12QS_libchromatix_imx260_cpp_promode_manual.so:$(TARGET_COPY_OUT_VENDOR)/lib/D12QS_libchromatix_imx260_cpp_promode_manual.so \
+    vendor/samsung/msm8996-common/proprietary/vendor/lib/D12QS_libchromatix_imx260_cpp_snapshot_dual.so:$(TARGET_COPY_OUT_VENDOR)/lib/D12QS_libchromatix_imx260_cpp_snapshot_dual.so \
+    vendor/samsung/msm8996-common/proprietary/vendor/lib/D12QS_libchromatix_imx260_cpp_snapshot_hdrauto.so:$(TARGET_COPY_OUT_VENDOR)/lib/D12QS_libchromatix_imx260_cpp_snapshot_hdrauto.so \
+    vendor/samsung/msm8996-common/proprietary/vendor/lib/D12QS_libchromatix_imx260_cpp_snapshot_hdroff.so:$(TARGET_COPY_OUT_VENDOR)/lib/D12QS_libchromatix_imx260_cpp_snapshot_hdroff.so \
+    vendor/samsung/msm8996-common/proprietary/vendor/lib/D12QS_libchromatix_imx260_cpp_snapshot_hdron.so:$(TARGET_COPY_OUT_VENDOR)/lib/D12QS_libchromatix_imx260_cpp_snapshot_hdron.so \
+    vendor/samsung/msm8996-common/proprietary/vendor/lib/D12QS_libchromatix_imx260_cpp_snapshot_lls_hdrauto.so:$(TARGET_COPY_OUT_VENDOR)/lib/D12QS_libchromatix_imx260_cpp_snapshot_lls_hdrauto.so \
+    vendor/samsung/msm8996-common/proprietary/vendor/lib/D12QS_libchromatix_imx260_cpp_snapshot_lls_hdroff.so:$(TARGET_COPY_OUT_VENDOR)/lib/D12QS_libchromatix_imx260_cpp_snapshot_lls_hdroff.so \
+    vendor/samsung/msm8996-common/proprietary/vendor/lib/D12QS_libchromatix_imx260_cpp_snapshot_lls_hdron.so:$(TARGET_COPY_OUT_VENDOR)/lib/D12QS_libchromatix_imx260_cpp_snapshot_lls_hdron.so \
+    vendor/samsung/msm8996-common/proprietary/vendor/lib/D12QS_libchromatix_imx260_cpp_video_fhd60_hdrauto.so:$(TARGET_COPY_OUT_VENDOR)/lib/D12QS_libchromatix_imx260_cpp_video_fhd60_hdrauto.so \
+    vendor/samsung/msm8996-common/proprietary/vendor/lib/D12QS_libchromatix_imx260_cpp_video_fhd60_hdroff.so:$(TARGET_COPY_OUT_VENDOR)/lib/D12QS_libchromatix_imx260_cpp_video_fhd60_hdroff.so \
+    vendor/samsung/msm8996-common/proprietary/vendor/lib/D12QS_libchromatix_imx260_cpp_video_fhd60_hdron.so:$(TARGET_COPY_OUT_VENDOR)/lib/D12QS_libchromatix_imx260_cpp_video_fhd60_hdron.so \
+    vendor/samsung/msm8996-common/proprietary/vendor/lib/D12QS_libchromatix_imx260_cpp_video_hdrauto.so:$(TARGET_COPY_OUT_VENDOR)/lib/D12QS_libchromatix_imx260_cpp_video_hdrauto.so \
+    vendor/samsung/msm8996-common/proprietary/vendor/lib/D12QS_libchromatix_imx260_cpp_video_hdroff.so:$(TARGET_COPY_OUT_VENDOR)/lib/D12QS_libchromatix_imx260_cpp_video_hdroff.so \
+    vendor/samsung/msm8996-common/proprietary/vendor/lib/D12QS_libchromatix_imx260_cpp_video_hdron.so:$(TARGET_COPY_OUT_VENDOR)/lib/D12QS_libchromatix_imx260_cpp_video_hdron.so \
+    vendor/samsung/msm8996-common/proprietary/vendor/lib/D12QS_libchromatix_imx260_cpp_video_hfr120.so:$(TARGET_COPY_OUT_VENDOR)/lib/D12QS_libchromatix_imx260_cpp_video_hfr120.so \
+    vendor/samsung/msm8996-common/proprietary/vendor/lib/D12QS_libchromatix_imx260_cpp_video_hfr240.so:$(TARGET_COPY_OUT_VENDOR)/lib/D12QS_libchromatix_imx260_cpp_video_hfr240.so \
+    vendor/samsung/msm8996-common/proprietary/vendor/lib/D12QS_libchromatix_imx260_cpp_video_uhd30_hdrauto.so:$(TARGET_COPY_OUT_VENDOR)/lib/D12QS_libchromatix_imx260_cpp_video_uhd30_hdrauto.so \
+    vendor/samsung/msm8996-common/proprietary/vendor/lib/D12QS_libchromatix_imx260_cpp_video_uhd30_hdroff.so:$(TARGET_COPY_OUT_VENDOR)/lib/D12QS_libchromatix_imx260_cpp_video_uhd30_hdroff.so \
+    vendor/samsung/msm8996-common/proprietary/vendor/lib/D12QS_libchromatix_imx260_cpp_video_uhd30_hdron.so:$(TARGET_COPY_OUT_VENDOR)/lib/D12QS_libchromatix_imx260_cpp_video_uhd30_hdron.so \
+    vendor/samsung/msm8996-common/proprietary/vendor/lib/D12QS_libchromatix_imx260_cpp_video_vga_hdrauto.so:$(TARGET_COPY_OUT_VENDOR)/lib/D12QS_libchromatix_imx260_cpp_video_vga_hdrauto.so \
+    vendor/samsung/msm8996-common/proprietary/vendor/lib/D12QS_libchromatix_imx260_cpp_video_vga_hdroff.so:$(TARGET_COPY_OUT_VENDOR)/lib/D12QS_libchromatix_imx260_cpp_video_vga_hdroff.so \
+    vendor/samsung/msm8996-common/proprietary/vendor/lib/D12QS_libchromatix_imx260_cpp_video_vga_hdron.so:$(TARGET_COPY_OUT_VENDOR)/lib/D12QS_libchromatix_imx260_cpp_video_vga_hdron.so \
+    vendor/samsung/msm8996-common/proprietary/vendor/lib/D12QS_libchromatix_imx260_cpp_video_vtcall.so:$(TARGET_COPY_OUT_VENDOR)/lib/D12QS_libchromatix_imx260_cpp_video_vtcall.so \
+    vendor/samsung/msm8996-common/proprietary/vendor/lib/D12QS_libchromatix_imx260_default_preview_lc898212xd.so:$(TARGET_COPY_OUT_VENDOR)/lib/D12QS_libchromatix_imx260_default_preview_lc898212xd.so \
+    vendor/samsung/msm8996-common/proprietary/vendor/lib/D12QS_libchromatix_imx260_default_video_lc898212xd.so:$(TARGET_COPY_OUT_VENDOR)/lib/D12QS_libchromatix_imx260_default_video_lc898212xd.so \
+    vendor/samsung/msm8996-common/proprietary/vendor/lib/D12QS_libchromatix_imx260_hdr_snapshot_lc898212xd.so:$(TARGET_COPY_OUT_VENDOR)/lib/D12QS_libchromatix_imx260_hdr_snapshot_lc898212xd.so \
+    vendor/samsung/msm8996-common/proprietary/vendor/lib/D12QS_libchromatix_imx260_hdr_video_lc898212xd.so:$(TARGET_COPY_OUT_VENDOR)/lib/D12QS_libchromatix_imx260_hdr_video_lc898212xd.so \
+    vendor/samsung/msm8996-common/proprietary/vendor/lib/D12QS_libchromatix_imx260_hfr_120_lc898212xd.so:$(TARGET_COPY_OUT_VENDOR)/lib/D12QS_libchromatix_imx260_hfr_120_lc898212xd.so \
+    vendor/samsung/msm8996-common/proprietary/vendor/lib/D12QS_libchromatix_imx260_hfr_240_lc898212xd.so:$(TARGET_COPY_OUT_VENDOR)/lib/D12QS_libchromatix_imx260_hfr_240_lc898212xd.so \
+    vendor/samsung/msm8996-common/proprietary/vendor/lib/D12QS_libchromatix_imx260_hfr_60_lc898212xd.so:$(TARGET_COPY_OUT_VENDOR)/lib/D12QS_libchromatix_imx260_hfr_60_lc898212xd.so \
+    vendor/samsung/msm8996-common/proprietary/vendor/lib/D12QS_libchromatix_imx260_hfr_90_lc898212xd.so:$(TARGET_COPY_OUT_VENDOR)/lib/D12QS_libchromatix_imx260_hfr_90_lc898212xd.so \
+    vendor/samsung/msm8996-common/proprietary/vendor/lib/D12QS_libchromatix_imx260_merged_hdrauto.so:$(TARGET_COPY_OUT_VENDOR)/lib/D12QS_libchromatix_imx260_merged_hdrauto.so \
+    vendor/samsung/msm8996-common/proprietary/vendor/lib/D12QS_libchromatix_imx260_merged_hdroff.so:$(TARGET_COPY_OUT_VENDOR)/lib/D12QS_libchromatix_imx260_merged_hdroff.so \
+    vendor/samsung/msm8996-common/proprietary/vendor/lib/D12QS_libchromatix_imx260_merged_hdron.so:$(TARGET_COPY_OUT_VENDOR)/lib/D12QS_libchromatix_imx260_merged_hdron.so \
+    vendor/samsung/msm8996-common/proprietary/vendor/lib/D12QS_libchromatix_imx260_panorama.so:$(TARGET_COPY_OUT_VENDOR)/lib/D12QS_libchromatix_imx260_panorama.so \
+    vendor/samsung/msm8996-common/proprietary/vendor/lib/D12QS_libchromatix_imx260_postproc.so:$(TARGET_COPY_OUT_VENDOR)/lib/D12QS_libchromatix_imx260_postproc.so \
+    vendor/samsung/msm8996-common/proprietary/vendor/lib/D12QS_libchromatix_imx260_preview.so:$(TARGET_COPY_OUT_VENDOR)/lib/D12QS_libchromatix_imx260_preview.so \
+    vendor/samsung/msm8996-common/proprietary/vendor/lib/D12QS_libchromatix_imx260_preview_dual.so:$(TARGET_COPY_OUT_VENDOR)/lib/D12QS_libchromatix_imx260_preview_dual.so \
+    vendor/samsung/msm8996-common/proprietary/vendor/lib/D12QS_libchromatix_imx260_preview_promode.so:$(TARGET_COPY_OUT_VENDOR)/lib/D12QS_libchromatix_imx260_preview_promode.so \
+    vendor/samsung/msm8996-common/proprietary/vendor/lib/D12QS_libchromatix_imx260_promode_auto.so:$(TARGET_COPY_OUT_VENDOR)/lib/D12QS_libchromatix_imx260_promode_auto.so \
+    vendor/samsung/msm8996-common/proprietary/vendor/lib/D12QS_libchromatix_imx260_promode_long.so:$(TARGET_COPY_OUT_VENDOR)/lib/D12QS_libchromatix_imx260_promode_long.so \
+    vendor/samsung/msm8996-common/proprietary/vendor/lib/D12QS_libchromatix_imx260_promode_manual.so:$(TARGET_COPY_OUT_VENDOR)/lib/D12QS_libchromatix_imx260_promode_manual.so \
+    vendor/samsung/msm8996-common/proprietary/vendor/lib/D12QS_libchromatix_imx260_snapshot_dual.so:$(TARGET_COPY_OUT_VENDOR)/lib/D12QS_libchromatix_imx260_snapshot_dual.so \
+    vendor/samsung/msm8996-common/proprietary/vendor/lib/D12QS_libchromatix_imx260_snapshot_hdrauto.so:$(TARGET_COPY_OUT_VENDOR)/lib/D12QS_libchromatix_imx260_snapshot_hdrauto.so \
+    vendor/samsung/msm8996-common/proprietary/vendor/lib/D12QS_libchromatix_imx260_snapshot_hdroff.so:$(TARGET_COPY_OUT_VENDOR)/lib/D12QS_libchromatix_imx260_snapshot_hdroff.so \
+    vendor/samsung/msm8996-common/proprietary/vendor/lib/D12QS_libchromatix_imx260_snapshot_hdron.so:$(TARGET_COPY_OUT_VENDOR)/lib/D12QS_libchromatix_imx260_snapshot_hdron.so \
+    vendor/samsung/msm8996-common/proprietary/vendor/lib/D12QS_libchromatix_imx260_snapshot_lls_hdrauto.so:$(TARGET_COPY_OUT_VENDOR)/lib/D12QS_libchromatix_imx260_snapshot_lls_hdrauto.so \
+    vendor/samsung/msm8996-common/proprietary/vendor/lib/D12QS_libchromatix_imx260_snapshot_lls_hdroff.so:$(TARGET_COPY_OUT_VENDOR)/lib/D12QS_libchromatix_imx260_snapshot_lls_hdroff.so \
+    vendor/samsung/msm8996-common/proprietary/vendor/lib/D12QS_libchromatix_imx260_snapshot_lls_hdron.so:$(TARGET_COPY_OUT_VENDOR)/lib/D12QS_libchromatix_imx260_snapshot_lls_hdron.so \
+    vendor/samsung/msm8996-common/proprietary/vendor/lib/D12QS_libchromatix_imx260_video_16M_lc898212xd.so:$(TARGET_COPY_OUT_VENDOR)/lib/D12QS_libchromatix_imx260_video_16M_lc898212xd.so \
+    vendor/samsung/msm8996-common/proprietary/vendor/lib/D12QS_libchromatix_imx260_video_fhd60_hdrauto.so:$(TARGET_COPY_OUT_VENDOR)/lib/D12QS_libchromatix_imx260_video_fhd60_hdrauto.so \
+    vendor/samsung/msm8996-common/proprietary/vendor/lib/D12QS_libchromatix_imx260_video_fhd60_hdroff.so:$(TARGET_COPY_OUT_VENDOR)/lib/D12QS_libchromatix_imx260_video_fhd60_hdroff.so \
+    vendor/samsung/msm8996-common/proprietary/vendor/lib/D12QS_libchromatix_imx260_video_fhd60_hdron.so:$(TARGET_COPY_OUT_VENDOR)/lib/D12QS_libchromatix_imx260_video_fhd60_hdron.so \
+    vendor/samsung/msm8996-common/proprietary/vendor/lib/D12QS_libchromatix_imx260_video_hdrauto.so:$(TARGET_COPY_OUT_VENDOR)/lib/D12QS_libchromatix_imx260_video_hdrauto.so \
+    vendor/samsung/msm8996-common/proprietary/vendor/lib/D12QS_libchromatix_imx260_video_hdroff.so:$(TARGET_COPY_OUT_VENDOR)/lib/D12QS_libchromatix_imx260_video_hdroff.so \
+    vendor/samsung/msm8996-common/proprietary/vendor/lib/D12QS_libchromatix_imx260_video_hdron.so:$(TARGET_COPY_OUT_VENDOR)/lib/D12QS_libchromatix_imx260_video_hdron.so \
+    vendor/samsung/msm8996-common/proprietary/vendor/lib/D12QS_libchromatix_imx260_video_hfr120.so:$(TARGET_COPY_OUT_VENDOR)/lib/D12QS_libchromatix_imx260_video_hfr120.so \
+    vendor/samsung/msm8996-common/proprietary/vendor/lib/D12QS_libchromatix_imx260_video_hfr240.so:$(TARGET_COPY_OUT_VENDOR)/lib/D12QS_libchromatix_imx260_video_hfr240.so \
+    vendor/samsung/msm8996-common/proprietary/vendor/lib/D12QS_libchromatix_imx260_video_uhd30_hdrauto.so:$(TARGET_COPY_OUT_VENDOR)/lib/D12QS_libchromatix_imx260_video_uhd30_hdrauto.so \
+    vendor/samsung/msm8996-common/proprietary/vendor/lib/D12QS_libchromatix_imx260_video_uhd30_hdroff.so:$(TARGET_COPY_OUT_VENDOR)/lib/D12QS_libchromatix_imx260_video_uhd30_hdroff.so \
+    vendor/samsung/msm8996-common/proprietary/vendor/lib/D12QS_libchromatix_imx260_video_uhd30_hdron.so:$(TARGET_COPY_OUT_VENDOR)/lib/D12QS_libchromatix_imx260_video_uhd30_hdron.so \
+    vendor/samsung/msm8996-common/proprietary/vendor/lib/D12QS_libchromatix_imx260_video_vga_hdrauto.so:$(TARGET_COPY_OUT_VENDOR)/lib/D12QS_libchromatix_imx260_video_vga_hdrauto.so \
+    vendor/samsung/msm8996-common/proprietary/vendor/lib/D12QS_libchromatix_imx260_video_vga_hdroff.so:$(TARGET_COPY_OUT_VENDOR)/lib/D12QS_libchromatix_imx260_video_vga_hdroff.so \
+    vendor/samsung/msm8996-common/proprietary/vendor/lib/D12QS_libchromatix_imx260_video_vga_hdron.so:$(TARGET_COPY_OUT_VENDOR)/lib/D12QS_libchromatix_imx260_video_vga_hdron.so \
+    vendor/samsung/msm8996-common/proprietary/vendor/lib/D12QS_libchromatix_imx260_video_vtcall.so:$(TARGET_COPY_OUT_VENDOR)/lib/D12QS_libchromatix_imx260_video_vtcall.so \
+    vendor/samsung/msm8996-common/proprietary/vendor/lib/D12QS_libchromatix_imx260_zsl_preview_lc898212xd.so:$(TARGET_COPY_OUT_VENDOR)/lib/D12QS_libchromatix_imx260_zsl_preview_lc898212xd.so \
+    vendor/samsung/msm8996-common/proprietary/vendor/lib/D12QS_libchromatix_imx260_zsl_video_lc898212xd.so:$(TARGET_COPY_OUT_VENDOR)/lib/D12QS_libchromatix_imx260_zsl_video_lc898212xd.so \
     vendor/samsung/msm8996-common/proprietary/vendor/lib/egl/eglSubDriverAndroid.so:$(TARGET_COPY_OUT_VENDOR)/lib/egl/eglSubDriverAndroid.so \
     vendor/samsung/msm8996-common/proprietary/vendor/lib/egl/libEGL_adreno.so:$(TARGET_COPY_OUT_VENDOR)/lib/egl/libEGL_adreno.so \
     vendor/samsung/msm8996-common/proprietary/vendor/lib/egl/libGLESv1_CM_adreno.so:$(TARGET_COPY_OUT_VENDOR)/lib/egl/libGLESv1_CM_adreno.so \
@@ -330,7 +702,6 @@ PRODUCT_COPY_FILES += \
     vendor/samsung/msm8996-common/proprietary/vendor/lib/egl/libQTapGLES.so:$(TARGET_COPY_OUT_VENDOR)/lib/egl/libQTapGLES.so \
     vendor/samsung/msm8996-common/proprietary/vendor/lib/egl/libq3dtools_adreno.so:$(TARGET_COPY_OUT_VENDOR)/lib/egl/libq3dtools_adreno.so \
     vendor/samsung/msm8996-common/proprietary/vendor/lib/egl/libq3dtools_esx.so:$(TARGET_COPY_OUT_VENDOR)/lib/egl/libq3dtools_esx.so \
-    vendor/samsung/msm8996-common/proprietary/vendor/lib/ftm_fm_lib.so:$(TARGET_COPY_OUT_VENDOR)/lib/ftm_fm_lib.so \
     vendor/samsung/msm8996-common/proprietary/vendor/lib/hw/activity_recognition.msm8996.so:$(TARGET_COPY_OUT_VENDOR)/lib/hw/activity_recognition.msm8996.so \
     vendor/samsung/msm8996-common/proprietary/vendor/lib/hw/android.hardware.gnss@1.0-impl-qti.so:$(TARGET_COPY_OUT_VENDOR)/lib/hw/android.hardware.gnss@1.0-impl-qti.so \
     vendor/samsung/msm8996-common/proprietary/vendor/lib/hw/audio.primary.msm8996.so:$(TARGET_COPY_OUT_VENDOR)/lib/hw/audio.primary.msm8996.so \
@@ -375,7 +746,7 @@ PRODUCT_COPY_FILES += \
     vendor/samsung/msm8996-common/proprietary/vendor/lib/libacdb-fts.so:$(TARGET_COPY_OUT_VENDOR)/lib/libacdb-fts.so \
     vendor/samsung/msm8996-common/proprietary/vendor/lib/libacdbloader.so:$(TARGET_COPY_OUT_VENDOR)/lib/libacdbloader.so \
     vendor/samsung/msm8996-common/proprietary/vendor/lib/libacdbrtac.so:$(TARGET_COPY_OUT_VENDOR)/lib/libacdbrtac.so \
-    vendor/samsung/msm8996-common/proprietary/vendor/lib/libactuator_dw9807.so:$(TARGET_COPY_OUT_VENDOR)/lib/libactuator_dw9807.so \
+    vendor/samsung/msm8996-common/proprietary/vendor/lib/libactuator_ak7371.so:$(TARGET_COPY_OUT_VENDOR)/lib/libactuator_ak7371.so \
     vendor/samsung/msm8996-common/proprietary/vendor/lib/libadiertac.so:$(TARGET_COPY_OUT_VENDOR)/lib/libadiertac.so \
     vendor/samsung/msm8996-common/proprietary/vendor/lib/libadm.so:$(TARGET_COPY_OUT_VENDOR)/lib/libadm.so \
     vendor/samsung/msm8996-common/proprietary/vendor/lib/libadreno_utils.so:$(TARGET_COPY_OUT_VENDOR)/lib/libadreno_utils.so \
@@ -393,130 +764,114 @@ PRODUCT_COPY_FILES += \
     vendor/samsung/msm8996-common/proprietary/vendor/lib/libbccQTI.so:$(TARGET_COPY_OUT_VENDOR)/lib/libbccQTI.so \
     vendor/samsung/msm8996-common/proprietary/vendor/lib/libc2d30_bltlib.so:$(TARGET_COPY_OUT_VENDOR)/lib/libc2d30_bltlib.so \
     vendor/samsung/msm8996-common/proprietary/vendor/lib/libcdsprpc.so:$(TARGET_COPY_OUT_VENDOR)/lib/libcdsprpc.so \
-    vendor/samsung/msm8996-common/proprietary/vendor/lib/libchromatix_imx258_1080p_preview.so:$(TARGET_COPY_OUT_VENDOR)/lib/libchromatix_imx258_1080p_preview.so \
-    vendor/samsung/msm8996-common/proprietary/vendor/lib/libchromatix_imx258_1080p_video.so:$(TARGET_COPY_OUT_VENDOR)/lib/libchromatix_imx258_1080p_video.so \
-    vendor/samsung/msm8996-common/proprietary/vendor/lib/libchromatix_imx258_4k_preview.so:$(TARGET_COPY_OUT_VENDOR)/lib/libchromatix_imx258_4k_preview.so \
-    vendor/samsung/msm8996-common/proprietary/vendor/lib/libchromatix_imx258_4k_video.so:$(TARGET_COPY_OUT_VENDOR)/lib/libchromatix_imx258_4k_video.so \
-    vendor/samsung/msm8996-common/proprietary/vendor/lib/libchromatix_imx258_common.so:$(TARGET_COPY_OUT_VENDOR)/lib/libchromatix_imx258_common.so \
-    vendor/samsung/msm8996-common/proprietary/vendor/lib/libchromatix_imx258_common_merged.so:$(TARGET_COPY_OUT_VENDOR)/lib/libchromatix_imx258_common_merged.so \
-    vendor/samsung/msm8996-common/proprietary/vendor/lib/libchromatix_imx258_common_video.so:$(TARGET_COPY_OUT_VENDOR)/lib/libchromatix_imx258_common_video.so \
-    vendor/samsung/msm8996-common/proprietary/vendor/lib/libchromatix_imx258_cpp_liveshot_hdrauto.so:$(TARGET_COPY_OUT_VENDOR)/lib/libchromatix_imx258_cpp_liveshot_hdrauto.so \
-    vendor/samsung/msm8996-common/proprietary/vendor/lib/libchromatix_imx258_cpp_liveshot_hdroff.so:$(TARGET_COPY_OUT_VENDOR)/lib/libchromatix_imx258_cpp_liveshot_hdroff.so \
-    vendor/samsung/msm8996-common/proprietary/vendor/lib/libchromatix_imx258_cpp_liveshot_hdron.so:$(TARGET_COPY_OUT_VENDOR)/lib/libchromatix_imx258_cpp_liveshot_hdron.so \
-    vendor/samsung/msm8996-common/proprietary/vendor/lib/libchromatix_imx258_cpp_merged_hdrauto.so:$(TARGET_COPY_OUT_VENDOR)/lib/libchromatix_imx258_cpp_merged_hdrauto.so \
-    vendor/samsung/msm8996-common/proprietary/vendor/lib/libchromatix_imx258_cpp_merged_hdroff.so:$(TARGET_COPY_OUT_VENDOR)/lib/libchromatix_imx258_cpp_merged_hdroff.so \
-    vendor/samsung/msm8996-common/proprietary/vendor/lib/libchromatix_imx258_cpp_merged_hdron.so:$(TARGET_COPY_OUT_VENDOR)/lib/libchromatix_imx258_cpp_merged_hdron.so \
-    vendor/samsung/msm8996-common/proprietary/vendor/lib/libchromatix_imx258_cpp_panorama.so:$(TARGET_COPY_OUT_VENDOR)/lib/libchromatix_imx258_cpp_panorama.so \
-    vendor/samsung/msm8996-common/proprietary/vendor/lib/libchromatix_imx258_cpp_preview.so:$(TARGET_COPY_OUT_VENDOR)/lib/libchromatix_imx258_cpp_preview.so \
-    vendor/samsung/msm8996-common/proprietary/vendor/lib/libchromatix_imx258_cpp_preview_dual.so:$(TARGET_COPY_OUT_VENDOR)/lib/libchromatix_imx258_cpp_preview_dual.so \
-    vendor/samsung/msm8996-common/proprietary/vendor/lib/libchromatix_imx258_cpp_preview_promode.so:$(TARGET_COPY_OUT_VENDOR)/lib/libchromatix_imx258_cpp_preview_promode.so \
-    vendor/samsung/msm8996-common/proprietary/vendor/lib/libchromatix_imx258_cpp_promode_auto.so:$(TARGET_COPY_OUT_VENDOR)/lib/libchromatix_imx258_cpp_promode_auto.so \
-    vendor/samsung/msm8996-common/proprietary/vendor/lib/libchromatix_imx258_cpp_promode_long.so:$(TARGET_COPY_OUT_VENDOR)/lib/libchromatix_imx258_cpp_promode_long.so \
-    vendor/samsung/msm8996-common/proprietary/vendor/lib/libchromatix_imx258_cpp_promode_manual.so:$(TARGET_COPY_OUT_VENDOR)/lib/libchromatix_imx258_cpp_promode_manual.so \
-    vendor/samsung/msm8996-common/proprietary/vendor/lib/libchromatix_imx258_cpp_snapshot_dual.so:$(TARGET_COPY_OUT_VENDOR)/lib/libchromatix_imx258_cpp_snapshot_dual.so \
-    vendor/samsung/msm8996-common/proprietary/vendor/lib/libchromatix_imx258_cpp_snapshot_hdrauto.so:$(TARGET_COPY_OUT_VENDOR)/lib/libchromatix_imx258_cpp_snapshot_hdrauto.so \
-    vendor/samsung/msm8996-common/proprietary/vendor/lib/libchromatix_imx258_cpp_snapshot_hdroff.so:$(TARGET_COPY_OUT_VENDOR)/lib/libchromatix_imx258_cpp_snapshot_hdroff.so \
-    vendor/samsung/msm8996-common/proprietary/vendor/lib/libchromatix_imx258_cpp_snapshot_hdron.so:$(TARGET_COPY_OUT_VENDOR)/lib/libchromatix_imx258_cpp_snapshot_hdron.so \
-    vendor/samsung/msm8996-common/proprietary/vendor/lib/libchromatix_imx258_cpp_snapshot_lls_hdrauto.so:$(TARGET_COPY_OUT_VENDOR)/lib/libchromatix_imx258_cpp_snapshot_lls_hdrauto.so \
-    vendor/samsung/msm8996-common/proprietary/vendor/lib/libchromatix_imx258_cpp_snapshot_lls_hdroff.so:$(TARGET_COPY_OUT_VENDOR)/lib/libchromatix_imx258_cpp_snapshot_lls_hdroff.so \
-    vendor/samsung/msm8996-common/proprietary/vendor/lib/libchromatix_imx258_cpp_snapshot_lls_hdron.so:$(TARGET_COPY_OUT_VENDOR)/lib/libchromatix_imx258_cpp_snapshot_lls_hdron.so \
-    vendor/samsung/msm8996-common/proprietary/vendor/lib/libchromatix_imx258_cpp_video_fhd60_hdrauto.so:$(TARGET_COPY_OUT_VENDOR)/lib/libchromatix_imx258_cpp_video_fhd60_hdrauto.so \
-    vendor/samsung/msm8996-common/proprietary/vendor/lib/libchromatix_imx258_cpp_video_fhd60_hdroff.so:$(TARGET_COPY_OUT_VENDOR)/lib/libchromatix_imx258_cpp_video_fhd60_hdroff.so \
-    vendor/samsung/msm8996-common/proprietary/vendor/lib/libchromatix_imx258_cpp_video_fhd60_hdron.so:$(TARGET_COPY_OUT_VENDOR)/lib/libchromatix_imx258_cpp_video_fhd60_hdron.so \
-    vendor/samsung/msm8996-common/proprietary/vendor/lib/libchromatix_imx258_cpp_video_hdrauto.so:$(TARGET_COPY_OUT_VENDOR)/lib/libchromatix_imx258_cpp_video_hdrauto.so \
-    vendor/samsung/msm8996-common/proprietary/vendor/lib/libchromatix_imx258_cpp_video_hdroff.so:$(TARGET_COPY_OUT_VENDOR)/lib/libchromatix_imx258_cpp_video_hdroff.so \
-    vendor/samsung/msm8996-common/proprietary/vendor/lib/libchromatix_imx258_cpp_video_hdron.so:$(TARGET_COPY_OUT_VENDOR)/lib/libchromatix_imx258_cpp_video_hdron.so \
-    vendor/samsung/msm8996-common/proprietary/vendor/lib/libchromatix_imx258_cpp_video_hfr120.so:$(TARGET_COPY_OUT_VENDOR)/lib/libchromatix_imx258_cpp_video_hfr120.so \
-    vendor/samsung/msm8996-common/proprietary/vendor/lib/libchromatix_imx258_cpp_video_hfr240.so:$(TARGET_COPY_OUT_VENDOR)/lib/libchromatix_imx258_cpp_video_hfr240.so \
-    vendor/samsung/msm8996-common/proprietary/vendor/lib/libchromatix_imx258_cpp_video_uhd30_hdrauto.so:$(TARGET_COPY_OUT_VENDOR)/lib/libchromatix_imx258_cpp_video_uhd30_hdrauto.so \
-    vendor/samsung/msm8996-common/proprietary/vendor/lib/libchromatix_imx258_cpp_video_uhd30_hdroff.so:$(TARGET_COPY_OUT_VENDOR)/lib/libchromatix_imx258_cpp_video_uhd30_hdroff.so \
-    vendor/samsung/msm8996-common/proprietary/vendor/lib/libchromatix_imx258_cpp_video_uhd30_hdron.so:$(TARGET_COPY_OUT_VENDOR)/lib/libchromatix_imx258_cpp_video_uhd30_hdron.so \
-    vendor/samsung/msm8996-common/proprietary/vendor/lib/libchromatix_imx258_cpp_video_vga_hdrauto.so:$(TARGET_COPY_OUT_VENDOR)/lib/libchromatix_imx258_cpp_video_vga_hdrauto.so \
-    vendor/samsung/msm8996-common/proprietary/vendor/lib/libchromatix_imx258_cpp_video_vga_hdroff.so:$(TARGET_COPY_OUT_VENDOR)/lib/libchromatix_imx258_cpp_video_vga_hdroff.so \
-    vendor/samsung/msm8996-common/proprietary/vendor/lib/libchromatix_imx258_cpp_video_vga_hdron.so:$(TARGET_COPY_OUT_VENDOR)/lib/libchromatix_imx258_cpp_video_vga_hdron.so \
-    vendor/samsung/msm8996-common/proprietary/vendor/lib/libchromatix_imx258_cpp_video_vtcall.so:$(TARGET_COPY_OUT_VENDOR)/lib/libchromatix_imx258_cpp_video_vtcall.so \
-    vendor/samsung/msm8996-common/proprietary/vendor/lib/libchromatix_imx258_default_preview.so:$(TARGET_COPY_OUT_VENDOR)/lib/libchromatix_imx258_default_preview.so \
-    vendor/samsung/msm8996-common/proprietary/vendor/lib/libchromatix_imx258_default_video.so:$(TARGET_COPY_OUT_VENDOR)/lib/libchromatix_imx258_default_video.so \
-    vendor/samsung/msm8996-common/proprietary/vendor/lib/libchromatix_imx258_hdr_snapshot.so:$(TARGET_COPY_OUT_VENDOR)/lib/libchromatix_imx258_hdr_snapshot.so \
-    vendor/samsung/msm8996-common/proprietary/vendor/lib/libchromatix_imx258_hdr_video.so:$(TARGET_COPY_OUT_VENDOR)/lib/libchromatix_imx258_hdr_video.so \
-    vendor/samsung/msm8996-common/proprietary/vendor/lib/libchromatix_imx258_hfr_120.so:$(TARGET_COPY_OUT_VENDOR)/lib/libchromatix_imx258_hfr_120.so \
-    vendor/samsung/msm8996-common/proprietary/vendor/lib/libchromatix_imx258_hfr_240.so:$(TARGET_COPY_OUT_VENDOR)/lib/libchromatix_imx258_hfr_240.so \
-    vendor/samsung/msm8996-common/proprietary/vendor/lib/libchromatix_imx258_hfr_60.so:$(TARGET_COPY_OUT_VENDOR)/lib/libchromatix_imx258_hfr_60.so \
-    vendor/samsung/msm8996-common/proprietary/vendor/lib/libchromatix_imx258_hfr_90.so:$(TARGET_COPY_OUT_VENDOR)/lib/libchromatix_imx258_hfr_90.so \
-    vendor/samsung/msm8996-common/proprietary/vendor/lib/libchromatix_imx258_merged_hdrauto.so:$(TARGET_COPY_OUT_VENDOR)/lib/libchromatix_imx258_merged_hdrauto.so \
-    vendor/samsung/msm8996-common/proprietary/vendor/lib/libchromatix_imx258_merged_hdroff.so:$(TARGET_COPY_OUT_VENDOR)/lib/libchromatix_imx258_merged_hdroff.so \
-    vendor/samsung/msm8996-common/proprietary/vendor/lib/libchromatix_imx258_merged_hdron.so:$(TARGET_COPY_OUT_VENDOR)/lib/libchromatix_imx258_merged_hdron.so \
-    vendor/samsung/msm8996-common/proprietary/vendor/lib/libchromatix_imx258_panorama.so:$(TARGET_COPY_OUT_VENDOR)/lib/libchromatix_imx258_panorama.so \
-    vendor/samsung/msm8996-common/proprietary/vendor/lib/libchromatix_imx258_postproc.so:$(TARGET_COPY_OUT_VENDOR)/lib/libchromatix_imx258_postproc.so \
-    vendor/samsung/msm8996-common/proprietary/vendor/lib/libchromatix_imx258_preview.so:$(TARGET_COPY_OUT_VENDOR)/lib/libchromatix_imx258_preview.so \
-    vendor/samsung/msm8996-common/proprietary/vendor/lib/libchromatix_imx258_preview_dual.so:$(TARGET_COPY_OUT_VENDOR)/lib/libchromatix_imx258_preview_dual.so \
-    vendor/samsung/msm8996-common/proprietary/vendor/lib/libchromatix_imx258_preview_promode.so:$(TARGET_COPY_OUT_VENDOR)/lib/libchromatix_imx258_preview_promode.so \
-    vendor/samsung/msm8996-common/proprietary/vendor/lib/libchromatix_imx258_promode_auto.so:$(TARGET_COPY_OUT_VENDOR)/lib/libchromatix_imx258_promode_auto.so \
-    vendor/samsung/msm8996-common/proprietary/vendor/lib/libchromatix_imx258_promode_long.so:$(TARGET_COPY_OUT_VENDOR)/lib/libchromatix_imx258_promode_long.so \
-    vendor/samsung/msm8996-common/proprietary/vendor/lib/libchromatix_imx258_promode_manual.so:$(TARGET_COPY_OUT_VENDOR)/lib/libchromatix_imx258_promode_manual.so \
-    vendor/samsung/msm8996-common/proprietary/vendor/lib/libchromatix_imx258_snapshot_dual.so:$(TARGET_COPY_OUT_VENDOR)/lib/libchromatix_imx258_snapshot_dual.so \
-    vendor/samsung/msm8996-common/proprietary/vendor/lib/libchromatix_imx258_snapshot_hdrauto.so:$(TARGET_COPY_OUT_VENDOR)/lib/libchromatix_imx258_snapshot_hdrauto.so \
-    vendor/samsung/msm8996-common/proprietary/vendor/lib/libchromatix_imx258_snapshot_hdroff.so:$(TARGET_COPY_OUT_VENDOR)/lib/libchromatix_imx258_snapshot_hdroff.so \
-    vendor/samsung/msm8996-common/proprietary/vendor/lib/libchromatix_imx258_snapshot_hdron.so:$(TARGET_COPY_OUT_VENDOR)/lib/libchromatix_imx258_snapshot_hdron.so \
-    vendor/samsung/msm8996-common/proprietary/vendor/lib/libchromatix_imx258_snapshot_lls_hdrauto.so:$(TARGET_COPY_OUT_VENDOR)/lib/libchromatix_imx258_snapshot_lls_hdrauto.so \
-    vendor/samsung/msm8996-common/proprietary/vendor/lib/libchromatix_imx258_snapshot_lls_hdroff.so:$(TARGET_COPY_OUT_VENDOR)/lib/libchromatix_imx258_snapshot_lls_hdroff.so \
-    vendor/samsung/msm8996-common/proprietary/vendor/lib/libchromatix_imx258_snapshot_lls_hdron.so:$(TARGET_COPY_OUT_VENDOR)/lib/libchromatix_imx258_snapshot_lls_hdron.so \
-    vendor/samsung/msm8996-common/proprietary/vendor/lib/libchromatix_imx258_video_16M.so:$(TARGET_COPY_OUT_VENDOR)/lib/libchromatix_imx258_video_16M.so \
-    vendor/samsung/msm8996-common/proprietary/vendor/lib/libchromatix_imx258_video_fhd60_hdrauto.so:$(TARGET_COPY_OUT_VENDOR)/lib/libchromatix_imx258_video_fhd60_hdrauto.so \
-    vendor/samsung/msm8996-common/proprietary/vendor/lib/libchromatix_imx258_video_fhd60_hdroff.so:$(TARGET_COPY_OUT_VENDOR)/lib/libchromatix_imx258_video_fhd60_hdroff.so \
-    vendor/samsung/msm8996-common/proprietary/vendor/lib/libchromatix_imx258_video_fhd60_hdron.so:$(TARGET_COPY_OUT_VENDOR)/lib/libchromatix_imx258_video_fhd60_hdron.so \
-    vendor/samsung/msm8996-common/proprietary/vendor/lib/libchromatix_imx258_video_hdrauto.so:$(TARGET_COPY_OUT_VENDOR)/lib/libchromatix_imx258_video_hdrauto.so \
-    vendor/samsung/msm8996-common/proprietary/vendor/lib/libchromatix_imx258_video_hdroff.so:$(TARGET_COPY_OUT_VENDOR)/lib/libchromatix_imx258_video_hdroff.so \
-    vendor/samsung/msm8996-common/proprietary/vendor/lib/libchromatix_imx258_video_hdron.so:$(TARGET_COPY_OUT_VENDOR)/lib/libchromatix_imx258_video_hdron.so \
-    vendor/samsung/msm8996-common/proprietary/vendor/lib/libchromatix_imx258_video_hfr120.so:$(TARGET_COPY_OUT_VENDOR)/lib/libchromatix_imx258_video_hfr120.so \
-    vendor/samsung/msm8996-common/proprietary/vendor/lib/libchromatix_imx258_video_hfr240.so:$(TARGET_COPY_OUT_VENDOR)/lib/libchromatix_imx258_video_hfr240.so \
-    vendor/samsung/msm8996-common/proprietary/vendor/lib/libchromatix_imx258_video_uhd30_hdrauto.so:$(TARGET_COPY_OUT_VENDOR)/lib/libchromatix_imx258_video_uhd30_hdrauto.so \
-    vendor/samsung/msm8996-common/proprietary/vendor/lib/libchromatix_imx258_video_uhd30_hdroff.so:$(TARGET_COPY_OUT_VENDOR)/lib/libchromatix_imx258_video_uhd30_hdroff.so \
-    vendor/samsung/msm8996-common/proprietary/vendor/lib/libchromatix_imx258_video_uhd30_hdron.so:$(TARGET_COPY_OUT_VENDOR)/lib/libchromatix_imx258_video_uhd30_hdron.so \
-    vendor/samsung/msm8996-common/proprietary/vendor/lib/libchromatix_imx258_video_vga_hdrauto.so:$(TARGET_COPY_OUT_VENDOR)/lib/libchromatix_imx258_video_vga_hdrauto.so \
-    vendor/samsung/msm8996-common/proprietary/vendor/lib/libchromatix_imx258_video_vga_hdroff.so:$(TARGET_COPY_OUT_VENDOR)/lib/libchromatix_imx258_video_vga_hdroff.so \
-    vendor/samsung/msm8996-common/proprietary/vendor/lib/libchromatix_imx258_video_vga_hdron.so:$(TARGET_COPY_OUT_VENDOR)/lib/libchromatix_imx258_video_vga_hdron.so \
-    vendor/samsung/msm8996-common/proprietary/vendor/lib/libchromatix_imx258_video_vtcall.so:$(TARGET_COPY_OUT_VENDOR)/lib/libchromatix_imx258_video_vtcall.so \
-    vendor/samsung/msm8996-common/proprietary/vendor/lib/libchromatix_imx258_zsl_preview.so:$(TARGET_COPY_OUT_VENDOR)/lib/libchromatix_imx258_zsl_preview.so \
-    vendor/samsung/msm8996-common/proprietary/vendor/lib/libchromatix_imx258_zsl_video.so:$(TARGET_COPY_OUT_VENDOR)/lib/libchromatix_imx258_zsl_video.so \
-    vendor/samsung/msm8996-common/proprietary/vendor/lib/libchromatix_s5k5e3yx_common.so:$(TARGET_COPY_OUT_VENDOR)/lib/libchromatix_s5k5e3yx_common.so \
-    vendor/samsung/msm8996-common/proprietary/vendor/lib/libchromatix_s5k5e3yx_common_video.so:$(TARGET_COPY_OUT_VENDOR)/lib/libchromatix_s5k5e3yx_common_video.so \
-    vendor/samsung/msm8996-common/proprietary/vendor/lib/libchromatix_s5k5e3yx_cpp_liveshot.so:$(TARGET_COPY_OUT_VENDOR)/lib/libchromatix_s5k5e3yx_cpp_liveshot.so \
-    vendor/samsung/msm8996-common/proprietary/vendor/lib/libchromatix_s5k5e3yx_cpp_preview.so:$(TARGET_COPY_OUT_VENDOR)/lib/libchromatix_s5k5e3yx_cpp_preview.so \
-    vendor/samsung/msm8996-common/proprietary/vendor/lib/libchromatix_s5k5e3yx_cpp_preview_high.so:$(TARGET_COPY_OUT_VENDOR)/lib/libchromatix_s5k5e3yx_cpp_preview_high.so \
-    vendor/samsung/msm8996-common/proprietary/vendor/lib/libchromatix_s5k5e3yx_cpp_preview_low.so:$(TARGET_COPY_OUT_VENDOR)/lib/libchromatix_s5k5e3yx_cpp_preview_low.so \
-    vendor/samsung/msm8996-common/proprietary/vendor/lib/libchromatix_s5k5e3yx_cpp_preview_multiview.so:$(TARGET_COPY_OUT_VENDOR)/lib/libchromatix_s5k5e3yx_cpp_preview_multiview.so \
-    vendor/samsung/msm8996-common/proprietary/vendor/lib/libchromatix_s5k5e3yx_cpp_preview_pip.so:$(TARGET_COPY_OUT_VENDOR)/lib/libchromatix_s5k5e3yx_cpp_preview_pip.so \
-    vendor/samsung/msm8996-common/proprietary/vendor/lib/libchromatix_s5k5e3yx_cpp_preview_smart_stay.so:$(TARGET_COPY_OUT_VENDOR)/lib/libchromatix_s5k5e3yx_cpp_preview_smart_stay.so \
-    vendor/samsung/msm8996-common/proprietary/vendor/lib/libchromatix_s5k5e3yx_cpp_preview_wide_selfie.so:$(TARGET_COPY_OUT_VENDOR)/lib/libchromatix_s5k5e3yx_cpp_preview_wide_selfie.so \
-    vendor/samsung/msm8996-common/proprietary/vendor/lib/libchromatix_s5k5e3yx_cpp_snapshot.so:$(TARGET_COPY_OUT_VENDOR)/lib/libchromatix_s5k5e3yx_cpp_snapshot.so \
-    vendor/samsung/msm8996-common/proprietary/vendor/lib/libchromatix_s5k5e3yx_cpp_snapshot_high.so:$(TARGET_COPY_OUT_VENDOR)/lib/libchromatix_s5k5e3yx_cpp_snapshot_high.so \
-    vendor/samsung/msm8996-common/proprietary/vendor/lib/libchromatix_s5k5e3yx_cpp_snapshot_low.so:$(TARGET_COPY_OUT_VENDOR)/lib/libchromatix_s5k5e3yx_cpp_snapshot_low.so \
-    vendor/samsung/msm8996-common/proprietary/vendor/lib/libchromatix_s5k5e3yx_cpp_snapshot_pip.so:$(TARGET_COPY_OUT_VENDOR)/lib/libchromatix_s5k5e3yx_cpp_snapshot_pip.so \
-    vendor/samsung/msm8996-common/proprietary/vendor/lib/libchromatix_s5k5e3yx_cpp_video.so:$(TARGET_COPY_OUT_VENDOR)/lib/libchromatix_s5k5e3yx_cpp_video.so \
-    vendor/samsung/msm8996-common/proprietary/vendor/lib/libchromatix_s5k5e3yx_cpp_video_VGA.so:$(TARGET_COPY_OUT_VENDOR)/lib/libchromatix_s5k5e3yx_cpp_video_VGA.so \
-    vendor/samsung/msm8996-common/proprietary/vendor/lib/libchromatix_s5k5e3yx_cpp_video_high.so:$(TARGET_COPY_OUT_VENDOR)/lib/libchromatix_s5k5e3yx_cpp_video_high.so \
-    vendor/samsung/msm8996-common/proprietary/vendor/lib/libchromatix_s5k5e3yx_cpp_video_low.so:$(TARGET_COPY_OUT_VENDOR)/lib/libchromatix_s5k5e3yx_cpp_video_low.so \
-    vendor/samsung/msm8996-common/proprietary/vendor/lib/libchromatix_s5k5e3yx_default_preview_ad5816g.so:$(TARGET_COPY_OUT_VENDOR)/lib/libchromatix_s5k5e3yx_default_preview_ad5816g.so \
-    vendor/samsung/msm8996-common/proprietary/vendor/lib/libchromatix_s5k5e3yx_default_video_ad5816g.so:$(TARGET_COPY_OUT_VENDOR)/lib/libchromatix_s5k5e3yx_default_video_ad5816g.so \
-    vendor/samsung/msm8996-common/proprietary/vendor/lib/libchromatix_s5k5e3yx_liveshot.so:$(TARGET_COPY_OUT_VENDOR)/lib/libchromatix_s5k5e3yx_liveshot.so \
-    vendor/samsung/msm8996-common/proprietary/vendor/lib/libchromatix_s5k5e3yx_postproc.so:$(TARGET_COPY_OUT_VENDOR)/lib/libchromatix_s5k5e3yx_postproc.so \
-    vendor/samsung/msm8996-common/proprietary/vendor/lib/libchromatix_s5k5e3yx_preview.so:$(TARGET_COPY_OUT_VENDOR)/lib/libchromatix_s5k5e3yx_preview.so \
-    vendor/samsung/msm8996-common/proprietary/vendor/lib/libchromatix_s5k5e3yx_preview_multiview.so:$(TARGET_COPY_OUT_VENDOR)/lib/libchromatix_s5k5e3yx_preview_multiview.so \
-    vendor/samsung/msm8996-common/proprietary/vendor/lib/libchromatix_s5k5e3yx_preview_pip.so:$(TARGET_COPY_OUT_VENDOR)/lib/libchromatix_s5k5e3yx_preview_pip.so \
-    vendor/samsung/msm8996-common/proprietary/vendor/lib/libchromatix_s5k5e3yx_preview_resolution_high.so:$(TARGET_COPY_OUT_VENDOR)/lib/libchromatix_s5k5e3yx_preview_resolution_high.so \
-    vendor/samsung/msm8996-common/proprietary/vendor/lib/libchromatix_s5k5e3yx_preview_resolution_low.so:$(TARGET_COPY_OUT_VENDOR)/lib/libchromatix_s5k5e3yx_preview_resolution_low.so \
-    vendor/samsung/msm8996-common/proprietary/vendor/lib/libchromatix_s5k5e3yx_preview_smart_stay.so:$(TARGET_COPY_OUT_VENDOR)/lib/libchromatix_s5k5e3yx_preview_smart_stay.so \
-    vendor/samsung/msm8996-common/proprietary/vendor/lib/libchromatix_s5k5e3yx_preview_wide_selfie.so:$(TARGET_COPY_OUT_VENDOR)/lib/libchromatix_s5k5e3yx_preview_wide_selfie.so \
-    vendor/samsung/msm8996-common/proprietary/vendor/lib/libchromatix_s5k5e3yx_snapshot.so:$(TARGET_COPY_OUT_VENDOR)/lib/libchromatix_s5k5e3yx_snapshot.so \
-    vendor/samsung/msm8996-common/proprietary/vendor/lib/libchromatix_s5k5e3yx_snapshot_resolution_high.so:$(TARGET_COPY_OUT_VENDOR)/lib/libchromatix_s5k5e3yx_snapshot_resolution_high.so \
-    vendor/samsung/msm8996-common/proprietary/vendor/lib/libchromatix_s5k5e3yx_snapshot_resolution_low.so:$(TARGET_COPY_OUT_VENDOR)/lib/libchromatix_s5k5e3yx_snapshot_resolution_low.so \
-    vendor/samsung/msm8996-common/proprietary/vendor/lib/libchromatix_s5k5e3yx_video.so:$(TARGET_COPY_OUT_VENDOR)/lib/libchromatix_s5k5e3yx_video.so \
-    vendor/samsung/msm8996-common/proprietary/vendor/lib/libchromatix_s5k5e3yx_video_VGA.so:$(TARGET_COPY_OUT_VENDOR)/lib/libchromatix_s5k5e3yx_video_VGA.so \
-    vendor/samsung/msm8996-common/proprietary/vendor/lib/libchromatix_s5k5e3yx_video_resolution_high.so:$(TARGET_COPY_OUT_VENDOR)/lib/libchromatix_s5k5e3yx_video_resolution_high.so \
-    vendor/samsung/msm8996-common/proprietary/vendor/lib/libchromatix_s5k5e3yx_video_resolution_low.so:$(TARGET_COPY_OUT_VENDOR)/lib/libchromatix_s5k5e3yx_video_resolution_low.so \
-    vendor/samsung/msm8996-common/proprietary/vendor/lib/libchromatix_s5k5e3yx_zsl_preview_ad5816g.so:$(TARGET_COPY_OUT_VENDOR)/lib/libchromatix_s5k5e3yx_zsl_preview_ad5816g.so \
-    vendor/samsung/msm8996-common/proprietary/vendor/lib/libchromatix_s5k5e3yx_zsl_video_ad5816g.so:$(TARGET_COPY_OUT_VENDOR)/lib/libchromatix_s5k5e3yx_zsl_video_ad5816g.so \
+    vendor/samsung/msm8996-common/proprietary/vendor/lib/libchromatix_s5k4e6xx_cc_common.so:$(TARGET_COPY_OUT_VENDOR)/lib/libchromatix_s5k4e6xx_cc_common.so \
+    vendor/samsung/msm8996-common/proprietary/vendor/lib/libchromatix_s5k4e6xx_cc_cpp_liveshot.so:$(TARGET_COPY_OUT_VENDOR)/lib/libchromatix_s5k4e6xx_cc_cpp_liveshot.so \
+    vendor/samsung/msm8996-common/proprietary/vendor/lib/libchromatix_s5k4e6xx_cc_cpp_liveshot_hdr.so:$(TARGET_COPY_OUT_VENDOR)/lib/libchromatix_s5k4e6xx_cc_cpp_liveshot_hdr.so \
+    vendor/samsung/msm8996-common/proprietary/vendor/lib/libchromatix_s5k4e6xx_cc_cpp_liveshot_hdr_auto.so:$(TARGET_COPY_OUT_VENDOR)/lib/libchromatix_s5k4e6xx_cc_cpp_liveshot_hdr_auto.so \
+    vendor/samsung/msm8996-common/proprietary/vendor/lib/libchromatix_s5k4e6xx_cc_cpp_preview.so:$(TARGET_COPY_OUT_VENDOR)/lib/libchromatix_s5k4e6xx_cc_cpp_preview.so \
+    vendor/samsung/msm8996-common/proprietary/vendor/lib/libchromatix_s5k4e6xx_cc_cpp_preview_hdr.so:$(TARGET_COPY_OUT_VENDOR)/lib/libchromatix_s5k4e6xx_cc_cpp_preview_hdr.so \
+    vendor/samsung/msm8996-common/proprietary/vendor/lib/libchromatix_s5k4e6xx_cc_cpp_preview_hdr_auto.so:$(TARGET_COPY_OUT_VENDOR)/lib/libchromatix_s5k4e6xx_cc_cpp_preview_hdr_auto.so \
+    vendor/samsung/msm8996-common/proprietary/vendor/lib/libchromatix_s5k4e6xx_cc_cpp_preview_high.so:$(TARGET_COPY_OUT_VENDOR)/lib/libchromatix_s5k4e6xx_cc_cpp_preview_high.so \
+    vendor/samsung/msm8996-common/proprietary/vendor/lib/libchromatix_s5k4e6xx_cc_cpp_preview_low.so:$(TARGET_COPY_OUT_VENDOR)/lib/libchromatix_s5k4e6xx_cc_cpp_preview_low.so \
+    vendor/samsung/msm8996-common/proprietary/vendor/lib/libchromatix_s5k4e6xx_cc_cpp_preview_multiview.so:$(TARGET_COPY_OUT_VENDOR)/lib/libchromatix_s5k4e6xx_cc_cpp_preview_multiview.so \
+    vendor/samsung/msm8996-common/proprietary/vendor/lib/libchromatix_s5k4e6xx_cc_cpp_preview_pip.so:$(TARGET_COPY_OUT_VENDOR)/lib/libchromatix_s5k4e6xx_cc_cpp_preview_pip.so \
+    vendor/samsung/msm8996-common/proprietary/vendor/lib/libchromatix_s5k4e6xx_cc_cpp_preview_smart_stay.so:$(TARGET_COPY_OUT_VENDOR)/lib/libchromatix_s5k4e6xx_cc_cpp_preview_smart_stay.so \
+    vendor/samsung/msm8996-common/proprietary/vendor/lib/libchromatix_s5k4e6xx_cc_cpp_preview_vt.so:$(TARGET_COPY_OUT_VENDOR)/lib/libchromatix_s5k4e6xx_cc_cpp_preview_vt.so \
+    vendor/samsung/msm8996-common/proprietary/vendor/lib/libchromatix_s5k4e6xx_cc_cpp_preview_vt_hd.so:$(TARGET_COPY_OUT_VENDOR)/lib/libchromatix_s5k4e6xx_cc_cpp_preview_vt_hd.so \
+    vendor/samsung/msm8996-common/proprietary/vendor/lib/libchromatix_s5k4e6xx_cc_cpp_preview_wide_selfie.so:$(TARGET_COPY_OUT_VENDOR)/lib/libchromatix_s5k4e6xx_cc_cpp_preview_wide_selfie.so \
+    vendor/samsung/msm8996-common/proprietary/vendor/lib/libchromatix_s5k4e6xx_cc_cpp_snapshot.so:$(TARGET_COPY_OUT_VENDOR)/lib/libchromatix_s5k4e6xx_cc_cpp_snapshot.so \
+    vendor/samsung/msm8996-common/proprietary/vendor/lib/libchromatix_s5k4e6xx_cc_cpp_snapshot_hdr.so:$(TARGET_COPY_OUT_VENDOR)/lib/libchromatix_s5k4e6xx_cc_cpp_snapshot_hdr.so \
+    vendor/samsung/msm8996-common/proprietary/vendor/lib/libchromatix_s5k4e6xx_cc_cpp_snapshot_hdr_auto.so:$(TARGET_COPY_OUT_VENDOR)/lib/libchromatix_s5k4e6xx_cc_cpp_snapshot_hdr_auto.so \
+    vendor/samsung/msm8996-common/proprietary/vendor/lib/libchromatix_s5k4e6xx_cc_cpp_snapshot_high.so:$(TARGET_COPY_OUT_VENDOR)/lib/libchromatix_s5k4e6xx_cc_cpp_snapshot_high.so \
+    vendor/samsung/msm8996-common/proprietary/vendor/lib/libchromatix_s5k4e6xx_cc_cpp_snapshot_low.so:$(TARGET_COPY_OUT_VENDOR)/lib/libchromatix_s5k4e6xx_cc_cpp_snapshot_low.so \
+    vendor/samsung/msm8996-common/proprietary/vendor/lib/libchromatix_s5k4e6xx_cc_cpp_snapshot_pip.so:$(TARGET_COPY_OUT_VENDOR)/lib/libchromatix_s5k4e6xx_cc_cpp_snapshot_pip.so \
+    vendor/samsung/msm8996-common/proprietary/vendor/lib/libchromatix_s5k4e6xx_cc_cpp_snapshot_vt.so:$(TARGET_COPY_OUT_VENDOR)/lib/libchromatix_s5k4e6xx_cc_cpp_snapshot_vt.so \
+    vendor/samsung/msm8996-common/proprietary/vendor/lib/libchromatix_s5k4e6xx_cc_cpp_snapshot_vt_hd.so:$(TARGET_COPY_OUT_VENDOR)/lib/libchromatix_s5k4e6xx_cc_cpp_snapshot_vt_hd.so \
+    vendor/samsung/msm8996-common/proprietary/vendor/lib/libchromatix_s5k4e6xx_cc_cpp_video.so:$(TARGET_COPY_OUT_VENDOR)/lib/libchromatix_s5k4e6xx_cc_cpp_video.so \
+    vendor/samsung/msm8996-common/proprietary/vendor/lib/libchromatix_s5k4e6xx_cc_cpp_video_QHD.so:$(TARGET_COPY_OUT_VENDOR)/lib/libchromatix_s5k4e6xx_cc_cpp_video_QHD.so \
+    vendor/samsung/msm8996-common/proprietary/vendor/lib/libchromatix_s5k4e6xx_cc_cpp_video_QHD_hdr.so:$(TARGET_COPY_OUT_VENDOR)/lib/libchromatix_s5k4e6xx_cc_cpp_video_QHD_hdr.so \
+    vendor/samsung/msm8996-common/proprietary/vendor/lib/libchromatix_s5k4e6xx_cc_cpp_video_QHD_hdr_auto.so:$(TARGET_COPY_OUT_VENDOR)/lib/libchromatix_s5k4e6xx_cc_cpp_video_QHD_hdr_auto.so \
+    vendor/samsung/msm8996-common/proprietary/vendor/lib/libchromatix_s5k4e6xx_cc_cpp_video_VGA.so:$(TARGET_COPY_OUT_VENDOR)/lib/libchromatix_s5k4e6xx_cc_cpp_video_VGA.so \
+    vendor/samsung/msm8996-common/proprietary/vendor/lib/libchromatix_s5k4e6xx_cc_cpp_video_VGA_hdr.so:$(TARGET_COPY_OUT_VENDOR)/lib/libchromatix_s5k4e6xx_cc_cpp_video_VGA_hdr.so \
+    vendor/samsung/msm8996-common/proprietary/vendor/lib/libchromatix_s5k4e6xx_cc_cpp_video_VGA_hdr_auto.so:$(TARGET_COPY_OUT_VENDOR)/lib/libchromatix_s5k4e6xx_cc_cpp_video_VGA_hdr_auto.so \
+    vendor/samsung/msm8996-common/proprietary/vendor/lib/libchromatix_s5k4e6xx_cc_cpp_video_hdr.so:$(TARGET_COPY_OUT_VENDOR)/lib/libchromatix_s5k4e6xx_cc_cpp_video_hdr.so \
+    vendor/samsung/msm8996-common/proprietary/vendor/lib/libchromatix_s5k4e6xx_cc_cpp_video_hdr_auto.so:$(TARGET_COPY_OUT_VENDOR)/lib/libchromatix_s5k4e6xx_cc_cpp_video_hdr_auto.so \
+    vendor/samsung/msm8996-common/proprietary/vendor/lib/libchromatix_s5k4e6xx_cc_cpp_video_high.so:$(TARGET_COPY_OUT_VENDOR)/lib/libchromatix_s5k4e6xx_cc_cpp_video_high.so \
+    vendor/samsung/msm8996-common/proprietary/vendor/lib/libchromatix_s5k4e6xx_cc_cpp_video_low.so:$(TARGET_COPY_OUT_VENDOR)/lib/libchromatix_s5k4e6xx_cc_cpp_video_low.so \
+    vendor/samsung/msm8996-common/proprietary/vendor/lib/libchromatix_s5k4e6xx_cc_default_preview_ad5816g.so:$(TARGET_COPY_OUT_VENDOR)/lib/libchromatix_s5k4e6xx_cc_default_preview_ad5816g.so \
+    vendor/samsung/msm8996-common/proprietary/vendor/lib/libchromatix_s5k4e6xx_cc_default_video_ad5816g.so:$(TARGET_COPY_OUT_VENDOR)/lib/libchromatix_s5k4e6xx_cc_default_video_ad5816g.so \
+    vendor/samsung/msm8996-common/proprietary/vendor/lib/libchromatix_s5k4e6xx_cc_liveshot.so:$(TARGET_COPY_OUT_VENDOR)/lib/libchromatix_s5k4e6xx_cc_liveshot.so \
+    vendor/samsung/msm8996-common/proprietary/vendor/lib/libchromatix_s5k4e6xx_cc_postproc.so:$(TARGET_COPY_OUT_VENDOR)/lib/libchromatix_s5k4e6xx_cc_postproc.so \
+    vendor/samsung/msm8996-common/proprietary/vendor/lib/libchromatix_s5k4e6xx_cc_preview.so:$(TARGET_COPY_OUT_VENDOR)/lib/libchromatix_s5k4e6xx_cc_preview.so \
+    vendor/samsung/msm8996-common/proprietary/vendor/lib/libchromatix_s5k4e6xx_cc_preview_hdr.so:$(TARGET_COPY_OUT_VENDOR)/lib/libchromatix_s5k4e6xx_cc_preview_hdr.so \
+    vendor/samsung/msm8996-common/proprietary/vendor/lib/libchromatix_s5k4e6xx_cc_preview_hdr_auto.so:$(TARGET_COPY_OUT_VENDOR)/lib/libchromatix_s5k4e6xx_cc_preview_hdr_auto.so \
+    vendor/samsung/msm8996-common/proprietary/vendor/lib/libchromatix_s5k4e6xx_cc_preview_multiview.so:$(TARGET_COPY_OUT_VENDOR)/lib/libchromatix_s5k4e6xx_cc_preview_multiview.so \
+    vendor/samsung/msm8996-common/proprietary/vendor/lib/libchromatix_s5k4e6xx_cc_preview_pip.so:$(TARGET_COPY_OUT_VENDOR)/lib/libchromatix_s5k4e6xx_cc_preview_pip.so \
+    vendor/samsung/msm8996-common/proprietary/vendor/lib/libchromatix_s5k4e6xx_cc_preview_resolution_high.so:$(TARGET_COPY_OUT_VENDOR)/lib/libchromatix_s5k4e6xx_cc_preview_resolution_high.so \
+    vendor/samsung/msm8996-common/proprietary/vendor/lib/libchromatix_s5k4e6xx_cc_preview_resolution_low.so:$(TARGET_COPY_OUT_VENDOR)/lib/libchromatix_s5k4e6xx_cc_preview_resolution_low.so \
+    vendor/samsung/msm8996-common/proprietary/vendor/lib/libchromatix_s5k4e6xx_cc_preview_smart_stay.so:$(TARGET_COPY_OUT_VENDOR)/lib/libchromatix_s5k4e6xx_cc_preview_smart_stay.so \
+    vendor/samsung/msm8996-common/proprietary/vendor/lib/libchromatix_s5k4e6xx_cc_preview_vt.so:$(TARGET_COPY_OUT_VENDOR)/lib/libchromatix_s5k4e6xx_cc_preview_vt.so \
+    vendor/samsung/msm8996-common/proprietary/vendor/lib/libchromatix_s5k4e6xx_cc_preview_vt_hd.so:$(TARGET_COPY_OUT_VENDOR)/lib/libchromatix_s5k4e6xx_cc_preview_vt_hd.so \
+    vendor/samsung/msm8996-common/proprietary/vendor/lib/libchromatix_s5k4e6xx_cc_preview_wide_selfie.so:$(TARGET_COPY_OUT_VENDOR)/lib/libchromatix_s5k4e6xx_cc_preview_wide_selfie.so \
+    vendor/samsung/msm8996-common/proprietary/vendor/lib/libchromatix_s5k4e6xx_cc_snapshot.so:$(TARGET_COPY_OUT_VENDOR)/lib/libchromatix_s5k4e6xx_cc_snapshot.so \
+    vendor/samsung/msm8996-common/proprietary/vendor/lib/libchromatix_s5k4e6xx_cc_snapshot_hdr.so:$(TARGET_COPY_OUT_VENDOR)/lib/libchromatix_s5k4e6xx_cc_snapshot_hdr.so \
+    vendor/samsung/msm8996-common/proprietary/vendor/lib/libchromatix_s5k4e6xx_cc_snapshot_hdr_auto.so:$(TARGET_COPY_OUT_VENDOR)/lib/libchromatix_s5k4e6xx_cc_snapshot_hdr_auto.so \
+    vendor/samsung/msm8996-common/proprietary/vendor/lib/libchromatix_s5k4e6xx_cc_snapshot_resolution_high.so:$(TARGET_COPY_OUT_VENDOR)/lib/libchromatix_s5k4e6xx_cc_snapshot_resolution_high.so \
+    vendor/samsung/msm8996-common/proprietary/vendor/lib/libchromatix_s5k4e6xx_cc_snapshot_resolution_low.so:$(TARGET_COPY_OUT_VENDOR)/lib/libchromatix_s5k4e6xx_cc_snapshot_resolution_low.so \
+    vendor/samsung/msm8996-common/proprietary/vendor/lib/libchromatix_s5k4e6xx_cc_video.so:$(TARGET_COPY_OUT_VENDOR)/lib/libchromatix_s5k4e6xx_cc_video.so \
+    vendor/samsung/msm8996-common/proprietary/vendor/lib/libchromatix_s5k4e6xx_cc_video_QHD.so:$(TARGET_COPY_OUT_VENDOR)/lib/libchromatix_s5k4e6xx_cc_video_QHD.so \
+    vendor/samsung/msm8996-common/proprietary/vendor/lib/libchromatix_s5k4e6xx_cc_video_QHD_hdr.so:$(TARGET_COPY_OUT_VENDOR)/lib/libchromatix_s5k4e6xx_cc_video_QHD_hdr.so \
+    vendor/samsung/msm8996-common/proprietary/vendor/lib/libchromatix_s5k4e6xx_cc_video_QHD_hdr_auto.so:$(TARGET_COPY_OUT_VENDOR)/lib/libchromatix_s5k4e6xx_cc_video_QHD_hdr_auto.so \
+    vendor/samsung/msm8996-common/proprietary/vendor/lib/libchromatix_s5k4e6xx_cc_video_VGA.so:$(TARGET_COPY_OUT_VENDOR)/lib/libchromatix_s5k4e6xx_cc_video_VGA.so \
+    vendor/samsung/msm8996-common/proprietary/vendor/lib/libchromatix_s5k4e6xx_cc_video_VGA_hdr.so:$(TARGET_COPY_OUT_VENDOR)/lib/libchromatix_s5k4e6xx_cc_video_VGA_hdr.so \
+    vendor/samsung/msm8996-common/proprietary/vendor/lib/libchromatix_s5k4e6xx_cc_video_VGA_hdr_auto.so:$(TARGET_COPY_OUT_VENDOR)/lib/libchromatix_s5k4e6xx_cc_video_VGA_hdr_auto.so \
+    vendor/samsung/msm8996-common/proprietary/vendor/lib/libchromatix_s5k4e6xx_cc_video_hdr.so:$(TARGET_COPY_OUT_VENDOR)/lib/libchromatix_s5k4e6xx_cc_video_hdr.so \
+    vendor/samsung/msm8996-common/proprietary/vendor/lib/libchromatix_s5k4e6xx_cc_video_hdr_auto.so:$(TARGET_COPY_OUT_VENDOR)/lib/libchromatix_s5k4e6xx_cc_video_hdr_auto.so \
+    vendor/samsung/msm8996-common/proprietary/vendor/lib/libchromatix_s5k4e6xx_cc_video_resolution_high.so:$(TARGET_COPY_OUT_VENDOR)/lib/libchromatix_s5k4e6xx_cc_video_resolution_high.so \
+    vendor/samsung/msm8996-common/proprietary/vendor/lib/libchromatix_s5k4e6xx_cc_video_resolution_low.so:$(TARGET_COPY_OUT_VENDOR)/lib/libchromatix_s5k4e6xx_cc_video_resolution_low.so \
+    vendor/samsung/msm8996-common/proprietary/vendor/lib/libchromatix_s5k4e6xx_cc_zsl_preview_ad5816g.so:$(TARGET_COPY_OUT_VENDOR)/lib/libchromatix_s5k4e6xx_cc_zsl_preview_ad5816g.so \
+    vendor/samsung/msm8996-common/proprietary/vendor/lib/libchromatix_s5k4e6xx_cc_zsl_video_ad5816g.so:$(TARGET_COPY_OUT_VENDOR)/lib/libchromatix_s5k4e6xx_cc_zsl_video_ad5816g.so \
+    vendor/samsung/msm8996-common/proprietary/vendor/lib/libchromatix_s5k4e6xx_common.so:$(TARGET_COPY_OUT_VENDOR)/lib/libchromatix_s5k4e6xx_common.so \
+    vendor/samsung/msm8996-common/proprietary/vendor/lib/libchromatix_s5k4e6xx_cpp_liveshot.so:$(TARGET_COPY_OUT_VENDOR)/lib/libchromatix_s5k4e6xx_cpp_liveshot.so \
+    vendor/samsung/msm8996-common/proprietary/vendor/lib/libchromatix_s5k4e6xx_cpp_preview.so:$(TARGET_COPY_OUT_VENDOR)/lib/libchromatix_s5k4e6xx_cpp_preview.so \
+    vendor/samsung/msm8996-common/proprietary/vendor/lib/libchromatix_s5k4e6xx_cpp_preview_hdr.so:$(TARGET_COPY_OUT_VENDOR)/lib/libchromatix_s5k4e6xx_cpp_preview_hdr.so \
+    vendor/samsung/msm8996-common/proprietary/vendor/lib/libchromatix_s5k4e6xx_cpp_preview_hdr_auto.so:$(TARGET_COPY_OUT_VENDOR)/lib/libchromatix_s5k4e6xx_cpp_preview_hdr_auto.so \
+    vendor/samsung/msm8996-common/proprietary/vendor/lib/libchromatix_s5k4e6xx_cpp_preview_multiview.so:$(TARGET_COPY_OUT_VENDOR)/lib/libchromatix_s5k4e6xx_cpp_preview_multiview.so \
+    vendor/samsung/msm8996-common/proprietary/vendor/lib/libchromatix_s5k4e6xx_cpp_preview_pip.so:$(TARGET_COPY_OUT_VENDOR)/lib/libchromatix_s5k4e6xx_cpp_preview_pip.so \
+    vendor/samsung/msm8996-common/proprietary/vendor/lib/libchromatix_s5k4e6xx_cpp_preview_smart_stay.so:$(TARGET_COPY_OUT_VENDOR)/lib/libchromatix_s5k4e6xx_cpp_preview_smart_stay.so \
+    vendor/samsung/msm8996-common/proprietary/vendor/lib/libchromatix_s5k4e6xx_cpp_preview_vt.so:$(TARGET_COPY_OUT_VENDOR)/lib/libchromatix_s5k4e6xx_cpp_preview_vt.so \
+    vendor/samsung/msm8996-common/proprietary/vendor/lib/libchromatix_s5k4e6xx_cpp_preview_vt_hd.so:$(TARGET_COPY_OUT_VENDOR)/lib/libchromatix_s5k4e6xx_cpp_preview_vt_hd.so \
+    vendor/samsung/msm8996-common/proprietary/vendor/lib/libchromatix_s5k4e6xx_cpp_preview_wide_selfie.so:$(TARGET_COPY_OUT_VENDOR)/lib/libchromatix_s5k4e6xx_cpp_preview_wide_selfie.so \
+    vendor/samsung/msm8996-common/proprietary/vendor/lib/libchromatix_s5k4e6xx_cpp_snapshot.so:$(TARGET_COPY_OUT_VENDOR)/lib/libchromatix_s5k4e6xx_cpp_snapshot.so \
+    vendor/samsung/msm8996-common/proprietary/vendor/lib/libchromatix_s5k4e6xx_cpp_snapshot_hdr.so:$(TARGET_COPY_OUT_VENDOR)/lib/libchromatix_s5k4e6xx_cpp_snapshot_hdr.so \
+    vendor/samsung/msm8996-common/proprietary/vendor/lib/libchromatix_s5k4e6xx_cpp_snapshot_hdr_auto.so:$(TARGET_COPY_OUT_VENDOR)/lib/libchromatix_s5k4e6xx_cpp_snapshot_hdr_auto.so \
+    vendor/samsung/msm8996-common/proprietary/vendor/lib/libchromatix_s5k4e6xx_cpp_snapshot_pip.so:$(TARGET_COPY_OUT_VENDOR)/lib/libchromatix_s5k4e6xx_cpp_snapshot_pip.so \
+    vendor/samsung/msm8996-common/proprietary/vendor/lib/libchromatix_s5k4e6xx_cpp_snapshot_vt.so:$(TARGET_COPY_OUT_VENDOR)/lib/libchromatix_s5k4e6xx_cpp_snapshot_vt.so \
+    vendor/samsung/msm8996-common/proprietary/vendor/lib/libchromatix_s5k4e6xx_cpp_snapshot_vt_hd.so:$(TARGET_COPY_OUT_VENDOR)/lib/libchromatix_s5k4e6xx_cpp_snapshot_vt_hd.so \
+    vendor/samsung/msm8996-common/proprietary/vendor/lib/libchromatix_s5k4e6xx_cpp_video.so:$(TARGET_COPY_OUT_VENDOR)/lib/libchromatix_s5k4e6xx_cpp_video.so \
+    vendor/samsung/msm8996-common/proprietary/vendor/lib/libchromatix_s5k4e6xx_cpp_video_hdr.so:$(TARGET_COPY_OUT_VENDOR)/lib/libchromatix_s5k4e6xx_cpp_video_hdr.so \
+    vendor/samsung/msm8996-common/proprietary/vendor/lib/libchromatix_s5k4e6xx_cpp_video_hdr_auto.so:$(TARGET_COPY_OUT_VENDOR)/lib/libchromatix_s5k4e6xx_cpp_video_hdr_auto.so \
+    vendor/samsung/msm8996-common/proprietary/vendor/lib/libchromatix_s5k4e6xx_default_preview_ad5816g.so:$(TARGET_COPY_OUT_VENDOR)/lib/libchromatix_s5k4e6xx_default_preview_ad5816g.so \
+    vendor/samsung/msm8996-common/proprietary/vendor/lib/libchromatix_s5k4e6xx_default_video_ad5816g.so:$(TARGET_COPY_OUT_VENDOR)/lib/libchromatix_s5k4e6xx_default_video_ad5816g.so \
+    vendor/samsung/msm8996-common/proprietary/vendor/lib/libchromatix_s5k4e6xx_liveshot.so:$(TARGET_COPY_OUT_VENDOR)/lib/libchromatix_s5k4e6xx_liveshot.so \
+    vendor/samsung/msm8996-common/proprietary/vendor/lib/libchromatix_s5k4e6xx_postproc.so:$(TARGET_COPY_OUT_VENDOR)/lib/libchromatix_s5k4e6xx_postproc.so \
+    vendor/samsung/msm8996-common/proprietary/vendor/lib/libchromatix_s5k4e6xx_preview.so:$(TARGET_COPY_OUT_VENDOR)/lib/libchromatix_s5k4e6xx_preview.so \
+    vendor/samsung/msm8996-common/proprietary/vendor/lib/libchromatix_s5k4e6xx_preview_hdr.so:$(TARGET_COPY_OUT_VENDOR)/lib/libchromatix_s5k4e6xx_preview_hdr.so \
+    vendor/samsung/msm8996-common/proprietary/vendor/lib/libchromatix_s5k4e6xx_preview_hdr_auto.so:$(TARGET_COPY_OUT_VENDOR)/lib/libchromatix_s5k4e6xx_preview_hdr_auto.so \
+    vendor/samsung/msm8996-common/proprietary/vendor/lib/libchromatix_s5k4e6xx_preview_multiview.so:$(TARGET_COPY_OUT_VENDOR)/lib/libchromatix_s5k4e6xx_preview_multiview.so \
+    vendor/samsung/msm8996-common/proprietary/vendor/lib/libchromatix_s5k4e6xx_preview_pip.so:$(TARGET_COPY_OUT_VENDOR)/lib/libchromatix_s5k4e6xx_preview_pip.so \
+    vendor/samsung/msm8996-common/proprietary/vendor/lib/libchromatix_s5k4e6xx_preview_smart_stay.so:$(TARGET_COPY_OUT_VENDOR)/lib/libchromatix_s5k4e6xx_preview_smart_stay.so \
+    vendor/samsung/msm8996-common/proprietary/vendor/lib/libchromatix_s5k4e6xx_preview_vt.so:$(TARGET_COPY_OUT_VENDOR)/lib/libchromatix_s5k4e6xx_preview_vt.so \
+    vendor/samsung/msm8996-common/proprietary/vendor/lib/libchromatix_s5k4e6xx_preview_vt_hd.so:$(TARGET_COPY_OUT_VENDOR)/lib/libchromatix_s5k4e6xx_preview_vt_hd.so \
+    vendor/samsung/msm8996-common/proprietary/vendor/lib/libchromatix_s5k4e6xx_preview_wide_selfie.so:$(TARGET_COPY_OUT_VENDOR)/lib/libchromatix_s5k4e6xx_preview_wide_selfie.so \
+    vendor/samsung/msm8996-common/proprietary/vendor/lib/libchromatix_s5k4e6xx_snapshot.so:$(TARGET_COPY_OUT_VENDOR)/lib/libchromatix_s5k4e6xx_snapshot.so \
+    vendor/samsung/msm8996-common/proprietary/vendor/lib/libchromatix_s5k4e6xx_snapshot_hdr.so:$(TARGET_COPY_OUT_VENDOR)/lib/libchromatix_s5k4e6xx_snapshot_hdr.so \
+    vendor/samsung/msm8996-common/proprietary/vendor/lib/libchromatix_s5k4e6xx_snapshot_hdr_auto.so:$(TARGET_COPY_OUT_VENDOR)/lib/libchromatix_s5k4e6xx_snapshot_hdr_auto.so \
+    vendor/samsung/msm8996-common/proprietary/vendor/lib/libchromatix_s5k4e6xx_video.so:$(TARGET_COPY_OUT_VENDOR)/lib/libchromatix_s5k4e6xx_video.so \
+    vendor/samsung/msm8996-common/proprietary/vendor/lib/libchromatix_s5k4e6xx_video_hdr.so:$(TARGET_COPY_OUT_VENDOR)/lib/libchromatix_s5k4e6xx_video_hdr.so \
+    vendor/samsung/msm8996-common/proprietary/vendor/lib/libchromatix_s5k4e6xx_video_hdr_auto.so:$(TARGET_COPY_OUT_VENDOR)/lib/libchromatix_s5k4e6xx_video_hdr_auto.so \
+    vendor/samsung/msm8996-common/proprietary/vendor/lib/libchromatix_s5k4e6xx_zsl_preview_ad5816g.so:$(TARGET_COPY_OUT_VENDOR)/lib/libchromatix_s5k4e6xx_zsl_preview_ad5816g.so \
+    vendor/samsung/msm8996-common/proprietary/vendor/lib/libchromatix_s5k4e6xx_zsl_video_ad5816g.so:$(TARGET_COPY_OUT_VENDOR)/lib/libchromatix_s5k4e6xx_zsl_video_ad5816g.so \
     vendor/samsung/msm8996-common/proprietary/vendor/lib/libcpion.so:$(TARGET_COPY_OUT_VENDOR)/lib/libcpion.so \
     vendor/samsung/msm8996-common/proprietary/vendor/lib/libdataitems.so:$(TARGET_COPY_OUT_VENDOR)/lib/libdataitems.so \
     vendor/samsung/msm8996-common/proprietary/vendor/lib/libdiag.so:$(TARGET_COPY_OUT_VENDOR)/lib/libdiag.so \
@@ -589,20 +944,21 @@ PRODUCT_COPY_FILES += \
     vendor/samsung/msm8996-common/proprietary/vendor/lib/libmmcamera2_stats_modules.so:$(TARGET_COPY_OUT_VENDOR)/lib/libmmcamera2_stats_modules.so \
     vendor/samsung/msm8996-common/proprietary/vendor/lib/libmmcamera2_vpe_module.so:$(TARGET_COPY_OUT_VENDOR)/lib/libmmcamera2_vpe_module.so \
     vendor/samsung/msm8996-common/proprietary/vendor/lib/libmmcamera2_wnr_module.so:$(TARGET_COPY_OUT_VENDOR)/lib/libmmcamera2_wnr_module.so \
+    vendor/samsung/msm8996-common/proprietary/vendor/lib/libmmcamera_chromaflash_lib.so:$(TARGET_COPY_OUT_VENDOR)/lib/libmmcamera_chromaflash_lib.so \
     vendor/samsung/msm8996-common/proprietary/vendor/lib/libmmcamera_dbg.so:$(TARGET_COPY_OUT_VENDOR)/lib/libmmcamera_dbg.so \
     vendor/samsung/msm8996-common/proprietary/vendor/lib/libmmcamera_dummyalgo.so:$(TARGET_COPY_OUT_VENDOR)/lib/libmmcamera_dummyalgo.so \
-    vendor/samsung/msm8996-common/proprietary/vendor/lib/libmmcamera_dw9807_eeprom.so:$(TARGET_COPY_OUT_VENDOR)/lib/libmmcamera_dw9807_eeprom.so \
     vendor/samsung/msm8996-common/proprietary/vendor/lib/libmmcamera_edgesmooth_lib.so:$(TARGET_COPY_OUT_VENDOR)/lib/libmmcamera_edgesmooth_lib.so \
     vendor/samsung/msm8996-common/proprietary/vendor/lib/libmmcamera_eebinparse.so:$(TARGET_COPY_OUT_VENDOR)/lib/libmmcamera_eebinparse.so \
     vendor/samsung/msm8996-common/proprietary/vendor/lib/libmmcamera_eztune_module.so:$(TARGET_COPY_OUT_VENDOR)/lib/libmmcamera_eztune_module.so \
     vendor/samsung/msm8996-common/proprietary/vendor/lib/libmmcamera_facedetection_lib.so:$(TARGET_COPY_OUT_VENDOR)/lib/libmmcamera_facedetection_lib.so \
     vendor/samsung/msm8996-common/proprietary/vendor/lib/libmmcamera_faceproc.so:$(TARGET_COPY_OUT_VENDOR)/lib/libmmcamera_faceproc.so \
+    vendor/samsung/msm8996-common/proprietary/vendor/lib/libmmcamera_fidelix_eeprom.so:$(TARGET_COPY_OUT_VENDOR)/lib/libmmcamera_fidelix_eeprom.so \
     vendor/samsung/msm8996-common/proprietary/vendor/lib/libmmcamera_hdr_gb_lib.so:$(TARGET_COPY_OUT_VENDOR)/lib/libmmcamera_hdr_gb_lib.so \
     vendor/samsung/msm8996-common/proprietary/vendor/lib/libmmcamera_hvx_add_constant.so:$(TARGET_COPY_OUT_VENDOR)/lib/libmmcamera_hvx_add_constant.so \
     vendor/samsung/msm8996-common/proprietary/vendor/lib/libmmcamera_hvx_grid_sum.so:$(TARGET_COPY_OUT_VENDOR)/lib/libmmcamera_hvx_grid_sum.so \
     vendor/samsung/msm8996-common/proprietary/vendor/lib/libmmcamera_imglib.so:$(TARGET_COPY_OUT_VENDOR)/lib/libmmcamera_imglib.so \
     vendor/samsung/msm8996-common/proprietary/vendor/lib/libmmcamera_imglib_faceproc_adspstub.so:$(TARGET_COPY_OUT_VENDOR)/lib/libmmcamera_imglib_faceproc_adspstub.so \
-    vendor/samsung/msm8996-common/proprietary/vendor/lib/libmmcamera_imx258.so:$(TARGET_COPY_OUT_VENDOR)/lib/libmmcamera_imx258.so \
+    vendor/samsung/msm8996-common/proprietary/vendor/lib/libmmcamera_imx260.so:$(TARGET_COPY_OUT_VENDOR)/lib/libmmcamera_imx260.so \
     vendor/samsung/msm8996-common/proprietary/vendor/lib/libmmcamera_interface.so:$(TARGET_COPY_OUT_VENDOR)/lib/libmmcamera_interface.so \
     vendor/samsung/msm8996-common/proprietary/vendor/lib/libmmcamera_isp_abf47.so:$(TARGET_COPY_OUT_VENDOR)/lib/libmmcamera_isp_abf47.so \
     vendor/samsung/msm8996-common/proprietary/vendor/lib/libmmcamera_isp_aec_bg_stats47.so:$(TARGET_COPY_OUT_VENDOR)/lib/libmmcamera_isp_aec_bg_stats47.so \
@@ -645,17 +1001,25 @@ PRODUCT_COPY_FILES += \
     vendor/samsung/msm8996-common/proprietary/vendor/lib/libmmcamera_isp_sce40.so:$(TARGET_COPY_OUT_VENDOR)/lib/libmmcamera_isp_sce40.so \
     vendor/samsung/msm8996-common/proprietary/vendor/lib/libmmcamera_isp_snr47.so:$(TARGET_COPY_OUT_VENDOR)/lib/libmmcamera_isp_snr47.so \
     vendor/samsung/msm8996-common/proprietary/vendor/lib/libmmcamera_isp_sub_module.so:$(TARGET_COPY_OUT_VENDOR)/lib/libmmcamera_isp_sub_module.so \
-    vendor/samsung/msm8996-common/proprietary/vendor/lib/libmmcamera_lsi_s5k5e3yx_eeprom.so:$(TARGET_COPY_OUT_VENDOR)/lib/libmmcamera_lsi_s5k5e3yx_eeprom.so \
+    vendor/samsung/msm8996-common/proprietary/vendor/lib/libmmcamera_llvd.so:$(TARGET_COPY_OUT_VENDOR)/lib/libmmcamera_llvd.so \
+    vendor/samsung/msm8996-common/proprietary/vendor/lib/libmmcamera_m24128s_eeprom.so:$(TARGET_COPY_OUT_VENDOR)/lib/libmmcamera_m24128s_eeprom.so \
+    vendor/samsung/msm8996-common/proprietary/vendor/lib/libmmcamera_optizoom_lib.so:$(TARGET_COPY_OUT_VENDOR)/lib/libmmcamera_optizoom_lib.so \
     vendor/samsung/msm8996-common/proprietary/vendor/lib/libmmcamera_pdaf.so:$(TARGET_COPY_OUT_VENDOR)/lib/libmmcamera_pdaf.so \
     vendor/samsung/msm8996-common/proprietary/vendor/lib/libmmcamera_pdafcamif.so:$(TARGET_COPY_OUT_VENDOR)/lib/libmmcamera_pdafcamif.so \
     vendor/samsung/msm8996-common/proprietary/vendor/lib/libmmcamera_ppbase_module.so:$(TARGET_COPY_OUT_VENDOR)/lib/libmmcamera_ppbase_module.so \
-    vendor/samsung/msm8996-common/proprietary/vendor/lib/libmmcamera_s5k5e3yx.so:$(TARGET_COPY_OUT_VENDOR)/lib/libmmcamera_s5k5e3yx.so \
+    vendor/samsung/msm8996-common/proprietary/vendor/lib/libmmcamera_s5k2l1sx.so:$(TARGET_COPY_OUT_VENDOR)/lib/libmmcamera_s5k2l1sx.so \
+    vendor/samsung/msm8996-common/proprietary/vendor/lib/libmmcamera_s5k2p2xx.so:$(TARGET_COPY_OUT_VENDOR)/lib/libmmcamera_s5k2p2xx.so \
+    vendor/samsung/msm8996-common/proprietary/vendor/lib/libmmcamera_s5k4e6xx.so:$(TARGET_COPY_OUT_VENDOR)/lib/libmmcamera_s5k4e6xx.so \
+    vendor/samsung/msm8996-common/proprietary/vendor/lib/libmmcamera_s5k4e6xx_cc.so:$(TARGET_COPY_OUT_VENDOR)/lib/libmmcamera_s5k4e6xx_cc.so \
+    vendor/samsung/msm8996-common/proprietary/vendor/lib/libmmcamera_stillmore_lib.so:$(TARGET_COPY_OUT_VENDOR)/lib/libmmcamera_stillmore_lib.so \
     vendor/samsung/msm8996-common/proprietary/vendor/lib/libmmcamera_sw2d_lib.so:$(TARGET_COPY_OUT_VENDOR)/lib/libmmcamera_sw2d_lib.so \
     vendor/samsung/msm8996-common/proprietary/vendor/lib/libmmcamera_thread_services.so:$(TARGET_COPY_OUT_VENDOR)/lib/libmmcamera_thread_services.so \
     vendor/samsung/msm8996-common/proprietary/vendor/lib/libmmcamera_tintless_algo.so:$(TARGET_COPY_OUT_VENDOR)/lib/libmmcamera_tintless_algo.so \
     vendor/samsung/msm8996-common/proprietary/vendor/lib/libmmcamera_tintless_bg_pca_algo.so:$(TARGET_COPY_OUT_VENDOR)/lib/libmmcamera_tintless_bg_pca_algo.so \
+    vendor/samsung/msm8996-common/proprietary/vendor/lib/libmmcamera_trueportrait_lib.so:$(TARGET_COPY_OUT_VENDOR)/lib/libmmcamera_trueportrait_lib.so \
     vendor/samsung/msm8996-common/proprietary/vendor/lib/libmmcamera_tuning.so:$(TARGET_COPY_OUT_VENDOR)/lib/libmmcamera_tuning.so \
     vendor/samsung/msm8996-common/proprietary/vendor/lib/libmmcamera_tuning_lookup.so:$(TARGET_COPY_OUT_VENDOR)/lib/libmmcamera_tuning_lookup.so \
+    vendor/samsung/msm8996-common/proprietary/vendor/lib/libmmcamera_ubifocus_lib.so:$(TARGET_COPY_OUT_VENDOR)/lib/libmmcamera_ubifocus_lib.so \
     vendor/samsung/msm8996-common/proprietary/vendor/lib/libmmcamera_vpu_module.so:$(TARGET_COPY_OUT_VENDOR)/lib/libmmcamera_vpu_module.so \
     vendor/samsung/msm8996-common/proprietary/vendor/lib/libmmjpeg.so:$(TARGET_COPY_OUT_VENDOR)/lib/libmmjpeg.so \
     vendor/samsung/msm8996-common/proprietary/vendor/lib/libmmjpeg_interface.so:$(TARGET_COPY_OUT_VENDOR)/lib/libmmjpeg_interface.so \
@@ -710,6 +1074,8 @@ PRODUCT_COPY_FILES += \
     vendor/samsung/msm8996-common/proprietary/vendor/lib/libtime_genoff.so:$(TARGET_COPY_OUT_VENDOR)/lib/libtime_genoff.so \
     vendor/samsung/msm8996-common/proprietary/vendor/lib/libtinycompress_vendor.so:$(TARGET_COPY_OUT_VENDOR)/lib/libtinycompress_vendor.so \
     vendor/samsung/msm8996-common/proprietary/vendor/lib/libtinyxml2_1.so:$(TARGET_COPY_OUT_VENDOR)/lib/libtinyxml2_1.so \
+    vendor/samsung/msm8996-common/proprietary/vendor/lib/libts_detected_face_hal.so:$(TARGET_COPY_OUT_VENDOR)/lib/libts_detected_face_hal.so \
+    vendor/samsung/msm8996-common/proprietary/vendor/lib/libts_face_beautify_hal.so:$(TARGET_COPY_OUT_VENDOR)/lib/libts_face_beautify_hal.so \
     vendor/samsung/msm8996-common/proprietary/vendor/lib/libulp2.so:$(TARGET_COPY_OUT_VENDOR)/lib/libulp2.so \
     vendor/samsung/msm8996-common/proprietary/vendor/lib/libvpplibrary.so:$(TARGET_COPY_OUT_VENDOR)/lib/libvpplibrary.so \
     vendor/samsung/msm8996-common/proprietary/vendor/lib/libvqzip.so:$(TARGET_COPY_OUT_VENDOR)/lib/libvqzip.so \
@@ -734,12 +1100,12 @@ PRODUCT_COPY_FILES += \
     vendor/samsung/msm8996-common/proprietary/vendor/lib/rfsa/adsp/libvpp_frc.so:$(TARGET_COPY_OUT_VENDOR)/lib/rfsa/adsp/libvpp_frc.so \
     vendor/samsung/msm8996-common/proprietary/vendor/lib/rfsa/adsp/libvpp_svc_skel.so:$(TARGET_COPY_OUT_VENDOR)/lib/rfsa/adsp/libvpp_svc_skel.so \
     vendor/samsung/msm8996-common/proprietary/vendor/lib/sensor_calibrate.so:$(TARGET_COPY_OUT_VENDOR)/lib/sensor_calibrate.so \
+    vendor/samsung/msm8996-common/proprietary/vendor/lib/sensors.bio.so:$(TARGET_COPY_OUT_VENDOR)/lib/sensors.bio.so \
     vendor/samsung/msm8996-common/proprietary/vendor/lib/sensors.ssc.so:$(TARGET_COPY_OUT_VENDOR)/lib/sensors.ssc.so \
     vendor/samsung/msm8996-common/proprietary/vendor/lib/soundfx/libasphere.so:$(TARGET_COPY_OUT_VENDOR)/lib/soundfx/libasphere.so \
     vendor/samsung/msm8996-common/proprietary/vendor/lib/soundfx/libqcbassboost.so:$(TARGET_COPY_OUT_VENDOR)/lib/soundfx/libqcbassboost.so \
     vendor/samsung/msm8996-common/proprietary/vendor/lib/soundfx/libqcreverb.so:$(TARGET_COPY_OUT_VENDOR)/lib/soundfx/libqcreverb.so \
     vendor/samsung/msm8996-common/proprietary/vendor/lib/soundfx/libqcvirt.so:$(TARGET_COPY_OUT_VENDOR)/lib/soundfx/libqcvirt.so \
-    vendor/samsung/msm8996-common/proprietary/vendor/lib/soundfx/libswdap.so:$(TARGET_COPY_OUT_VENDOR)/lib/soundfx/libswdap.so \
     vendor/samsung/msm8996-common/proprietary/vendor/lib64/egl/eglSubDriverAndroid.so:$(TARGET_COPY_OUT_VENDOR)/lib64/egl/eglSubDriverAndroid.so \
     vendor/samsung/msm8996-common/proprietary/vendor/lib64/egl/libEGL_adreno.so:$(TARGET_COPY_OUT_VENDOR)/lib64/egl/libEGL_adreno.so \
     vendor/samsung/msm8996-common/proprietary/vendor/lib64/egl/libGLESv1_CM_adreno.so:$(TARGET_COPY_OUT_VENDOR)/lib64/egl/libGLESv1_CM_adreno.so \
@@ -747,7 +1113,6 @@ PRODUCT_COPY_FILES += \
     vendor/samsung/msm8996-common/proprietary/vendor/lib64/egl/libQTapGLES.so:$(TARGET_COPY_OUT_VENDOR)/lib64/egl/libQTapGLES.so \
     vendor/samsung/msm8996-common/proprietary/vendor/lib64/egl/libq3dtools_adreno.so:$(TARGET_COPY_OUT_VENDOR)/lib64/egl/libq3dtools_adreno.so \
     vendor/samsung/msm8996-common/proprietary/vendor/lib64/egl/libq3dtools_esx.so:$(TARGET_COPY_OUT_VENDOR)/lib64/egl/libq3dtools_esx.so \
-    vendor/samsung/msm8996-common/proprietary/vendor/lib64/ftm_fm_lib.so:$(TARGET_COPY_OUT_VENDOR)/lib64/ftm_fm_lib.so \
     vendor/samsung/msm8996-common/proprietary/vendor/lib64/hw/activity_recognition.msm8996.so:$(TARGET_COPY_OUT_VENDOR)/lib64/hw/activity_recognition.msm8996.so \
     vendor/samsung/msm8996-common/proprietary/vendor/lib64/hw/android.hardware.gnss@1.0-impl-qti.so:$(TARGET_COPY_OUT_VENDOR)/lib64/hw/android.hardware.gnss@1.0-impl-qti.so \
     vendor/samsung/msm8996-common/proprietary/vendor/lib64/hw/com.qualcomm.qti.ant@1.0-impl.so:$(TARGET_COPY_OUT_VENDOR)/lib64/hw/com.qualcomm.qti.ant@1.0-impl.so \
@@ -876,11 +1241,11 @@ PRODUCT_COPY_FILES += \
     vendor/samsung/msm8996-common/proprietary/vendor/lib64/libxtadapter.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libxtadapter.so \
     vendor/samsung/msm8996-common/proprietary/vendor/lib64/libxtwifi_ulp_adaptor.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libxtwifi_ulp_adaptor.so \
     vendor/samsung/msm8996-common/proprietary/vendor/lib64/sensor_calibrate.so:$(TARGET_COPY_OUT_VENDOR)/lib64/sensor_calibrate.so \
+    vendor/samsung/msm8996-common/proprietary/vendor/lib64/sensors.bio.so:$(TARGET_COPY_OUT_VENDOR)/lib64/sensors.bio.so \
     vendor/samsung/msm8996-common/proprietary/vendor/lib64/sensors.ssc.so:$(TARGET_COPY_OUT_VENDOR)/lib64/sensors.ssc.so \
     vendor/samsung/msm8996-common/proprietary/vendor/lib64/soundfx/libasphere.so:$(TARGET_COPY_OUT_VENDOR)/lib64/soundfx/libasphere.so \
     vendor/samsung/msm8996-common/proprietary/vendor/lib64/soundfx/libqcbassboost.so:$(TARGET_COPY_OUT_VENDOR)/lib64/soundfx/libqcbassboost.so \
-    vendor/samsung/msm8996-common/proprietary/vendor/lib64/soundfx/libqcvirt.so:$(TARGET_COPY_OUT_VENDOR)/lib64/soundfx/libqcvirt.so \
-    vendor/samsung/msm8996-common/proprietary/vendor/lib64/soundfx/libswdap.so:$(TARGET_COPY_OUT_VENDOR)/lib64/soundfx/libswdap.so
+    vendor/samsung/msm8996-common/proprietary/vendor/lib64/soundfx/libqcvirt.so:$(TARGET_COPY_OUT_VENDOR)/lib64/soundfx/libqcvirt.so
 
 PRODUCT_PACKAGES += \
     libantradio \
