@@ -16,7 +16,7 @@ PRODUCT_COPY_FILES += \
     vendor/samsung/msm8996-common/proprietary/vendor/etc/firmware/Master0.bin:$(TARGET_COPY_OUT_VENDOR)/etc/firmware/Master0.bin \
     vendor/samsung/msm8996-common/proprietary/vendor/etc/firmware/Master1.bin:$(TARGET_COPY_OUT_VENDOR)/etc/firmware/Master1.bin \
     vendor/samsung/msm8996-common/proprietary/vendor/etc/firmware/cal_data_LSCmaster.bin:$(TARGET_COPY_OUT_VENDOR)/etc/firmware/cal_data_LSCmaster.bin \
-    vendor/samsung/msm8996-common/proprietary/vendor/etc/firmware/cpp_firmware_v1_10_0.fw:$(TARGET_COPY_OUT_VENDOR)/etc/firmware/cpp_firmware_v1_10_0.fw \
+    vendor/samsung/msm8996-common/proprietary/vendor/firmware/cpp_firmware_v1_10_0.fw:$(TARGET_COPY_OUT_VENDOR)/firmware/cpp_firmware_v1_10_0.fw \
     vendor/samsung/msm8996-common/proprietary/vendor/etc/firmware/ois_fw_dom.bin:$(TARGET_COPY_OUT_VENDOR)/etc/firmware/ois_fw_dom.bin \
     vendor/samsung/msm8996-common/proprietary/vendor/etc/firmware/ois_fw_sec.bin:$(TARGET_COPY_OUT_VENDOR)/etc/firmware/ois_fw_sec.bin \
     vendor/samsung/msm8996-common/proprietary/vendor/etc/sensors/sensor_def_qcomdev.conf:$(TARGET_COPY_OUT_VENDOR)/etc/sensors/sensor_def_qcomdev.conf \
