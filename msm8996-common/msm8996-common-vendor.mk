@@ -48,6 +48,10 @@ PRODUCT_COPY_FILES += \
     vendor/samsung/msm8996-common/proprietary/vendor/lib/libsmartfocus_interface.so:$(TARGET_COPY_OUT_VENDOR)/lib/libsmartfocus_interface.so \
     vendor/samsung/msm8996-common/proprietary/vendor/lib/libsmartfocusengine.so:$(TARGET_COPY_OUT_VENDOR)/lib/libsmartfocusengine.so \
     vendor/samsung/msm8996-common/proprietary/vendor/lib/libldc_interface.so:$(TARGET_COPY_OUT_VENDOR)/lib/libldc_interface.so \
+    vendor/samsung/msm8996-common/proprietary/vendor/lib/libldc_core.so:$(TARGET_COPY_OUT_VENDOR)/lib/libldc_core.so \
+    vendor/samsung/msm8996-common/proprietary/vendor/lib/libsomp.so:$(TARGET_COPY_OUT_VENDOR)/lib/libsomp.so \
+    vendor/samsung/msm8996-common/proprietary/vendor/lib64/libldc_core.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libldc_core.so \
+    vendor/samsung/msm8996-common/proprietary/vendor/lib64/libsomp.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libsomp.so \
     vendor/samsung/msm8996-common/proprietary/lib/libuniapi.so:$(TARGET_COPY_OUT_SYSTEM)/lib/libuniapi.so \
     vendor/samsung/msm8996-common/proprietary/lib/libuniplugin.so:$(TARGET_COPY_OUT_SYSTEM)/lib/libuniplugin.so \
     vendor/samsung/msm8996-common/proprietary/lib/libwfdavenhancements.so:$(TARGET_COPY_OUT_SYSTEM)/lib/libwfdavenhancements.so \
