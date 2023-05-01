@@ -43,6 +43,7 @@ PRODUCT_COPY_FILES += \
     vendor/samsung/msm8996-common/proprietary/lib/libsamsungVoipResampler.so:$(TARGET_COPY_OUT_SYSTEM)/lib/libsamsungVoipResampler.so \
     vendor/samsung/msm8996-common/proprietary/lib/libsecaudiocoreutils.so:$(TARGET_COPY_OUT_SYSTEM)/lib/libsecaudiocoreutils.so \
     vendor/samsung/msm8996-common/proprietary/lib/libsecnativefeature.so:$(TARGET_COPY_OUT_SYSTEM)/lib/libsecnativefeature.so \
+    vendor/samsung/msm8996-common/proprietary/vendor/lib64/libskeymaster.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libskeymaster.so \
     vendor/samsung/msm8996-common/proprietary/lib/libsensorlistener.so:$(TARGET_COPY_OUT_SYSTEM)/lib/libsensorlistener.so \
     vendor/samsung/msm8996-common/proprietary/vendor/lib/libsmartfocus_interface.so:$(TARGET_COPY_OUT_VENDOR)/lib/libsmartfocus_interface.so \
     vendor/samsung/msm8996-common/proprietary/vendor/lib/libsmartfocusengine.so:$(TARGET_COPY_OUT_VENDOR)/lib/libsmartfocusengine.so \
@@ -903,6 +904,7 @@ PRODUCT_COPY_FILES += \
     vendor/samsung/msm8996-common/proprietary/vendor/lib/libidl.so:$(TARGET_COPY_OUT_VENDOR)/lib/libidl.so \
     vendor/samsung/msm8996-common/proprietary/vendor/lib/libizat_client_api.so:$(TARGET_COPY_OUT_VENDOR)/lib/libizat_client_api.so \
     vendor/samsung/msm8996-common/proprietary/vendor/lib/libizat_core.so:$(TARGET_COPY_OUT_VENDOR)/lib/libizat_core.so \
+    vendor/samsung/msm8996-common/proprietary/vendor/lib64/libkeymaster_helper.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libkeymaster_helper.so \
     vendor/samsung/msm8996-common/proprietary/vendor/lib/libjpegdhw.so:$(TARGET_COPY_OUT_VENDOR)/lib/libjpegdhw.so \
     vendor/samsung/msm8996-common/proprietary/vendor/lib/libjpegdmahw.so:$(TARGET_COPY_OUT_VENDOR)/lib/libjpegdmahw.so \
     vendor/samsung/msm8996-common/proprietary/vendor/lib/libjpegehw.so:$(TARGET_COPY_OUT_VENDOR)/lib/libjpegehw.so \
